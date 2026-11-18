@@ -161,15 +161,10 @@ def fetch_whatsnew_feed(feed):
                 f"Month: {month_text}"
             )
 
-                        #
-            # Walk through everything after this H2
-            # until the next H2 month section.
-            #
-
             for current in h2.next_elements:
 
                 #
-                # Stop at the next month section
+                # Stop when we hit the next month
                 #
 
                 if (
@@ -179,7 +174,7 @@ def fetch_whatsnew_feed(feed):
                     break
 
                 #
-                # H3 entries
+                # H3 items
                 #
 
                 if getattr(current, "name", None) == "h3":
@@ -199,7 +194,6 @@ def fetch_whatsnew_feed(feed):
                     article_url = feed["url"]
 
                     if entry_id:
-
                         article_url += (
                             f"#{entry_id}"
                         )
@@ -207,6 +201,7 @@ def fetch_whatsnew_feed(feed):
                     records.append(
                         {
                             "title": title,
+                            "summary": "",
                             "url": article_url,
                             "published": month_date,
                             "source": feed["name"],
@@ -223,31 +218,73 @@ def fetch_whatsnew_feed(feed):
                     )
 
                 #
-                # List entries
+                # LI items
                 #
 
                 elif getattr(current, "name", None) == "li":
 
-                    title = current.get_text(
-                        " ",
-                        strip=True
-                    )
+                    #
+                    # Ignore nested list items
+                    #
 
-                    if len(title) < 10:
+                    if current.find_parent("li"):
+                        continue
+
+                    bold = current.find("b")
+
+                    if bold:
+
+                        title = bold.get_text(
+                            strip=True
+                        )
+
+                        full_text = current.get_text(
+                            " ",
+                            strip=True
+                        )
+
+                        summary = (
+                            full_text
+                            .replace(
+                                title,
+                                "",
+                                1
+                            )
+                            .strip()
+                            .lstrip(".")
+                            .strip()
+                        )
+
+                    else:
+
+                        full_text = current.get_text(
+                            " ",
+                            strip=True
+                        )
+
+                        title = full_text
+                        summary = ""
+
+                    if len(title) < 5:
                         continue
 
                     records.append(
                         {
                             "title": title,
+                            "summary": summary,
                             "url":
                                 f"{feed['url']}#{month_id}",
-                            "published": month_date,
-                            "source": feed["name"],
-                            "product": feed.get(
-                                "product",
-                                feed["name"]
-                            ),
-                            "category": feed["category"]
+                            "published":
+                                month_date,
+                            "source":
+                                feed["name"],
+                            "product":
+                                feed.get(
+                                    "product",
+                                    feed["name"]
+                                ),
+                            "category":
+                                feed["category"]
                         }
                     )
 
@@ -266,7 +303,6 @@ def fetch_whatsnew_feed(feed):
         )
 
     return records
-
 def fetch_rss_feed(feed):
 
     records = []
@@ -305,7 +341,15 @@ def deduplicate(items):
 
     for item in items:
 
-        key = (item["title"].strip().lower(), item["url"].strip().lower())
+        key = (
+    item["product"]
+    .strip()
+    .lower(),
+
+    item["title"]
+    .strip()
+    .lower()
+)
 
         if key not in unique:
             unique[key] = item
@@ -317,13 +361,16 @@ def to_json_article(item):
 
     return {
         "title": item["title"],
+        "summary": item.get(
+            "summary",
+            ""
+        ),
         "url": item["url"],
         "source": item["source"],
         "product": item["product"],
         "published": item["published"].isoformat(),
     }
-
-
+    
 def build_release_summary(articles, max_items):
 
     releases = [x for x in articles if x["category"] == "releases"]
