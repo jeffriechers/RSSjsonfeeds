@@ -1,5 +1,5 @@
 settings:
-  days_to_keep: 180
+  days_to_keep: 365
   max_items_per_category: 100
   max_release_summary: 25
 
