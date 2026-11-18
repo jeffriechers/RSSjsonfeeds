@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T21:57:42.280136+00:00",
-  "article_count": 5099,
+  "generated": "2026-11-18T22:05:26.039877+00:00",
+  "article_count": 6028,
   "days_to_keep": 180,
   "latest_releases": [
     {
@@ -226,6 +226,10 @@
       "count": 5
     },
     {
+      "product": "Provisioning Services",
+      "count": 4
+    },
+    {
       "product": "FSLogix",
       "count": 3
     },
@@ -234,12 +238,8 @@
       "count": 3
     },
     {
-      "product": "Provisioning Services",
-      "count": 3
-    },
-    {
       "product": "StoreFront",
-      "count": 2
+      "count": 3
     }
   ],
   "categories": {
@@ -1756,6 +1756,14 @@
           "published": "2026-08-18T00:00:00-04:00"
         },
         {
+          "title": "New - StoreFront 2507 LTSR,Cumulative Update 2",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-2507-CU2.html",
+          "source": "Citrix StoreFront Local",
+          "product": "StoreFront",
+          "published": "2026-08-18T00:00:00-04:00"
+        },
+        {
           "title": "New - StoreFront 2607 LTSR",
           "summary": "",
           "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-2607.html",
@@ -1804,6 +1812,14 @@
           "published": "2026-08-11T00:00:00-04:00"
         },
         {
+          "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2507-ltsr-cu2.html",
+          "source": "Citrix PVS",
+          "product": "Provisioning Services",
+          "published": "2026-08-11T00:00:00-04:00"
+        },
+        {
           "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU4 Update 1",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU4-Update1.html",
@@ -1834,22 +1850,6 @@
           "source": "Citrix Workspace App Updates",
           "product": "Workspace App",
           "published": "2026-07-22T14:30:00-04:00"
-        },
-        {
-          "title": "New - Citrix Workspace app 2603.10 for HTML5",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-html5/workspace-app-for-html5-260310.html",
-          "source": "Citrix Workspace App Updates",
-          "product": "Workspace App",
-          "published": "2026-07-22T14:30:00-04:00"
-        },
-        {
-          "title": "New - Citrix Workspace app for Linux - Certificate Identity Declaration SDK -2604",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-certificate-identity-declaration-sdk-2604.html",
-          "source": "Citrix Workspace App Updates",
-          "product": "Workspace App",
-          "published": "2026-07-17T14:30:00-04:00"
         }
       ]
     },
@@ -1904,6 +1904,14 @@
           "source": "Citrix Tech Zone Blogs",
           "product": "Tech Zone",
           "published": "2026-11-12T12:04:00+00:00"
+        },
+        {
+          "title": "Post-Quantum Cryptography architectural considerations",
+          "summary": "",
+          "url": "https://community.citrix.com/techzone-blogs/platform-services/post-quantum-cryptography-architectural-considerations-pt5/",
+          "source": "Citrix Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-11-10T14:03:00+00:00"
         },
         {
           "title": "NetScaler WAF Signatures Update v188",
@@ -2002,6 +2010,14 @@
           "published": "2026-11-03T17:13:00+00:00"
         },
         {
+          "title": "Post-Quantum Cryptography architectural considerations",
+          "summary": "",
+          "url": "https://community.citrix.com/techzone-blogs/platform-services/post-quantum-cryptography-architectural-considerations-pt4/",
+          "source": "Citrix Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-30T17:11:00+00:00"
+        },
+        {
           "title": "How Do I: Plan and Execute NetScaler Upgrades with Console Upgrade Jobs?",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/netscaler/how-do-i-plan-and-execute-netscaler-upgrades-with-console-upgrade-jobs-r1645/",
@@ -2016,6 +2032,14 @@
           "source": "Citrix Tech Zone Blogs",
           "product": "Tech Zone",
           "published": "2026-10-27T17:59:00+00:00"
+        },
+        {
+          "title": "Post-Quantum Cryptography architectural considerations",
+          "summary": "",
+          "url": "https://community.citrix.com/techzone-blogs/platform-services/post-quantum-cryptography-architectural-considerations-pt-3/",
+          "source": "Citrix Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-27T13:35:00+00:00"
         },
         {
           "title": "NetScaler WAF Signatures Update v186",
@@ -2048,6 +2072,14 @@
           "source": "Citrix Tech Zone Blogs",
           "product": "Tech Zone",
           "published": "2026-10-20T12:04:00+00:00"
+        },
+        {
+          "title": "Post-Quantum Cryptography architectural considerations",
+          "summary": "",
+          "url": "https://community.citrix.com/techzone-blogs/platform-services/post-quantum-cryptography-architectural-considerations/",
+          "source": "Citrix Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-19T19:48:00+00:00"
         },
         {
           "title": "Learn how to configure NetScaler Gateway with SAML Service Provider Authentication for Secure Citrix Remote Access",
