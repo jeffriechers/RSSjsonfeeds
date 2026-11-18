@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-18T21:06:55.743227+00:00",
-  "article_count": 5014,
-  "days_to_keep": 90,
+  "generated": "2026-11-18T21:12:51.715979+00:00",
+  "article_count": 5105,
+  "days_to_keep": 180,
   "latest_releases": [
     {
       "title": "What's new in Azure Virtual Desktop? - Azure - Azure Virtual Desktop",
@@ -182,31 +182,39 @@
   "release_activity": [
     {
       "product": "Workspace App",
-      "count": 29
+      "count": 43
     },
     {
       "product": "NetScaler",
-      "count": 25
-    },
-    {
-      "product": "UniconOS",
-      "count": 9
+      "count": 38
     },
     {
       "product": "Citrix DaaS",
-      "count": 5
+      "count": 15
+    },
+    {
+      "product": "UniconOS",
+      "count": 11
     },
     {
       "product": "Citrix Tools",
-      "count": 3
+      "count": 5
+    },
+    {
+      "product": "Provisioning Services",
+      "count": 4
     },
     {
       "product": "FSLogix",
-      "count": 2
+      "count": 3
     },
     {
       "product": "NetScaler Console",
-      "count": 2
+      "count": 3
+    },
+    {
+      "product": "StoreFront",
+      "count": 3
     }
   ],
   "categories": {
@@ -1442,6 +1450,181 @@
           "source": "Citrix Workspace App Updates",
           "product": "Workspace App",
           "published": "2026-08-24T14:30:00-04:00"
+        },
+        {
+          "title": "New - Citrix Infra Monitor",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/Citrix-Infra-Monitor.html",
+          "source": "Citrix DaaS Local",
+          "product": "Citrix DaaS",
+          "published": "2026-08-20T14:30:00-04:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 63.21",
+          "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/vpx-release-13-1-63-21.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-08-19T14:30:00-04:00"
+        },
+        {
+          "title": "New - NetScaler Release (Maintenance Phase) 13.1 Build 63.21",
+          "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/release-13-1-build-63-21.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-08-19T14:30:00-04:00"
+        },
+        {
+          "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 63.21",
+          "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/blx-13-1-63-21.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-08-19T14:30:00-04:00"
+        },
+        {
+          "title": "New - NetScaler CPX Release (Maintenance Phase) 13.1 Build 63.21",
+          "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/cpx-13-1-63-21.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-08-19T14:30:00-04:00"
+        },
+        {
+          "title": "New - Citrix Workspace app 2607 for Mac",
+          "url": "http://www.citrix.com/downloads/workspace-app/mac/workspace-app-for-mac-latest2607.html",
+          "source": "Citrix Workspace App Updates",
+          "product": "Workspace App",
+          "published": "2026-08-18T14:30:00-04:00"
+        },
+        {
+          "title": "New - Citrix Probe Agent 2607",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/app-probe-agent.html",
+          "source": "Citrix DaaS Local",
+          "product": "Citrix DaaS",
+          "published": "2026-08-18T12:00:00-04:00"
+        },
+        {
+          "title": "New - Workspace Environment Management 2607",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/workspace-environment-management-2607.html",
+          "source": "Citrix DaaS Local",
+          "product": "Citrix DaaS",
+          "published": "2026-08-18T12:00:00-04:00"
+        },
+        {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
+          "source": "Citrix DaaS Local",
+          "product": "Citrix DaaS",
+          "published": "2026-08-18T00:00:00-04:00"
+        },
+        {
+          "title": "New - Linux Virtual Delivery Agent 2507 LTSR, Cumulative Update 2",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/linux-vda-2507-ltsr-cu2.html",
+          "source": "Citrix DaaS Local",
+          "product": "Citrix DaaS",
+          "published": "2026-08-18T00:00:00-04:00"
+        },
+        {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2.html",
+          "source": "Citrix DaaS Local",
+          "product": "Citrix DaaS",
+          "published": "2026-08-18T00:00:00-04:00"
+        },
+        {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2607 LTSR, All Editions",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-alleditions-2607.html",
+          "source": "Citrix DaaS Local",
+          "product": "Citrix DaaS",
+          "published": "2026-08-18T00:00:00-04:00"
+        },
+        {
+          "title": "New - StoreFront 2507 LTSR,Cumulative Update 2",
+          "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-in-2507-ltsr-cu2.html",
+          "source": "Citrix StoreFront Local",
+          "product": "StoreFront",
+          "published": "2026-08-18T00:00:00-04:00"
+        },
+        {
+          "title": "New - StoreFront 2507 LTSR,Cumulative Update 2",
+          "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-2507-CU2.html",
+          "source": "Citrix StoreFront Local",
+          "product": "StoreFront",
+          "published": "2026-08-18T00:00:00-04:00"
+        },
+        {
+          "title": "New - StoreFront 2607 LTSR",
+          "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-2607.html",
+          "source": "Citrix StoreFront Local",
+          "product": "StoreFront",
+          "published": "2026-08-18T00:00:00-04:00"
+        },
+        {
+          "title": "New - Citrix Provisioning 2607 LTSR",
+          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2607.html",
+          "source": "Citrix PVS",
+          "product": "Provisioning Services",
+          "published": "2026-08-18T00:00:00-04:00"
+        },
+        {
+          "title": "New - Citrix Workspace app 2604.10 for Linux",
+          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-linux/workspace-app-for-linux-2604-10.html",
+          "source": "Citrix Workspace App Updates",
+          "product": "Workspace App",
+          "published": "2026-08-14T14:30:00-04:00"
+        },
+        {
+          "title": "New - Citrix Workspace app for Windows LTSR 2507.1 Cumulative Update 3",
+          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-windows-ltsr/workspace-app-for-windows-LTSR-2507-CU3.html",
+          "source": "Citrix Workspace App Updates",
+          "product": "Workspace App",
+          "published": "2026-08-13T14:30:00-04:00"
+        },
+        {
+          "title": "New - Citrix Workspace app 2603.11 for Windows",
+          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-windows/workspace-app-for-windows-latest1.html",
+          "source": "Citrix Workspace App Updates",
+          "product": "Workspace App",
+          "published": "2026-08-11T00:00:00-04:00"
+        },
+        {
+          "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
+          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2507-ltsr-cu2.html",
+          "source": "Citrix PVS",
+          "product": "Provisioning Services",
+          "published": "2026-08-11T00:00:00-04:00"
+        },
+        {
+          "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
+          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-25072.html",
+          "source": "Citrix PVS",
+          "product": "Provisioning Services",
+          "published": "2026-08-11T00:00:00-04:00"
+        },
+        {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU4 Update 1",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU4-Update1.html",
+          "source": "Citrix DaaS Local",
+          "product": "Citrix DaaS",
+          "published": "2026-08-07T00:00:00-04:00"
+        },
+        {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2203 LTSR CU7 Update 4",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2203-CU7-Update4.html",
+          "source": "Citrix DaaS Local",
+          "product": "Citrix DaaS",
+          "published": "2026-08-07T00:00:00-04:00"
+        },
+        {
+          "title": "New - NetScaler SDX Bundle (Maintenance Phase) 14.1-73.30",
+          "url": "http://www.citrix.com/downloads/citrix-adc/service-delivery-appliances/sdx-bundle-14-1-73-30.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-07-31T14:30:00-04:00"
+        },
+        {
+          "title": "New - Citrix Workspace app 2603.10 for HTML5 SDK",
+          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-html5/workspace-app-for-html5-sdk-260310.html",
+          "source": "Citrix Workspace App Updates",
+          "product": "Workspace App",
+          "published": "2026-07-22T14:30:00-04:00"
         }
       ]
     },
@@ -1652,6 +1835,20 @@
           "source": "Citrix Tech Zone Document History",
           "product": "Tech Zone",
           "published": "2026-09-09T02:56:00+00:00"
+        },
+        {
+          "title": "Learn how to configure NetScaler Gateway with LDAP and RADIUS for secure Citrix remote access",
+          "url": "https://community.citrix.com/tech-zone/build/deployment-guides/learn-how-to-configure-netscaler-gateway-with-ldap-and-radius-for-secure-citrix-remote-access-r380/",
+          "source": "Citrix Tech Zone Document History",
+          "product": "Tech Zone",
+          "published": "2026-08-07T19:31:00+00:00"
+        },
+        {
+          "title": "Learn how to configure NetScaler Gateway with LDAP and RADIUS as an OAuth IdP for Citrix Cloud Gateway",
+          "url": "https://community.citrix.com/tech-zone/build/deployment-guides/learn-how-to-configure-netscaler-gateway-with-ldap-and-radius-as-an-oauth-idp-for-citrix-cloud-gateway-r379/",
+          "source": "Citrix Tech Zone Document History",
+          "product": "Tech Zone",
+          "published": "2026-08-07T19:20:00+00:00"
         }
       ]
     },
