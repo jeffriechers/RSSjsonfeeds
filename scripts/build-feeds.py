@@ -460,7 +460,7 @@ def main():
 
                 articles.append(article)
 
-    articles = deduplicate(articles)
+#    articles = deduplicate(articles)
 
     articles.sort(key=lambda x: x["published"], reverse=True)
 
