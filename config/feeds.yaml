@@ -51,13 +51,13 @@ feeds:
   category: releases
   url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-tools.rss
 
-- name: Citrix Blogs
-  category: blogs
-  url: https://www.citrix.com/blogs/rss
+- name: Citrix Tech Zone Document History
+  category: news
+  url: https://community.citrix.com/rss/1-citrix-tech-zone-document-history.xml
 
 - name: Citrix Tech Zone Blogs
-  category: blogs
-  url: https://community.citrix.com/rss/3-citrix-tech-zone-blogs.xml/?member_id=67956&key=3e177f087e38280da024f9284a4e3882
+  category: news
+  url: https://community.citrix.com/rss/3-citrix-tech-zone-blogs.xml
 
 settings:
   days_to_keep: 90
