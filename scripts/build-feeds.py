@@ -431,8 +431,8 @@ def main():
 
     feeds = config["feeds"]
 
-    cutoff = datetime.now(timezone.utc) - timedelta(days=days_to_keep)
-
+    #cutoff = datetime.now(timezone.utc) - timedelta(days=days_to_keep)
+    cutoff = datetime.now(timezone.utc) - timedelta(days=365)
     articles = []
 
 
