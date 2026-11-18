@@ -48,6 +48,10 @@ feeds:
   category: releases
   url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-application-management.rss
 
+- name: Microsoft FSLogix
+  category: releases
+  url: https://learn.microsoft.com/api/search/rss?search=%22FSLogix+Release+Notes%22&locale=en-us
+
 - name: Citrix ZTNA
   category: releases
   url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-secure-private-access.rss
@@ -69,7 +73,7 @@ feeds:
 
 - name: Microsoft CVE
   category: security
-  url: https://cve.assurestart.co/api/feed.xml?term=Microsoft
+  url: https://api.msrc.microsoft.com/update-guide/rss
 
 - name: Nutanix CVE
   category: security
