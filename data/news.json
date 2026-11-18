@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T19:16:07.572145+00:00",
-  "article_count": 96,
+  "generated": "2026-11-18T19:33:30.330254+00:00",
+  "article_count": 243,
   "days_to_keep": 90,
   "latest_releases": [
     {
@@ -27,50 +27,50 @@
     {
       "title": "New - NetScaler VPX FIPS Release 13.1 Build 37.293",
       "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-131-FIPS.html",
-      "source": "Citrix NetScaler and Console",
-      "product": "Citrix NetScaler and Console",
+      "source": "Citrix NetScaler",
+      "product": "Citrix NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX FIPS Release 14.1 Build 73.58",
+      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-141-73-58-fips.html",
+      "source": "Citrix NetScaler",
+      "product": "Citrix NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler FIPS Release 14.1 Build 73.58",
+      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-141-build-73-58-fips.html",
+      "source": "Citrix NetScaler",
+      "product": "Citrix NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
+      "source": "Citrix NetScaler",
+      "product": "Citrix NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58-fips.html",
+      "source": "Citrix NetScaler",
+      "product": "Citrix NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
+      "source": "Citrix NetScaler",
+      "product": "Citrix NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
       "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39",
       "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-13-1-64-39.html",
-      "source": "Citrix NetScaler and Console",
-      "product": "Citrix NetScaler and Console",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler CPX Release (Maintenance Phase) 13.1 Build 64.39",
-      "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-13-1-64-39.html",
-      "source": "Citrix NetScaler and Console",
-      "product": "Citrix NetScaler and Console",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler Release (Maintenance Phase) 13.1 Build 64.39",
-      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-13-1-build-64-39.html",
-      "source": "Citrix NetScaler and Console",
-      "product": "Citrix NetScaler and Console",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 64.39",
-      "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-13-1-64-39.html",
-      "source": "Citrix NetScaler and Console",
-      "product": "Citrix NetScaler and Console",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58.html",
-      "source": "Citrix NetScaler and Console",
-      "product": "Citrix NetScaler and Console",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58.html",
-      "source": "Citrix NetScaler and Console",
-      "product": "Citrix NetScaler and Console",
+      "source": "Citrix NetScaler",
+      "product": "Citrix NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
     }
   ],
@@ -80,7 +80,7 @@
       "count": 29
     },
     {
-      "product": "Citrix NetScaler and Console",
+      "product": "Citrix NetScaler",
       "count": 25
     },
     {
@@ -94,12 +94,192 @@
     {
       "product": "Citrix Tools",
       "count": 3
+    },
+    {
+      "product": "Citrix NetScaler Console",
+      "count": 2
     }
   ],
   "categories": {
     "security": {
       "title": "Security Advisories",
-      "items": []
+      "items": [
+        {
+          "title": "[CRITICAL 9.3] CVE-2026-120864",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120864",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T16:17:39+00:00"
+        },
+        {
+          "title": "[HIGH 8.7] CVE-2026-120862",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120862",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T16:17:39+00:00"
+        },
+        {
+          "title": "[HIGH 8.7] CVE-2026-120861",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120861",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T16:17:39+00:00"
+        },
+        {
+          "title": "[HIGH 8.7] CVE-2026-120860",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120860",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T16:17:38+00:00"
+        },
+        {
+          "title": "[MEDIUM 6.9] CVE-2026-111339",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111339",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T16:17:37+00:00"
+        },
+        {
+          "title": "[HIGH 7.7] CVE-2026-120866",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120866",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T15:17:33+00:00"
+        },
+        {
+          "title": "[HIGH 8.7] CVE-2026-120865",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120865",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T15:17:33+00:00"
+        },
+        {
+          "title": "[MEDIUM 6.9] CVE-2026-111338",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111338",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T15:17:31+00:00"
+        },
+        {
+          "title": "[HIGH 8.7] CVE-2026-111342",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111342",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T15:17:31+00:00"
+        },
+        {
+          "title": "[HIGH 8.7] CVE-2026-111341",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111341",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T15:17:31+00:00"
+        },
+        {
+          "title": "[HIGH 8.7] CVE-2026-111340",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111340",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T15:17:31+00:00"
+        },
+        {
+          "title": "[HIGH 8.7] CVE-2026-111337",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111337",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T15:17:30+00:00"
+        },
+        {
+          "title": "[HIGH 8.3] CVE-2026-111336",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111336",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T15:17:30+00:00"
+        },
+        {
+          "title": "[MEDIUM 6.9] CVE-2026-111335",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111335",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T15:17:30+00:00"
+        },
+        {
+          "title": "[MEDIUM 6.9] CVE-2026-111333",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111333",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T15:17:30+00:00"
+        },
+        {
+          "title": "[CRITICAL 9.3] CVE-2026-107415",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107415",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T15:17:28+00:00"
+        },
+        {
+          "title": "[HIGH 8.7] CVE-2026-107414",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107414",
+          "source": "Citrix CVE",
+          "product": "Citrix CVE",
+          "published": "2026-11-17T15:17:28+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-112717",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112717",
+          "source": "Microsoft CVE",
+          "product": "Microsoft CVE",
+          "published": "2026-11-17T13:25:27+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-112718",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112718",
+          "source": "Microsoft CVE",
+          "product": "Microsoft CVE",
+          "published": "2026-11-17T13:24:51+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-112719",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112719",
+          "source": "Microsoft CVE",
+          "product": "Microsoft CVE",
+          "published": "2026-11-17T13:23:46+00:00"
+        },
+        {
+          "title": "[MEDIUM 5.5] CVE-2026-112720",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112720",
+          "source": "Microsoft CVE",
+          "product": "Microsoft CVE",
+          "published": "2026-11-17T13:22:58+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-112721",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112721",
+          "source": "Microsoft CVE",
+          "product": "Microsoft CVE",
+          "published": "2026-11-17T13:22:25+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-112722",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112722",
+          "source": "Microsoft CVE",
+          "product": "Microsoft CVE",
+          "published": "2026-11-17T13:21:52+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-112723",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112723",
+          "source": "Microsoft CVE",
+          "product": "Microsoft CVE",
+          "published": "2026-11-17T13:21:22+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-112724",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112724",
+          "source": "Microsoft CVE",
+          "product": "Microsoft CVE",
+          "published": "2026-11-17T13:20:47+00:00"
+        }
+      ]
     },
     "releases": {
       "title": "Product Releases & Updates",
@@ -128,155 +308,155 @@
         {
           "title": "New - NetScaler VPX FIPS Release 13.1 Build 37.293",
           "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-131-FIPS.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39",
-          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-13-1-64-39.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler CPX Release (Maintenance Phase) 13.1 Build 64.39",
-          "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-13-1-64-39.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler Release (Maintenance Phase) 13.1 Build 64.39",
-          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-13-1-build-64-39.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 64.39",
-          "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-13-1-64-39.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
           "title": "New - NetScaler VPX FIPS Release 14.1 Build 73.58",
           "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-141-73-58-fips.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
-          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler CPX Release (Maintenance Phase) 14.1 Build 73.58",
-          "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-58.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler Release (Maintenance Phase) 14.1 Build 73.58",
-          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-58.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
-          "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
           "title": "New - NetScaler FIPS Release 14.1 Build 73.58",
           "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-141-build-73-58-fips.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
           "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
           "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58-fips.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39",
+          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-13-1-64-39.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler CPX Release (Maintenance Phase) 13.1 Build 64.39",
+          "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-13-1-64-39.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler Release (Maintenance Phase) 13.1 Build 64.39",
+          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-13-1-build-64-39.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
           "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
           "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58-fips.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for Azure",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-37-293.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
+          "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 64.39",
+          "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-13-1-64-39.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for AWS",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-37-293.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
+          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler FIPS Release 13.1 Build 37.293",
-          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-131-build-37293.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
+          "title": "New - NetScaler Release (Maintenance Phase) 14.1 Build 73.58",
+          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler CPX Release (Maintenance Phase) 14.1 Build 73.58",
+          "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
+          "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
           "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for GCP",
           "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-64-39.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for Azure",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-64-39.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
           "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for AWS",
           "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-64-39.html",
-          "source": "Citrix NetScaler and Console",
-          "product": "Citrix NetScaler and Console",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler FIPS Release 13.1 Build 37.293",
+          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-131-build-37293.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for GCP",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-37-293.html",
+          "source": "Citrix NetScaler",
+          "product": "Citrix NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         }
       ]
@@ -287,187 +467,187 @@
     },
     "blogs": {
       "title": "Product Blogs & Vendor News",
+      "items": []
+    },
+    "news": {
+      "title": "Industry News",
       "items": [
         {
           "title": "Citrix DaaS Profiles Flex: Profiles that outlive the desktop",
           "url": "https://community.citrix.com/techzone-blogs/app-and-desktop-virtualization/citrix-daas-profiles-flex-profiles-that-outlive-the-desktop/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-18T09:22:25-05:00"
+          "published": "2026-11-18T14:22:25+00:00"
         },
         {
           "title": "Post-quantum cryptography architectural considerations",
           "url": "https://community.citrix.com/techzone-blogs/platform-services/post-quantum-cryptography-architectural-considerations-pt6/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-16T11:18:00-05:00"
+          "published": "2026-11-16T16:18:00+00:00"
         },
         {
           "title": "Security updates for NetScaler ADC, NetScaler Gateway, and NetScaler Console",
           "url": "https://community.citrix.com/techzone-blogs/110_security-updates/security-updates-for-netscaler-adc-netscaler-gateway-and-netscaler-console/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-12T07:04:00-05:00"
+          "published": "2026-11-12T12:04:00+00:00"
         },
         {
           "title": "Post-Quantum Cryptography architectural considerations",
           "url": "https://community.citrix.com/techzone-blogs/platform-services/post-quantum-cryptography-architectural-considerations-pt5/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-10T09:03:00-05:00"
+          "published": "2026-11-10T14:03:00+00:00"
         },
         {
           "title": "NetScaler WAF Signatures Update v188",
           "url": "https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-waf-signatures-update-v188-r1655/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-09T17:14:48-05:00"
+          "published": "2026-11-09T22:14:48+00:00"
         },
         {
           "title": "NetScaler WAF Signatures Update v185",
           "url": "https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-waf-signatures-update-v185-r1654/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-09T17:13:14-05:00"
+          "published": "2026-11-09T22:13:14+00:00"
         },
         {
           "title": "NetScaler WAF Signatures Update v184",
           "url": "https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-waf-signatures-update-v184-r1653/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-09T17:10:27-05:00"
+          "published": "2026-11-09T22:10:27+00:00"
         },
         {
           "title": "Plan ahead: NetScaler security release program begins November 12",
           "url": "https://community.citrix.com/techzone-blogs/110_security-updates/plan-ahead-netscaler-security-release-program-begins-november-12-r1652/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-09T11:00:07-05:00"
+          "published": "2026-11-09T16:00:07+00:00"
         },
         {
           "title": "How Do I: Provision a NetScaler VPX on Google Cloud Using Terraform?",
           "url": "https://community.citrix.com/techzone-blogs/netscaler/how-do-i-provision-a-netscaler-vpx-on-google-cloud-using-terraform-r1651/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-06T13:09:31-05:00"
+          "published": "2026-11-06T18:09:31+00:00"
         },
         {
           "title": "Citrix Session Insights Flex: Session visibility without the infrastructure overhead",
           "url": "https://community.citrix.com/techzone-blogs/112_platform-flex/session-insights-flex/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-06T04:56:33-05:00"
+          "published": "2026-11-06T09:56:33+00:00"
         },
         {
           "title": "Tokenomics: AI token spend control in Citrix SecurSpaces",
           "url": "https://community.citrix.com/techzone-blogs/securspaces/tokenomics-ai-token-spend-control-in-citrix-securspaces/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-05T02:13:25-05:00"
+          "published": "2026-11-05T07:13:25+00:00"
         },
         {
           "title": "Your users already use AI agents: give them a safe place to run",
           "url": "https://community.citrix.com/techzone-blogs/securspaces/your-users-already-use-ai-agents-give-them-a-safe-place-to-run/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-05T02:13:00-05:00"
+          "published": "2026-11-05T07:13:00+00:00"
         },
         {
           "title": "Citrix SecurSpaces Community Edition",
           "url": "https://community.citrix.com/techzone-blogs/securspaces/citrix-securspaces-community-edition/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-05T02:12:53-05:00"
+          "published": "2026-11-05T07:12:53+00:00"
         },
         {
           "title": "Inside the sandbox -  how Citrix SecurSpaces runs enterprise agents",
           "url": "https://community.citrix.com/techzone-blogs/securspaces/inside-the-sandbox-how-citrix-securspaces-runs-enterprise-agents/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-05T02:12:36-05:00"
+          "published": "2026-11-05T07:12:36+00:00"
         },
         {
           "title": "Zero Trust for MCP: Controlling what AI agents are allowed to do",
           "url": "https://community.citrix.com/techzone-blogs/secure-private-access/zero-trust-for-mcp-controlling-what-ai-agents-are-allowed-to-do/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-04T08:00:00-05:00"
+          "published": "2026-11-04T13:00:00+00:00"
         },
         {
           "title": "October 2026 Tech Wire",
           "url": "https://community.citrix.com/techzone-blogs/newsletter/october_2026/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-11-03T12:13:00-05:00"
+          "published": "2026-11-03T17:13:00+00:00"
         },
         {
           "title": "Post-Quantum Cryptography architectural considerations",
           "url": "https://community.citrix.com/techzone-blogs/platform-services/post-quantum-cryptography-architectural-considerations-pt4/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-10-30T13:11:00-04:00"
+          "published": "2026-10-30T17:11:00+00:00"
         },
         {
           "title": "How Do I: Plan and Execute NetScaler Upgrades with Console Upgrade Jobs?",
           "url": "https://community.citrix.com/techzone-blogs/netscaler/how-do-i-plan-and-execute-netscaler-upgrades-with-console-upgrade-jobs-r1645/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-10-28T14:07:56-04:00"
+          "published": "2026-10-28T18:07:56+00:00"
         },
         {
           "title": "How Do I: Validate a NetScaler upgrade and confirm it succeeded?",
           "url": "https://community.citrix.com/techzone-blogs/netscaler/how-do-i-validate-a-netscaler-upgrade-and-confirm-it-succeeded-r1644/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-10-27T13:59:00-04:00"
+          "published": "2026-10-27T17:59:00+00:00"
         },
         {
           "title": "Post-Quantum Cryptography architectural considerations",
           "url": "https://community.citrix.com/techzone-blogs/platform-services/post-quantum-cryptography-architectural-considerations-pt-3/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-10-27T09:35:00-04:00"
+          "published": "2026-10-27T13:35:00+00:00"
         },
         {
           "title": "NetScaler WAF Signatures Update v186",
           "url": "https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-waf-signatures-update-v186-r1642/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-10-22T16:00:28-04:00"
+          "published": "2026-10-22T20:00:28+00:00"
         },
         {
           "title": "Protecting NetScaler Management Access from PHP CVE-2026-109618 & CVE 2026-109619",
           "url": "https://community.citrix.com/techzone-blogs/110_security-updates/protecting-netscaler-management-access-from-php-cve-2026-109618-cve-2026-109619-r1640/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-10-21T16:23:00-04:00"
+          "published": "2026-10-21T20:23:00+00:00"
         },
         {
           "title": "Protecting automotive and manufacturing innovation without slowing down",
           "url": "https://community.citrix.com/techzone-blogs/citrix-devicetrust/protecting-automotive-and-manufacturing-innovation-without-slowing-down/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-10-20T10:12:00-04:00"
+          "published": "2026-10-20T14:12:00+00:00"
         },
         {
           "title": "Citrix DaaS MCP server is now available in preview",
           "url": "https://community.citrix.com/techzone-blogs/app-and-desktop-virtualization/daas-mcp-preview/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-10-20T08:04:00-04:00"
+          "published": "2026-10-20T12:04:00+00:00"
         },
         {
           "title": "Post-Quantum Cryptography architectural considerations",
           "url": "https://community.citrix.com/techzone-blogs/platform-services/post-quantum-cryptography-architectural-considerations/",
           "source": "Citrix Tech Zone Blogs",
           "product": "Citrix Tech Zone Blogs",
-          "published": "2026-10-19T15:48:00-04:00"
+          "published": "2026-10-19T19:48:00+00:00"
         }
       ]
-    },
-    "news": {
-      "title": "Industry News",
-      "items": []
     },
     "community": {
       "title": "Community & Open Source",
