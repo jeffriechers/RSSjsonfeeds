@@ -1,5 +1,9 @@
-categories:
+settings:
+  days_to_keep: 90
+  max_items_per_category: 100
+  max_release_summary: 25
 
+categories:
 - id: security
   title: Security Advisories
 
@@ -20,74 +24,149 @@ categories:
 
 feeds:
 
+#
+# Citrix Releases
+#
+
 - name: Citrix Workspace App Updates
+  product: Workspace App
   category: releases
+  type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/workspace-app.rss
 
-- name: Citrix DAAS Local
+- name: Citrix DaaS Local
+  product: Citrix DaaS
   category: releases
+  type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-virtual-apps-and-desktops.rss
 
-- name: Citrix Storefront Local
+- name: Citrix StoreFront Local
+  product: StoreFront
   category: releases
+  type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/storefront.rss
 
 - name: Citrix UniconOS
+  product: UniconOS
   category: releases
+  type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/Elux-Download-Pages.rss
 
 - name: Citrix PVS
+  product: Provisioning Services
   category: releases
+  type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/provisioning-services.rss
 
 - name: Citrix NetScaler
+  product: NetScaler
   category: releases
+  type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-adc.rss
 
 - name: Citrix NetScaler Console
+  product: NetScaler Console
   category: releases
+  type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-application-management.rss
 
-- name: Microsoft FSLogix
-  category: releases
-  url: https://learn.microsoft.com/api/search/rss?search=%22FSLogix+Release+Notes%22&locale=en-us
-
 - name: Citrix ZTNA
+  product: Secure Private Access
   category: releases
+  type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-secure-private-access.rss
+
 - name: Citrix Tools
+  product: Citrix Tools
   category: releases
+  type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-tools.rss
 
+#
+# Microsoft Releases
+#
+
+- name: Microsoft FSLogix
+  product: FSLogix
+  category: releases
+  type: rss
+  url: https://learn.microsoft.com/api/search/rss?search=%22FSLogix+Release+Notes%22&locale=en-us
+
+#
+# Citrix What's New Pages
+#
+
+- name: Citrix Cloud What's New
+  product: Citrix Cloud
+  category: releases
+  type: whatsnew
+  url: https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html
+
+#
+# Future Citrix Documentation Sources
+#
+# Uncomment as you build the parser
+#
+
+# - name: XenServer What's New
+#   product: XenServer
+#   category: releases
+#   type: whatsnew
+#   url: https://docs.xenserver.com/us/en/xenserver/9/whats-new.html
+
+# - name: NetScaler Release Notes
+#   product: NetScaler
+#   category: releases
+#   type: whatsnew
+#   url: https://docs.netscaler.com/us/en/citrix-adc/current-release/citrix-adc-release-notes.html
+
+
+#
+# Citrix Community
+#
+
 - name: Citrix Tech Zone Document History
+  product: Tech Zone
   category: news
+  type: rss
   url: https://community.citrix.com/rss/1-citrix-tech-zone-document-history.xml
 
 - name: Citrix Tech Zone Blogs
+  product: Tech Zone
   category: news
+  type: rss
   url: https://community.citrix.com/rss/3-citrix-tech-zone-blogs.xml
 
+#
+# Security Feeds
+#
+
 - name: Citrix CVE
+  product: Citrix
   category: security
+  type: rss
   url: https://cve.assurestart.co/api/feed.xml?term=Citrix
 
 - name: Microsoft CVE
+  product: Microsoft
   category: security
+  type: rss
   url: https://api.msrc.microsoft.com/update-guide/rss
 
 - name: Nutanix CVE
+  product: Nutanix
   category: security
+  type: rss
   url: https://cve.assurestart.co/api/feed.xml?term=Nutanix
 
 - name: Omnissa CVE
+  product: Omnissa
   category: security
+  type: rss
   url: https://cve.assurestart.co/api/feed.xml?term=Omnissa
 
-- name: VMWare CVE
+- name: VMware CVE
+  product: VMware
   category: security
-  url: https://cve.assurestart.co/api/feed.xml?term=VMWare
-
-settings:
-  days_to_keep: 90
-  max_items_per_category: 100
-  max_release_summary: 10
+  type: rss
+  url: https://cve.assurestart.co/api/feed.xml?term=VMware

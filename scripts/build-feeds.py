@@ -3,7 +3,10 @@
 import json
 import yaml
 import feedparser
+import requests
+import re
 
+from bs4 import BeautifulSoup
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
@@ -12,6 +15,29 @@ from collections import Counter
 CONFIG_FILE = "config/feeds.yaml"
 OUTPUT_FILE = "data/news.json"
 
+MONTH_PATTERN = re.compile(
+    r'^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}$'
+)
+
+def parse_month_header(text):
+
+    text = text.strip()
+
+    if not MONTH_PATTERN.match(text):
+        return None
+
+    try:
+
+        return datetime.strptime(
+            text,
+            "%B %Y"
+        ).replace(
+            tzinfo=timezone.utc
+        )
+
+    except Exception:
+
+        return None
 
 def load_config():
     with open(CONFIG_FILE, "r", encoding="utf-8") as f:
@@ -38,13 +64,99 @@ def parse_date(entry):
 
     return datetime.now(timezone.utc)
 
-
-def fetch_feed(feed):
+def fetch_whatsnew_feed(feed):
 
     records = []
 
     print(
-        f"Loading feed: {feed['name']}"
+        f"Loading What's New page: {feed['name']}"
+    )
+
+    try:
+
+        headers = {
+            "User-Agent":
+            "Mozilla/5.0 RSS Collector"
+        }
+
+        response = requests.get(
+            feed["url"],
+            headers=headers,
+            timeout=30
+        )
+
+        response.raise_for_status()
+
+        soup = BeautifulSoup(
+            response.text,
+            "html.parser"
+        )
+
+        current_month = None
+
+        headings = soup.find_all(
+            ["h2", "h3"]
+        )
+
+        for heading in headings:
+
+            text = heading.get_text(
+                strip=True
+            )
+
+            month = parse_month_header(
+                text
+            )
+
+            #
+            # Month/Year heading
+            #
+
+            if month:
+
+                current_month = month
+                continue
+
+            #
+            # Ignore headings before
+            # first month section
+            #
+
+            if not current_month:
+                continue
+
+            #
+            # Create entry
+            #
+
+            records.append(
+                {
+                    "title": text,
+                    "url": feed["url"],
+                    "published": current_month,
+                    "source": feed["name"],
+                    "product": feed.get(
+                        "product",
+                        feed["name"]
+                    ),
+                    "category": feed["category"]
+                }
+            )
+
+    except Exception as ex:
+
+        print(
+            f"ERROR loading {feed['name']}: {ex}"
+        )
+
+    return records
+
+def fetch_rss_feed(feed):
+
+    records = []
+
+    print(
+        f"Loading RSS feed: {feed['name']}"
     )
 
     try:
@@ -75,9 +187,7 @@ def fetch_feed(feed):
                         "product",
                         feed["name"]
                     ),
-                    "category": feed[
-                        "category"
-                    ]
+                    "category": feed["category"]
                 }
             )
 
@@ -88,7 +198,6 @@ def fetch_feed(feed):
         )
 
     return records
-
 
 def deduplicate(items):
 
@@ -289,20 +398,43 @@ def main():
 
     articles = []
 
-    for feed in feeds:
+for feed in feeds:
 
-        for article in fetch_feed(
-            feed
+    feed_type = feed.get(
+        "type",
+        "rss"
+    )
+
+    if feed_type == "rss":
+
+        feed_articles = (
+            fetch_rss_feed(feed)
+        )
+
+    elif feed_type == "whatsnew":
+
+        feed_articles = (
+            fetch_whatsnew_feed(feed)
+        )
+
+    else:
+
+        print(
+            f"Unsupported feed type: {feed_type}"
+        )
+
+        continue
+
+    for article in feed_articles:
+
+        if (
+            article["published"]
+            >= cutoff
         ):
 
-            if (
-                article["published"]
-                >= cutoff
-            ):
-
-                articles.append(
-                    article
-                )
+            articles.append(
+                article
+            )
 
     articles = deduplicate(
         articles
