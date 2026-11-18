@@ -98,7 +98,7 @@ feeds:
 
 - name: Citrix Cloud What's New
   product: Citrix Cloud
-  category: releases
+  category: cloud
   type: whatsnew
   url: https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html
 
