@@ -16,8 +16,9 @@ CONFIG_FILE = "config/feeds.yaml"
 OUTPUT_FILE = "data/news.json"
 
 MONTH_PATTERN = re.compile(
-    r'^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}$'
+    r"^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}$"
 )
+
 
 def parse_month_header(text):
 
@@ -28,16 +29,12 @@ def parse_month_header(text):
 
     try:
 
-        return datetime.strptime(
-            text,
-            "%B %Y"
-        ).replace(
-            tzinfo=timezone.utc
-        )
+        return datetime.strptime(text, "%B %Y").replace(tzinfo=timezone.utc)
 
     except Exception:
 
         return None
+
 
 def load_config():
     with open(CONFIG_FILE, "r", encoding="utf-8") as f:
@@ -46,67 +43,44 @@ def load_config():
 
 def parse_date(entry):
 
-    for field in [
-        "published",
-        "updated",
-        "created"
-    ]:
+    for field in ["published", "updated", "created"]:
 
         if field in entry:
 
             try:
-                return parsedate_to_datetime(
-                    entry[field]
-                )
+                return parsedate_to_datetime(entry[field])
 
             except Exception:
                 pass
 
     return datetime.now(timezone.utc)
 
+
 def fetch_whatsnew_feed(feed):
 
     records = []
 
-    print(
-        f"Loading What's New page: {feed['name']}"
-    )
+    print(f"Loading What's New page: {feed['name']}")
 
     try:
 
-        headers = {
-            "User-Agent":
-            "Mozilla/5.0 RSS Collector"
-        }
+        headers = {"User-Agent": "Mozilla/5.0 RSS Collector"}
 
-        response = requests.get(
-            feed["url"],
-            headers=headers,
-            timeout=30
-        )
+        response = requests.get(feed["url"], headers=headers, timeout=30)
 
         response.raise_for_status()
 
-        soup = BeautifulSoup(
-            response.text,
-            "html.parser"
-        )
+        soup = BeautifulSoup(response.text, "html.parser")
 
         current_month = None
 
-        headings = soup.find_all(
-            ["h2", "h3"]
-        )
+        headings = soup.find_all(["h2", "h3"])
 
         for heading in headings:
 
-            text = heading.get_text(
-                strip=True
-            )
+            text = heading.get_text(strip=True)
 
-            month = parse_month_header(
-                text
-            )
+            month = parse_month_header(text)
 
             #
             # Month/Year heading
@@ -135,69 +109,49 @@ def fetch_whatsnew_feed(feed):
                     "url": feed["url"],
                     "published": current_month,
                     "source": feed["name"],
-                    "product": feed.get(
-                        "product",
-                        feed["name"]
-                    ),
-                    "category": feed["category"]
+                    "product": feed.get("product", feed["name"]),
+                    "category": feed["category"],
                 }
             )
 
     except Exception as ex:
 
-        print(
-            f"ERROR loading {feed['name']}: {ex}"
-        )
+        print(f"ERROR loading {feed['name']}: {ex}")
 
     return records
+
 
 def fetch_rss_feed(feed):
 
     records = []
 
-    print(
-        f"Loading RSS feed: {feed['name']}"
-    )
+    print(f"Loading RSS feed: {feed['name']}")
 
     try:
 
-        rss = feedparser.parse(
-            feed["url"]
-        )
+        rss = feedparser.parse(feed["url"])
 
         for entry in rss.entries:
 
-            published = parse_date(
-                entry
-            )
+            published = parse_date(entry)
 
             records.append(
                 {
-                    "title": entry.get(
-                        "title",
-                        "Untitled"
-                    ),
-                    "url": entry.get(
-                        "link",
-                        ""
-                    ),
+                    "title": entry.get("title", "Untitled"),
+                    "url": entry.get("link", ""),
                     "published": published,
                     "source": feed["name"],
-                    "product": feed.get(
-                        "product",
-                        feed["name"]
-                    ),
-                    "category": feed["category"]
+                    "product": feed.get("product", feed["name"]),
+                    "category": feed["category"],
                 }
             )
 
     except Exception as ex:
 
-        print(
-            f"ERROR: {feed['name']} : {ex}"
-        )
+        print(f"ERROR: {feed['name']} : {ex}")
 
     return records
+
 
 def deduplicate(items):
 
@@ -205,21 +159,12 @@ def deduplicate(items):
 
     for item in items:
 
-        key = (
-            item["title"]
-            .strip()
-            .lower(),
-            item["url"]
-            .strip()
-            .lower()
-        )
+        key = (item["title"].strip().lower(), item["url"].strip().lower())
 
         if key not in unique:
             unique[key] = item
 
-    return list(
-        unique.values()
-    )
+    return list(unique.values())
 
 
 def to_json_article(item):
@@ -229,87 +174,35 @@ def to_json_article(item):
         "url": item["url"],
         "source": item["source"],
         "product": item["product"],
-        "published": item[
-            "published"
-        ].isoformat()
+        "published": item["published"].isoformat(),
     }
 
 
-def build_release_summary(
-    articles,
-    max_items
-):
+def build_release_summary(articles, max_items):
 
-    releases = [
+    releases = [x for x in articles if x["category"] == "releases"]
 
-        x
+    releases.sort(key=lambda x: x["published"], reverse=True)
 
-        for x in articles
-
-        if x["category"]
-        == "releases"
-
-    ]
-
-    releases.sort(
-        key=lambda x: x["published"],
-        reverse=True
-    )
-
-    return [
-
-        to_json_article(x)
-
-        for x in releases[
-            :max_items
-        ]
-
-    ]
+    return [to_json_article(x) for x in releases[:max_items]]
 
 
-def build_release_activity(
-    articles
-):
+def build_release_activity(articles):
 
-    releases = [
+    releases = [x for x in articles if x["category"] == "releases"]
 
-        x
-
-        for x in articles
-
-        if x["category"]
-        == "releases"
-
-    ]
-
-    counts = Counter(
-        x["product"]
-        for x in releases
-    )
+    counts = Counter(x["product"] for x in releases)
 
     output = []
 
-    for product, count in sorted(
-        counts.items(),
-        key=lambda x: x[1],
-        reverse=True
-    ):
+    for product, count in sorted(counts.items(), key=lambda x: x[1], reverse=True):
 
-        output.append(
-            {
-                "product": product,
-                "count": count
-            }
-        )
+        output.append({"product": product, "count": count})
 
     return output
 
 
-def build_categories(
-    categories,
-    articles,
-    max_items_per_category
-):
+def build_categories(categories, articles, max_items_per_category):
 
     output = {}
 
@@ -317,35 +210,13 @@ def build_categories(
 
         cat_id = category["id"]
 
-        entries = [
+        entries = [x for x in articles if x["category"] == cat_id]
 
-            x
-
-            for x in articles
-
-            if x["category"]
-            == cat_id
-
-        ]
-
-        entries.sort(
-            key=lambda x: x[
-                "published"
-            ],
-            reverse=True
-        )
+        entries.sort(key=lambda x: x["published"], reverse=True)
 
         output[cat_id] = {
-            "title": category[
-                "title"
-            ],
-            "items": [
-                to_json_article(x)
-
-                for x in entries[
-                    :max_items_per_category
-                ]
-            ]
+            "title": category["title"],
+            "items": [to_json_article(x) for x in entries[:max_items_per_category]],
         }
 
     return output
@@ -355,156 +226,69 @@ def main():
 
     config = load_config()
 
-    settings = config.get(
-        "settings",
-        {}
-    )
+    settings = config.get("settings", {})
 
-    days_to_keep = settings.get(
-        "days_to_keep",
-        90
-    )
+    days_to_keep = settings.get("days_to_keep", 90)
 
-    max_items_per_category = (
-        settings.get(
-            "max_items_per_category",
-            20
-        )
-    )
+    max_items_per_category = settings.get("max_items_per_category", 20)
 
-    max_release_summary = (
-        settings.get(
-            "max_release_summary",
-            10
-        )
-    )
+    max_release_summary = settings.get("max_release_summary", 10)
 
-    categories = config[
-        "categories"
-    ]
+    categories = config["categories"]
 
-    feeds = config[
-        "feeds"
-    ]
+    feeds = config["feeds"]
 
-    cutoff = (
-        datetime.now(
-            timezone.utc
-        )
-        - timedelta(
-            days=days_to_keep
-        )
-    )
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days_to_keep)
 
     articles = []
 
-for feed in feeds:
 
-    feed_type = feed.get(
-        "type",
-        "rss"
-    )
+    for feed in feeds:
 
-    if feed_type == "rss":
+        feed_type = feed.get("type", "rss")
 
-        feed_articles = (
-            fetch_rss_feed(feed)
-        )
+        if feed_type == "rss":
 
-    elif feed_type == "whatsnew":
+            feed_articles = fetch_rss_feed(feed)
 
-        feed_articles = (
-            fetch_whatsnew_feed(feed)
-        )
+        elif feed_type == "whatsnew":
 
-    else:
+            feed_articles = fetch_whatsnew_feed(feed)
 
-        print(
-            f"Unsupported feed type: {feed_type}"
-        )
+        else:
 
-        continue
+            print(f"Unsupported feed type: {feed_type}")
 
-    for article in feed_articles:
+            continue
 
-        if (
-            article["published"]
-            >= cutoff
-        ):
+        for article in feed_articles:
 
-            articles.append(
-                article
-            )
+            if article["published"] >= cutoff:
 
-    articles = deduplicate(
-        articles
-    )
+                articles.append(article)
 
-    articles.sort(
-        key=lambda x: x[
-            "published"
-        ],
-        reverse=True
-    )
+    articles = deduplicate(articles)
+
+    articles.sort(key=lambda x: x["published"], reverse=True)
 
     output = {
-
-        "generated": datetime.now(
-            timezone.utc
-        ).isoformat(),
-
-        "article_count": len(
-            articles
-        ),
-
-        "days_to_keep":
-            days_to_keep,
-
-        "latest_releases":
-            build_release_summary(
-                articles,
-                max_release_summary
-            ),
-
-        "release_activity":
-            build_release_activity(
-                articles
-            ),
-
-        "categories":
-            build_categories(
-                categories,
-                articles,
-                max_items_per_category
-            )
+        "generated": datetime.now(timezone.utc).isoformat(),
+        "article_count": len(articles),
+        "days_to_keep": days_to_keep,
+        "latest_releases": build_release_summary(articles, max_release_summary),
+        "release_activity": build_release_activity(articles),
+        "categories": build_categories(categories, articles, max_items_per_category),
     }
 
-    Path(
-        OUTPUT_FILE
-    ).parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
+    Path(OUTPUT_FILE).parent.mkdir(parents=True, exist_ok=True)
 
-    with open(
-        OUTPUT_FILE,
-        "w",
-        encoding="utf-8"
-    ) as f:
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
 
-        json.dump(
-            output,
-            f,
-            indent=2
-        )
+        json.dump(output, f, indent=2)
 
-    print(
-        f"Generated {OUTPUT_FILE}"
-    )
+    print(f"Generated {OUTPUT_FILE}")
 
-    print(
-        f"Articles: {len(articles)}"
-    )
+    print(f"Articles: {len(articles)}")
 
 
 if __name__ == "__main__":

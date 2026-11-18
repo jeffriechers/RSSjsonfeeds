@@ -24,7 +24,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install feedparser pyyaml
+          pip install feedparser pyyaml requests beautifulsoup4
 
       - name: Generate JSON
         run: |
