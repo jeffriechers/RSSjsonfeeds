@@ -125,160 +125,153 @@ def fetch_whatsnew_feed(feed):
             "html.parser"
         )
 
-        current_month = None
-        current_month_anchor = ""
-
-        #
-        # Citrix docs use:
-        # h2 = Month
-        # h3 = Feature
-        # b.ph.b.display-inline = Feature
-        #
-
-        elements = soup.select(
-            "h2, h3, b.ph.b.display-inline"
+        month_headers = soup.find_all(
+            "h2"
         )
 
         print(
-            f"Found {len(elements)} elements"
+            f"Found {len(month_headers)} h2 headers"
         )
 
-        for element in elements:
+        for h2 in month_headers:
 
-            text = element.get_text(
+            month_text = h2.get_text(
                 strip=True
             )
 
-            if not text:
-                continue
-
-            heading_id = element.get(
+            month_id = h2.get(
                 "id",
                 ""
             )
 
-            #
-            # H2 = Month Section
-            #
+            month_date = parse_month_id(
+                month_id
+            )
 
-            if element.name == "h2":
+            if not month_date:
 
-                month = parse_month_header(
-                    text
+                month_date = parse_month_header(
+                    month_text
                 )
 
-                if not month:
+            if not month_date:
+                continue
 
-                    month = parse_month_id(
-                        heading_id
+            print(
+                f"Month: {month_text}"
+            )
+
+            current = h2.find_next_sibling()
+
+            while current:
+
+                #
+                # Stop at next month section
+                #
+
+                if (
+                    current.name == "h2"
+                ):
+                    break
+
+                #
+                # H3 entries
+                #
+
+                for entry in current.select(
+                    "h3"
+                ):
+
+                    title = entry.get_text(
+                        strip=True
                     )
 
-                if month:
+                    if len(title) < 5:
+                        continue
 
-                    current_month = month
-                    current_month_anchor = (
-                        heading_id
+                    entry_id = entry.get(
+                        "id",
+                        ""
+                    )
+
+                    article_url = (
+                        feed["url"]
+                    )
+
+                    if entry_id:
+
+                        article_url += (
+                            f"#{entry_id}"
+                        )
+
+                    records.append(
+                        {
+                            "title": title,
+                            "url": article_url,
+                            "published":
+                                month_date,
+                            "source":
+                                feed["name"],
+                            "product":
+                                feed.get(
+                                    "product",
+                                    feed["name"]
+                                ),
+                            "category":
+                                feed[
+                                    "category"
+                                ]
+                        }
                     )
 
                     print(
-                        f"Month: {text}"
+                        f"H3 Entry: {title}"
                     )
 
-                continue
+                #
+                # List entries
+                #
 
-            #
-            # Ignore anything before
-            # first month section
-            #
+                for entry in current.select(
+                    "li"
+                ):
 
-            if not current_month:
-                continue
-
-            #
-            # H3 Article Entries
-            #
-
-            if element.name == "h3":
-
-                article_url = feed["url"]
-
-                if heading_id:
-
-                    article_url += (
-                        f"#{heading_id}"
+                    title = entry.get_text(
+                        " ",
+                        strip=True
                     )
 
-                records.append(
-                    {
-                        "title": text,
-                        "url": article_url,
-                        "published":
-                            current_month,
-                        "source":
-                            feed["name"],
-                        "product":
-                            feed.get(
-                                "product",
+                    if len(title) < 15:
+                        continue
+
+                    records.append(
+                        {
+                            "title": title,
+                            "url":
+                                f"{feed['url']}#{month_id}",
+                            "published":
+                                month_date,
+                            "source":
                                 feed["name"],
-                            ),
-                        "category":
-                            feed["category"],
-                    }
-                )
-
-                print(
-                    f"H3 Entry: {text}"
-                )
-
-                continue
-
-            #
-            # Citrix inline bold entries
-            #
-
-            if (
-                element.name == "b"
-                and "display-inline"
-                in element.get(
-                    "class",
-                    []
-                )
-            ):
-
-                if len(text) < 5:
-                    continue
-
-                article_url = feed["url"]
-
-                if current_month_anchor:
-
-                    article_url += (
-                        f"#{current_month_anchor}"
+                            "product":
+                                feed.get(
+                                    "product",
+                                    feed["name"]
+                                ),
+                            "category":
+                                feed[
+                                    "category"
+                                ]
+                        }
                     )
 
-                records.append(
-                    {
-                        "title": text,
-                        "url": article_url,
-                        "published":
-                            current_month,
-                        "source":
-                            feed["name"],
-                        "product":
-                            feed.get(
-                                "product",
-                                feed["name"],
-                            ),
-                        "category":
-                            feed["category"],
-                    }
-                )
+                    print(
+                        f"LI Entry: {title}"
+                    )
 
-                print(
-                    f"B Entry: {text}"
+                current = (
+                    current.find_next_sibling()
                 )
-
-                continue
 
         print(
             f"Parsed {len(records)} entries"
@@ -291,6 +284,7 @@ def fetch_whatsnew_feed(feed):
         )
 
     return records
+
 def fetch_rss_feed(feed):
 
     records = []
