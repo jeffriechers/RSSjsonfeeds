@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T21:37:38.025923+00:00",
-  "article_count": 5103,
+  "generated": "2026-11-18T21:43:46.028260+00:00",
+  "article_count": 5105,
   "days_to_keep": 180,
   "latest_releases": [
     {
@@ -1438,15 +1438,15 @@
           "published": "2026-08-31T00:00:00-04:00"
         },
         {
-          "title": "New - Citrix Workspace app 2603.50 for ChromeOS SDK",
-          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-sdk-260350.html",
+          "title": "New - Citrix Workspace app 2603.50 for ChromeOS",
+          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-260350.html",
           "source": "Citrix Workspace App Updates",
           "product": "Workspace App",
           "published": "2026-08-24T14:30:00-04:00"
         },
         {
-          "title": "New - Citrix Workspace app 2603.50 for ChromeOS",
-          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-260350.html",
+          "title": "New - Citrix Workspace app 2603.50 for ChromeOS SDK",
+          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-sdk-260350.html",
           "source": "Citrix Workspace App Updates",
           "product": "Workspace App",
           "published": "2026-08-24T14:30:00-04:00"
@@ -1508,6 +1508,13 @@
           "published": "2026-08-18T12:00:00-04:00"
         },
         {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
+          "source": "Citrix DaaS Local",
+          "product": "Citrix DaaS",
+          "published": "2026-08-18T00:00:00-04:00"
+        },
+        {
           "title": "New - Linux Virtual Delivery Agent 2507 LTSR, Cumulative Update 2",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/linux-vda-2507-ltsr-cu2.html",
           "source": "Citrix DaaS Local",
@@ -1517,13 +1524,6 @@
         {
           "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2.html",
-          "source": "Citrix DaaS Local",
-          "product": "Citrix DaaS",
-          "published": "2026-08-18T00:00:00-04:00"
-        },
-        {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
           "source": "Citrix DaaS Local",
           "product": "Citrix DaaS",
           "published": "2026-08-18T00:00:00-04:00"
@@ -1586,28 +1586,28 @@
         },
         {
           "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
-          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-25072.html",
-          "source": "Citrix PVS",
-          "product": "Provisioning Services",
-          "published": "2026-08-11T00:00:00-04:00"
-        },
-        {
-          "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
           "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2507-ltsr-cu2.html",
           "source": "Citrix PVS",
           "product": "Provisioning Services",
           "published": "2026-08-11T00:00:00-04:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU4 Update 1",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU4-Update1.html",
+          "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
+          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-25072.html",
+          "source": "Citrix PVS",
+          "product": "Provisioning Services",
+          "published": "2026-08-11T00:00:00-04:00"
+        },
+        {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2203 LTSR CU7 Update 4",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2203-CU7-Update4.html",
           "source": "Citrix DaaS Local",
           "product": "Citrix DaaS",
           "published": "2026-08-07T00:00:00-04:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2203 LTSR CU7 Update 4",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2203-CU7-Update4.html",
+          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU4 Update 1",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU4-Update1.html",
           "source": "Citrix DaaS Local",
           "product": "Citrix DaaS",
           "published": "2026-08-07T00:00:00-04:00"
@@ -1630,7 +1630,22 @@
     },
     "cloud": {
       "title": "Cloud Platform Updates",
-      "items": []
+      "items": [
+        {
+          "title": "Register Cloud Connectors with a registration code",
+          "url": "https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html#register-cloud-connectors-with-a-registration-code",
+          "source": "Citrix Cloud What's New",
+          "product": "Citrix Cloud",
+          "published": "2026-11-01T00:00:00+00:00"
+        },
+        {
+          "title": "Cloud Connector services on Microsoft .NET 10",
+          "url": "https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html#cloud-connector-services-on-microsoft-.net-10",
+          "source": "Citrix Cloud What's New",
+          "product": "Citrix Cloud",
+          "published": "2026-11-01T00:00:00+00:00"
+        }
+      ]
     },
     "blogs": {
       "title": "Product Blogs & Vendor News",
