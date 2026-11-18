@@ -1,0 +1,45 @@
+name: Update RSS Data
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-rss:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          pip install feedparser pyyaml
+
+      - name: Generate JSON
+        run: |
+          python scripts/build-feeds.py
+
+      - name: Commit Changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add docs/data/news.json
+
+          if git diff --cached --quiet; then
+            echo "No RSS changes"
+          else
+            git commit -m "Update RSS data"
+            git push
+          fi
