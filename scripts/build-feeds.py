@@ -18,7 +18,10 @@ OUTPUT_FILE = "data/news.json"
 MONTH_PATTERN = re.compile(
     r"^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}$"
 )
-
+MONTH_ID_PATTERN = re.compile(
+    r'^(january|february|march|april|may|june|july|august|september|october|november|december)-\d{4}$',
+    re.IGNORECASE
+)
 
 def parse_month_header(text):
 
@@ -35,7 +38,29 @@ def parse_month_header(text):
 
         return None
 
+def parse_month_id(id_text):
 
+    if not id_text:
+        return None
+
+    if not MONTH_ID_PATTERN.match(id_text):
+        return None
+
+    try:
+
+        month_name, year = id_text.split("-")
+
+        return datetime.strptime(
+            f"{month_name.title()} {year}",
+            "%B %Y"
+        ).replace(
+            tzinfo=timezone.utc
+        )
+
+    except Exception:
+
+        return None
+    
 def load_config():
     with open(CONFIG_FILE, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
@@ -43,56 +68,110 @@ def load_config():
 
 def parse_date(entry):
 
-    for field in ["published", "updated", "created"]:
+    for field in [
+        "published",
+        "updated",
+        "created"
+    ]:
 
         if field in entry:
 
             try:
-                return parsedate_to_datetime(entry[field])
+
+                dt = parsedate_to_datetime(
+                    entry[field]
+                )
+
+                if dt.tzinfo is None:
+
+                    dt = dt.replace(
+                        tzinfo=timezone.utc
+                    )
+
+                return dt
 
             except Exception:
                 pass
 
-    return datetime.now(timezone.utc)
-
+    return datetime.now(
+        timezone.utc
+    )
 
 def fetch_whatsnew_feed(feed):
 
     records = []
 
-    print(f"Loading What's New page: {feed['name']}")
+    print(
+        f"Loading What's New page: {feed['name']}"
+    )
 
     try:
 
-        headers = {"User-Agent": "Mozilla/5.0 RSS Collector"}
+        headers = {
+            "User-Agent":
+            "Mozilla/5.0 RSS Collector"
+        }
 
-        response = requests.get(feed["url"], headers=headers, timeout=30)
+        response = requests.get(
+            feed["url"],
+            headers=headers,
+            timeout=30
+        )
 
         response.raise_for_status()
 
-        soup = BeautifulSoup(response.text, "html.parser")
+        soup = BeautifulSoup(
+            response.text,
+            "html.parser"
+        )
 
         current_month = None
+        current_anchor = ""
 
-        headings = soup.find_all(["h2", "h3"])
+        headings = soup.find_all("h2")
+
+        print(
+            f"Found {len(headings)} h2 elements"
+        )
 
         for heading in headings:
 
-            text = heading.get_text(strip=True)
+            text = heading.get_text(
+                strip=True
+            )
 
-            month = parse_month_header(text)
+            heading_id = heading.get(
+                "id",
+                ""
+            )
 
             #
-            # Month/Year heading
+            # Detect month section
             #
+
+            month = parse_month_header(
+                text
+            )
+
+            if not month:
+
+                month = parse_month_id(
+                    heading_id
+                )
 
             if month:
 
                 current_month = month
+                current_anchor = heading_id
+
+                print(
+                    f"Month: {text}"
+                )
+
                 continue
 
             #
-            # Ignore headings before
+            # Skip content before
             # first month section
             #
 
@@ -100,26 +179,46 @@ def fetch_whatsnew_feed(feed):
                 continue
 
             #
-            # Create entry
+            # Build direct anchor URL
             #
+
+            article_url = feed["url"]
+
+            if current_anchor:
+
+                article_url += (
+                    f"#{current_anchor}"
+                )
 
             records.append(
                 {
                     "title": text,
-                    "url": feed["url"],
-                    "published": current_month,
-                    "source": feed["name"],
-                    "product": feed.get("product", feed["name"]),
-                    "category": feed["category"],
+                    "url": article_url,
+                    "published":
+                        current_month,
+                    "source":
+                        feed["name"],
+                    "product":
+                        feed.get(
+                            "product",
+                            feed["name"]
+                        ),
+                    "category":
+                        feed["category"]
                 }
             )
 
+        print(
+            f"Parsed {len(records)} entries"
+        )
+
     except Exception as ex:
 
-        print(f"ERROR loading {feed['name']}: {ex}")
+        print(
+            f"ERROR loading {feed['name']}: {ex}"
+        )
 
     return records
-
 
 def fetch_rss_feed(feed):
 
@@ -284,7 +383,12 @@ def main():
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
 
-        json.dump(output, f, indent=2)
+        json.dump(
+    output,
+    f,
+    indent=2,
+    ensure_ascii=False
+)
 
     print(f"Generated {OUTPUT_FILE}")
 
