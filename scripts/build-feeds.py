@@ -421,7 +421,7 @@ def main():
 
     settings = config.get("settings", {})
 
-    days_to_keep = settings.get("days_to_keep", 90)
+    days_to_keep = settings.get("days_to_keep", 180)
 
     max_items_per_category = settings.get("max_items_per_category", 20)
 
@@ -431,8 +431,8 @@ def main():
 
     feeds = config["feeds"]
 
-    #cutoff = datetime.now(timezone.utc) - timedelta(days=days_to_keep)
-    cutoff = datetime.now(timezone.utc) - timedelta(days=365)
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days_to_keep)
+
     articles = []
 
 
@@ -460,7 +460,7 @@ def main():
 
                 articles.append(article)
 
-#    articles = deduplicate(articles)
+    articles = deduplicate(articles)
 
     articles.sort(key=lambda x: x["published"], reverse=True)
 
