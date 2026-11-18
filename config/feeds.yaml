@@ -40,9 +40,13 @@ feeds:
   category: releases
   url: https://www.citrix.com/content/citrix/en_us/downloads/provisioning-services.rss
 
-- name: Citrix NetScaler and Console
+- name: Citrix NetScaler
   category: releases
   url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-adc.rss
+
+- name: Citrix NetScaler Console
+  category: releases
+  url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-application-management.rss
 
 - name: Citrix ZTNA
   category: releases
@@ -58,6 +62,26 @@ feeds:
 - name: Citrix Tech Zone Blogs
   category: news
   url: https://community.citrix.com/rss/3-citrix-tech-zone-blogs.xml
+
+- name: Citrix CVE
+  category: security
+  url: https://cve.assurestart.co/api/feed.xml?term=Citrix
+
+- name: Microsoft CVE
+  category: security
+  url: https://cve.assurestart.co/api/feed.xml?term=Microsoft
+
+- name: Nutanix CVE
+  category: security
+  url: https://cve.assurestart.co/api/feed.xml?term=Nutanix
+
+- name: Omnissa CVE
+  category: security
+  url: https://cve.assurestart.co/api/feed.xml?term=Omnissa
+
+- name: VMWare CVE
+  category: security
+  url: https://cve.assurestart.co/api/feed.xml?term=VMWare
 
 settings:
   days_to_keep: 90
