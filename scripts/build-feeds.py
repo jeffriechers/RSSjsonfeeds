@@ -161,16 +161,20 @@ def fetch_whatsnew_feed(feed):
                 f"Month: {month_text}"
             )
 
-            current = h2.find_next_sibling()
+                        #
+            # Walk through everything after this H2
+            # until the next H2 month section.
+            #
 
-            while current:
+            for current in h2.next_elements:
 
                 #
-                # Stop at next month section
+                # Stop at the next month section
                 #
 
                 if (
-                    current.name == "h2"
+                    getattr(current, "name", None) == "h2"
+                    and current is not h2
                 ):
                     break
 
@@ -178,25 +182,21 @@ def fetch_whatsnew_feed(feed):
                 # H3 entries
                 #
 
-                for entry in current.select(
-                    "h3"
-                ):
+                if getattr(current, "name", None) == "h3":
 
-                    title = entry.get_text(
+                    title = current.get_text(
                         strip=True
                     )
 
                     if len(title) < 5:
                         continue
 
-                    entry_id = entry.get(
+                    entry_id = current.get(
                         "id",
                         ""
                     )
 
-                    article_url = (
-                        feed["url"]
-                    )
+                    article_url = feed["url"]
 
                     if entry_id:
 
@@ -208,19 +208,13 @@ def fetch_whatsnew_feed(feed):
                         {
                             "title": title,
                             "url": article_url,
-                            "published":
-                                month_date,
-                            "source":
-                                feed["name"],
-                            "product":
-                                feed.get(
-                                    "product",
-                                    feed["name"]
-                                ),
-                            "category":
-                                feed[
-                                    "category"
-                                ]
+                            "published": month_date,
+                            "source": feed["name"],
+                            "product": feed.get(
+                                "product",
+                                feed["name"]
+                            ),
+                            "category": feed["category"]
                         }
                     )
 
@@ -232,16 +226,14 @@ def fetch_whatsnew_feed(feed):
                 # List entries
                 #
 
-                for entry in current.select(
-                    "li"
-                ):
+                elif getattr(current, "name", None) == "li":
 
-                    title = entry.get_text(
+                    title = current.get_text(
                         " ",
                         strip=True
                     )
 
-                    if len(title) < 15:
+                    if len(title) < 10:
                         continue
 
                     records.append(
@@ -249,29 +241,19 @@ def fetch_whatsnew_feed(feed):
                             "title": title,
                             "url":
                                 f"{feed['url']}#{month_id}",
-                            "published":
-                                month_date,
-                            "source":
-                                feed["name"],
-                            "product":
-                                feed.get(
-                                    "product",
-                                    feed["name"]
-                                ),
-                            "category":
-                                feed[
-                                    "category"
-                                ]
+                            "published": month_date,
+                            "source": feed["name"],
+                            "product": feed.get(
+                                "product",
+                                feed["name"]
+                            ),
+                            "category": feed["category"]
                         }
                     )
 
                     print(
                         f"LI Entry: {title}"
                     )
-
-                current = (
-                    current.find_next_sibling()
-                )
 
         print(
             f"Parsed {len(records)} entries"
