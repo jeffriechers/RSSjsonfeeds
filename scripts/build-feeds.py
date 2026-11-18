@@ -126,31 +126,42 @@ def fetch_whatsnew_feed(feed):
         )
 
         current_month = None
+        current_month_anchor = ""
 
-        headings = soup.find_all(
-            ["h2", "h3"]
+        #
+        # Citrix docs use:
+        # h2 = Month
+        # h3 = Feature
+        # b.ph.b.display-inline = Feature
+        #
+
+        elements = soup.select(
+            "h2, h3, b.ph.b.display-inline"
         )
 
         print(
-            f"Found {len(headings)} headings"
+            f"Found {len(elements)} elements"
         )
 
-        for heading in headings:
+        for element in elements:
 
-            text = heading.get_text(
+            text = element.get_text(
                 strip=True
             )
 
-            heading_id = heading.get(
+            if not text:
+                continue
+
+            heading_id = element.get(
                 "id",
                 ""
             )
 
             #
-            # Month section (h2)
+            # H2 = Month Section
             #
 
-            if heading.name == "h2":
+            if element.name == "h2":
 
                 month = parse_month_header(
                     text
@@ -165,6 +176,9 @@ def fetch_whatsnew_feed(feed):
                 if month:
 
                     current_month = month
+                    current_month_anchor = (
+                        heading_id
+                    )
 
                     print(
                         f"Month: {text}"
@@ -173,13 +187,18 @@ def fetch_whatsnew_feed(feed):
                 continue
 
             #
-            # Article entries (h3)
+            # Ignore anything before
+            # first month section
             #
 
-            if heading.name == "h3":
+            if not current_month:
+                continue
 
-                if not current_month:
-                    continue
+            #
+            # H3 Article Entries
+            #
+
+            if element.name == "h3":
 
                 article_url = feed["url"]
 
@@ -200,12 +219,66 @@ def fetch_whatsnew_feed(feed):
                         "product":
                             feed.get(
                                 "product",
-                                feed["name"]
+                                feed["name"],
                             ),
                         "category":
-                            feed["category"]
+                            feed["category"],
                     }
                 )
+
+                print(
+                    f"H3 Entry: {text}"
+                )
+
+                continue
+
+            #
+            # Citrix inline bold entries
+            #
+
+            if (
+                element.name == "b"
+                and "display-inline"
+                in element.get(
+                    "class",
+                    []
+                )
+            ):
+
+                if len(text) < 5:
+                    continue
+
+                article_url = feed["url"]
+
+                if current_month_anchor:
+
+                    article_url += (
+                        f"#{current_month_anchor}"
+                    )
+
+                records.append(
+                    {
+                        "title": text,
+                        "url": article_url,
+                        "published":
+                            current_month,
+                        "source":
+                            feed["name"],
+                        "product":
+                            feed.get(
+                                "product",
+                                feed["name"],
+                            ),
+                        "category":
+                            feed["category"],
+                    }
+                )
+
+                print(
+                    f"B Entry: {text}"
+                )
+
+                continue
 
         print(
             f"Parsed {len(records)} entries"
