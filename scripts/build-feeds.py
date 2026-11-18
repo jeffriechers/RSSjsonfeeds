@@ -109,7 +109,7 @@ def fetch_whatsnew_feed(feed):
 
         headers = {
             "User-Agent":
-            "Mozilla/5.0 RSS Collector"
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
         }
 
         response = requests.get(
@@ -126,12 +126,13 @@ def fetch_whatsnew_feed(feed):
         )
 
         current_month = None
-        current_anchor = ""
 
-        headings = soup.find_all("h2")
+        headings = soup.find_all(
+            ["h2", "h3"]
+        )
 
         print(
-            f"Found {len(headings)} h2 elements"
+            f"Found {len(headings)} headings"
         )
 
         for heading in headings:
@@ -146,67 +147,65 @@ def fetch_whatsnew_feed(feed):
             )
 
             #
-            # Detect month section
+            # Month section (h2)
             #
 
-            month = parse_month_header(
-                text
-            )
+            if heading.name == "h2":
 
-            if not month:
-
-                month = parse_month_id(
-                    heading_id
+                month = parse_month_header(
+                    text
                 )
 
-            if month:
+                if not month:
 
-                current_month = month
-                current_anchor = heading_id
+                    month = parse_month_id(
+                        heading_id
+                    )
 
-                print(
-                    f"Month: {text}"
-                )
+                if month:
+
+                    current_month = month
+
+                    print(
+                        f"Month: {text}"
+                    )
 
                 continue
 
             #
-            # Skip content before
-            # first month section
+            # Article entries (h3)
             #
 
-            if not current_month:
-                continue
+            if heading.name == "h3":
 
-            #
-            # Build direct anchor URL
-            #
+                if not current_month:
+                    continue
 
-            article_url = feed["url"]
+                article_url = feed["url"]
 
-            if current_anchor:
+                if heading_id:
 
-                article_url += (
-                    f"#{current_anchor}"
+                    article_url += (
+                        f"#{heading_id}"
+                    )
+
+                records.append(
+                    {
+                        "title": text,
+                        "url": article_url,
+                        "published":
+                            current_month,
+                        "source":
+                            feed["name"],
+                        "product":
+                            feed.get(
+                                "product",
+                                feed["name"]
+                            ),
+                        "category":
+                            feed["category"]
+                    }
                 )
-
-            records.append(
-                {
-                    "title": text,
-                    "url": article_url,
-                    "published":
-                        current_month,
-                    "source":
-                        feed["name"],
-                    "product":
-                        feed.get(
-                            "product",
-                            feed["name"]
-                        ),
-                    "category":
-                        feed["category"]
-                }
-            )
 
         print(
             f"Parsed {len(records)} entries"
@@ -219,7 +218,6 @@ def fetch_whatsnew_feed(feed):
         )
 
     return records
-
 def fetch_rss_feed(feed):
 
     records = []
