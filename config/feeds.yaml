@@ -89,5 +89,5 @@ feeds:
 
 settings:
   days_to_keep: 90
-  max_items_per_category: 25
+  max_items_per_category: 100
   max_release_summary: 10
