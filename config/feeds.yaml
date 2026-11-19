@@ -23,7 +23,7 @@ categories:
   title: Community & Open Source
 
 - id: chocolatey
-  title: Chocolatey Packages update
+  title: Chocolatey Packages
 
 feeds:
 
@@ -40,6 +40,8 @@ feeds:
   - googlechrome
   - wireshark
   - firefox
+  - adobereader
+  - vmware-tools
 
 #
 # Citrix Releases
