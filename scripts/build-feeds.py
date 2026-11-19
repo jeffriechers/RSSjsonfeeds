@@ -6,6 +6,7 @@ import yaml  # type: ignore[import-not-found]
 import feedparser  # type: ignore[import-not-found]
 import requests  # type: ignore[import-not-found]
 import re
+import html
 
 from bs4 import BeautifulSoup  # type: ignore[import-not-found]
 from pathlib import Path
@@ -170,11 +171,16 @@ def fetch_nerdio_feed(feed):
 
     article = response.json()["article"]
 
-    soup = BeautifulSoup(
-        article["body"],
-        "html.parser"
+    decoded_body = html.unescape(article["body"])
+
+    soup = BeautifulSoup(decoded_body,"html.parser")
+    print(
+        f"Found {len(soup.find_all('h2'))} h2 tags"
     )
 
+    print(
+        f"Found {len(soup.find_all('li'))} li tags"
+    )
     current_version = ""
     current_date = datetime.strptime(
         article["updated_at"],
