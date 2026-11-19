@@ -209,7 +209,13 @@ def fetch_whatsnew_feed(feed):
             timeout=30,
             allow_redirects=True
         )
+        print(
+           f"Status Code: {response.status_code}"
+        )
 
+        print(
+          f"Final URL: {response.url}"
+        )
         response.raise_for_status()
 
         soup = BeautifulSoup(
