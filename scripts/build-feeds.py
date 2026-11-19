@@ -154,6 +154,18 @@ def fetch_nerdio_feed(feed):
         timeout=30
     )
 
+    print(
+        f"Status: {response.status_code}"
+    )
+
+    print(
+        f"Content Type: {response.headers.get('content-type')}"
+    )
+
+    print(
+        response.text[:1000]
+    )
+
     response.raise_for_status()
 
     article = response.json()["article"]
