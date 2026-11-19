@@ -1,17 +1,8 @@
 {
-  "generated": "2026-11-19T15:08:37.895635+00:00",
+  "generated": "2026-11-19T15:15:51.068728+00:00",
   "article_count": 5287,
   "days_to_keep": 365,
   "latest_releases": [
-    {
-      "title": "wireshark",
-      "version": "4.6.10",
-      "summary": "Wireshark",
-      "url": "https://community.chocolatey.org/packages/wireshark/4.6.10",
-      "source": "Chocolatey Packages",
-      "product": "wireshark",
-      "published": "2026-11-18T22:22:42+00:00"
-    },
     {
       "title": "What's new in Azure Virtual Desktop? - Azure - Azure Virtual Desktop",
       "version": "",
@@ -20,15 +11,6 @@
       "source": "Microsoft FSLogix",
       "product": "FSLogix",
       "published": "2026-11-17T18:25:00+00:00"
-    },
-    {
-      "title": "Firefox",
-      "version": "160.0.1",
-      "summary": "Bringing together all kinds of awesomeness to make browsing better for you",
-      "url": "https://community.chocolatey.org/packages/Firefox/160.0.1",
-      "source": "Chocolatey Packages",
-      "product": "Firefox",
-      "published": "2026-11-17T18:13:48+00:00"
     },
     {
       "title": "New - Download UniconOS 2603 LTSR CU2",
@@ -62,6 +44,42 @@
       "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-131-FIPS.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler CPX Release (Maintenance Phase) 14.1 Build 73.58",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-58.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler Release (Maintenance Phase) 14.1 Build 73.58",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-58.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
@@ -103,73 +121,10 @@
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
       "title": "New - NetScaler VPX FIPS Release 14.1 Build 73.58",
       "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-141-73-58-fips.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler CPX Release (Maintenance Phase) 14.1 Build 73.58",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-58.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler Release (Maintenance Phase) 14.1 Build 73.58",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-58.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
@@ -227,6 +182,726 @@
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler FIPS Release 13.1 Build 37.293",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-131-build-37293.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for GCP",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-64-39.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for AWS",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-64-39.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for Azure",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-64-39.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for GCP",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-37-293.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler Console Release (Maintenance Phase) 14.1 Build 74.34",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-application-management/product-software/citrix-adm-14-1-build-74-34.html",
+      "source": "Citrix NetScaler Console",
+      "product": "NetScaler Console",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - Download UniconOS Management (Scout)",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Scout-Elias/Scout.html",
+      "source": "Citrix UniconOS",
+      "product": "UniconOS",
+      "published": "2026-11-11T18:00:00-05:00"
+    },
+    {
+      "title": "FSLogix Release Notes - FSLogix",
+      "version": "",
+      "summary": "",
+      "url": "https://learn.microsoft.com/en-us/fslogix/overview-release-notes",
+      "source": "Microsoft FSLogix",
+      "product": "FSLogix",
+      "published": "2026-11-04T03:30:00+00:00"
+    },
+    {
+      "title": "New - Citrix Audio Diagnostic Tool",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-tools/citrixtoolspage/CitrixAudioDiagnosticTool.html",
+      "source": "Citrix Tools",
+      "product": "Citrix Tools",
+      "published": "2026-11-03T13:30:00-05:00"
+    },
+    {
+      "title": "New - Browser Content Redirection",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/browser-content-redirection-mac/bcr-files.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-11-01T11:00:00-05:00"
+    },
+    {
+      "title": "New - Download Scout Cloud Gateway",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Scout-Elias/Scout-Cloud-Gateway.html",
+      "source": "Citrix UniconOS",
+      "product": "UniconOS",
+      "published": "2026-10-30T19:00:00-04:00"
+    },
+    {
+      "title": "New - Virtual Channel SDKs",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/virtual-channel-sdks/virtual-channel-sdk.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-10-30T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2608 for Linux",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/linux/workspace-app-for-linux-latest.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-10-30T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app for Linux - Certificate Identity Declaration SDK -2608",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-certificate-identity-declaration-sdk-2608.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-10-30T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2608",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk-2608.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-10-30T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app for Linux - Credential Insertion SDK - 2608",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-credential-insertion-sdk-2608.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-10-30T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix LTSR Assistant Tool",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-tools/citrixtoolspage/CitrixLTSRAssistantTool.html",
+      "source": "Citrix Tools",
+      "product": "Citrix Tools",
+      "published": "2026-10-27T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2610 for Windows",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-10-21T00:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix DaaS MCP Server Local - Tech Preview",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/citrix-daas-mcp-local.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-10-19T12:00:00-04:00"
+    },
+    {
+      "title": "New - Session Recording 2609",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/session-recording-2609.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-10-15T12:00:00-04:00"
+    },
+    {
+      "title": "New - Download UniconOS (eLux) Migration Tools",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Scout-Tool/eLux_Migration_Tools.html",
+      "source": "Citrix UniconOS",
+      "product": "UniconOS",
+      "published": "2026-10-13T18:00:00-04:00"
+    },
+    {
+      "title": "New - Download StickWizz",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Scout-Tool/StickWizz.html",
+      "source": "Citrix UniconOS",
+      "product": "UniconOS",
+      "published": "2026-10-13T18:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2607 for ChromeOS",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/chrome/workspace-app-for-chrome-latest.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-10-13T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2607 for ChromeOS SDK",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/chrome/workspace-app-for-chrome-sdk-latest.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-10-13T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2607 for HTML5",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/html5/workspace-app-for-html5-latest.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-10-13T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2607 for HTML5 SDK",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/html5/workspace-app-for-html5-sdk-latest.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-10-13T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app for Windows LTSR 2507.1 Cumulative Update 3 Hotfix 1",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/workspace-app-for-windows-long-term-service-release/workspace-app-for-windows-LTSR-Latest.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-10-06T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app for Windows LTSR 2607 Hotfix 1",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/workspace-app-for-windows-long-term-service-release/workspace-app-for-windows-LTSR-Latest1.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-10-06T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2607 for Android",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/android/workspace-app-for-android.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-09-28T14:30:00-04:00"
+    },
+    {
+      "title": "New - Fast Connect API for Citrix Workspace app 2603.20 for Windows",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/fast-connect-sdks/fast-connect-api-2603-20.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-09-28T00:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2603.20 for Windows - Certificate Identity Declaration SDK",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/Windows-sdks/windows-certificate-identity-declaration-sdk-2603-20.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-09-28T00:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2603.20 for Windows",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest-2603-20.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-09-28T00:00:00-04:00"
+    },
+    {
+      "title": "New - Download ELIAS",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Scout-Elias/Elias.html",
+      "source": "Citrix UniconOS",
+      "product": "UniconOS",
+      "published": "2026-09-25T18:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2609 for iOS",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/ios/workspace-app-for-ios.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-09-25T14:30:00-04:00"
+    },
+    {
+      "title": "New - Download UniconOS 2607.2",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Software-Packages/eLux-Software-Packages-CR1.html",
+      "source": "Citrix UniconOS",
+      "product": "UniconOS",
+      "published": "2026-09-25T14:30:00-04:00"
+    },
+    {
+      "title": "New - Download CWA 2608 EAR",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/Elux-Download-Pages/EARDownloads/DownloadCWAEAR.html",
+      "source": "Citrix UniconOS",
+      "product": "UniconOS",
+      "published": "2026-09-24T14:30:00-04:00"
+    },
+    {
+      "title": "New - Browser Content Redirection Download Files",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/browser-content-redirection-windows/bcr-files.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-09-22T00:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2609 for Mac",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/mac/workspace-app-for-mac-latest.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-09-17T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2603.60 for ChromeOS",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-260360.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-09-17T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2603.60 for ChromeOS SDK",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-sdk-260360.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-09-17T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace App for Isolated Web Apps - Tech Preview",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/betas-and-tech-previews/workspace-app-tp-iwa.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-09-10T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Always on Tracing  Log Server",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-tools/citrixtoolspage/CitrixAlwaysOnTracing-LogServer-2507CU1.html",
+      "source": "Citrix Tools",
+      "product": "Citrix Tools",
+      "published": "2026-09-10T14:30:00-04:00"
+    },
+    {
+      "title": "New - NetScaler SDX Bundle (Maintenance Phase) 13.1-64.22",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/service-delivery-appliances/sdx-bundle-13-1-64-22.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-09-03T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Virtual Delivery Agent for macOS 2607",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/mac-vda-2607.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-09-03T12:00:00-04:00"
+    },
+    {
+      "title": "New - Linux Virtual Delivery Agent 2607",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/linux-vda-2607.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-09-02T12:00:00-04:00"
+    },
+    {
+      "title": "New - NetScaler Console Release (Maintenance Phase) 14.1 Build 73.36",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-application-management/earlier-versions/citrix-adm-14-1-build-73-36.html",
+      "source": "Citrix NetScaler Console",
+      "product": "NetScaler Console",
+      "published": "2026-09-01T14:30:00-04:00"
+    },
+    {
+      "title": "New - Session Recording Agent for Endpoint Devices 2607",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/session-recording-agent-for-endpoint-devices-2607.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-09-01T12:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app LTSR 2607 for Windows - Certificate Identity Declaration SDK",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/Windows-sdks/windows-certificate-identity-declaration-sdk-2204.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-08-31T00:00:00-04:00"
+    },
+    {
+      "title": "New - Fast Connect API for Citrix Workspace app LTSR 2607 for Windows",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/fast-connect-sdks/fast-connect-api-2607.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-08-31T00:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app for Windows LTSR 2607",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-windows-ltsr/workspace-app-for-windows-LTSR-2607.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-08-31T00:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2603.50 for ChromeOS",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-260350.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-08-24T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2603.50 for ChromeOS SDK",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-sdk-260350.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-08-24T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Infra Monitor",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/Citrix-Infra-Monitor.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-08-20T14:30:00-04:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 63.21",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/vpx-release-13-1-63-21.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-08-19T14:30:00-04:00"
+    },
+    {
+      "title": "New - NetScaler Release (Maintenance Phase) 13.1 Build 63.21",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/release-13-1-build-63-21.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-08-19T14:30:00-04:00"
+    },
+    {
+      "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 63.21",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/blx-13-1-63-21.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-08-19T14:30:00-04:00"
+    },
+    {
+      "title": "New - NetScaler CPX Release (Maintenance Phase) 13.1 Build 63.21",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/cpx-13-1-63-21.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-08-19T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2607 for Mac",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/mac/workspace-app-for-mac-latest2607.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-08-18T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Probe Agent 2607",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/app-probe-agent.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-08-18T12:00:00-04:00"
+    },
+    {
+      "title": "New - Workspace Environment Management 2607",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/workspace-environment-management-2607.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-08-18T12:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-08-18T00:00:00-04:00"
+    },
+    {
+      "title": "New - Linux Virtual Delivery Agent 2507 LTSR, Cumulative Update 2",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/linux-vda-2507-ltsr-cu2.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-08-18T00:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-08-18T00:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Virtual Apps and Desktops 7 2607 LTSR, All Editions",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-alleditions-2607.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-08-18T00:00:00-04:00"
+    },
+    {
+      "title": "New - StoreFront 2507 LTSR,Cumulative Update 2",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-in-2507-ltsr-cu2.html",
+      "source": "Citrix StoreFront Local",
+      "product": "StoreFront",
+      "published": "2026-08-18T00:00:00-04:00"
+    },
+    {
+      "title": "New - StoreFront 2607 LTSR",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-2607.html",
+      "source": "Citrix StoreFront Local",
+      "product": "StoreFront",
+      "published": "2026-08-18T00:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Provisioning 2607 LTSR",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2607.html",
+      "source": "Citrix PVS",
+      "product": "Provisioning Services",
+      "published": "2026-08-18T00:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2604.10 for Linux",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-linux/workspace-app-for-linux-2604-10.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-08-14T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app for Windows LTSR 2507.1 Cumulative Update 3",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-windows-ltsr/workspace-app-for-windows-LTSR-2507-CU3.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-08-13T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2603.11 for Windows",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-windows/workspace-app-for-windows-latest1.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-08-11T00:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-25072.html",
+      "source": "Citrix PVS",
+      "product": "Provisioning Services",
+      "published": "2026-08-11T00:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU4 Update 1",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU4-Update1.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-08-07T00:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Virtual Apps and Desktops 7 2203 LTSR CU7 Update 4",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2203-CU7-Update4.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-08-07T00:00:00-04:00"
+    },
+    {
+      "title": "New - NetScaler SDX Bundle (Maintenance Phase) 14.1-73.30",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/service-delivery-appliances/sdx-bundle-14-1-73-30.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-07-31T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2603.10 for HTML5 SDK",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-html5/workspace-app-for-html5-sdk-260310.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-07-22T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app 2603.10 for HTML5",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-html5/workspace-app-for-html5-260310.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-07-22T14:30:00-04:00"
+    },
+    {
+      "title": "New - Citrix Workspace app for Linux - Certificate Identity Declaration SDK -2604",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-certificate-identity-declaration-sdk-2604.html",
+      "source": "Citrix Workspace App Updates",
+      "product": "Workspace App",
+      "published": "2026-07-17T14:30:00-04:00"
     }
   ],
   "release_activity": [
@@ -265,14 +940,6 @@
     {
       "product": "StoreFront",
       "count": 7
-    },
-    {
-      "product": "wireshark",
-      "count": 1
-    },
-    {
-      "product": "Firefox",
-      "count": 1
     },
     {
       "product": "Secure Private Access",
@@ -1189,15 +1856,6 @@
       "title": "Product Releases & Updates",
       "items": [
         {
-          "title": "wireshark",
-          "version": "4.6.10",
-          "summary": "Wireshark",
-          "url": "https://community.chocolatey.org/packages/wireshark/4.6.10",
-          "source": "Chocolatey Packages",
-          "product": "wireshark",
-          "published": "2026-11-18T22:22:42+00:00"
-        },
-        {
           "title": "What's new in Azure Virtual Desktop? - Azure - Azure Virtual Desktop",
           "version": "",
           "summary": "",
@@ -1205,15 +1863,6 @@
           "source": "Microsoft FSLogix",
           "product": "FSLogix",
           "published": "2026-11-17T18:25:00+00:00"
-        },
-        {
-          "title": "Firefox",
-          "version": "160.0.1",
-          "summary": "Bringing together all kinds of awesomeness to make browsing better for you",
-          "url": "https://community.chocolatey.org/packages/Firefox/160.0.1",
-          "source": "Chocolatey Packages",
-          "product": "Firefox",
-          "published": "2026-11-17T18:13:48+00:00"
         },
         {
           "title": "New - Download UniconOS 2603 LTSR CU2",
@@ -1247,6 +1896,42 @@
           "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-131-FIPS.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler CPX Release (Maintenance Phase) 14.1 Build 73.58",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler Release (Maintenance Phase) 14.1 Build 73.58",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
@@ -1288,73 +1973,10 @@
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
           "title": "New - NetScaler VPX FIPS Release 14.1 Build 73.58",
           "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-141-73-58-fips.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler CPX Release (Maintenance Phase) 14.1 Build 73.58",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-58.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler Release (Maintenance Phase) 14.1 Build 73.58",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-58.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
@@ -1409,6 +2031,33 @@
           "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-37-293.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
@@ -2087,6 +2736,24 @@
           "source": "Citrix Workspace App Updates",
           "product": "Workspace App",
           "published": "2026-07-22T14:30:00-04:00"
+        },
+        {
+          "title": "New - Citrix Workspace app 2603.10 for HTML5",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-html5/workspace-app-for-html5-260310.html",
+          "source": "Citrix Workspace App Updates",
+          "product": "Workspace App",
+          "published": "2026-07-22T14:30:00-04:00"
+        },
+        {
+          "title": "New - Citrix Workspace app for Linux - Certificate Identity Declaration SDK -2604",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-certificate-identity-declaration-sdk-2604.html",
+          "source": "Citrix Workspace App Updates",
+          "product": "Workspace App",
+          "published": "2026-07-17T14:30:00-04:00"
         }
       ]
     },
@@ -2470,7 +3137,26 @@
     },
     "chocolatey": {
       "title": "Chocolatey Packages",
-      "items": []
+      "items": [
+        {
+          "title": "wireshark",
+          "version": "4.6.10",
+          "summary": "Wireshark",
+          "url": "https://community.chocolatey.org/packages/wireshark/4.6.10",
+          "source": "Chocolatey Packages",
+          "product": "wireshark",
+          "published": "2026-11-18T22:22:42+00:00"
+        },
+        {
+          "title": "Firefox",
+          "version": "160.0.1",
+          "summary": "Bringing together all kinds of awesomeness to make browsing better for you",
+          "url": "https://community.chocolatey.org/packages/Firefox/160.0.1",
+          "source": "Chocolatey Packages",
+          "product": "Firefox",
+          "published": "2026-11-17T18:13:48+00:00"
+        }
+      ]
     }
   }
 }
