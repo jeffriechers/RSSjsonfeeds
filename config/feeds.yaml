@@ -136,9 +136,9 @@ feeds:
 - name: Nerdio What's New
   product: Nerdio
   category: cloud
-  type: whatsnew
-  url: https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes
-#
+  type: nerdio
+  url: https://nmehelp.getnerdio.com/api/v2/help_center/articles/19837802929677.json
+
 # Future Citrix Documentation Sources
 #
 # Uncomment as you build the parser

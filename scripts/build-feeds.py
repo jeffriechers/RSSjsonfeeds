@@ -145,7 +145,165 @@ def load_config():
     with open(CONFIG_FILE, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
+def fetch_nerdio_feed(feed):
 
+    records = []
+
+    response = requests.get(
+        feed["url"],
+        timeout=30
+    )
+
+    response.raise_for_status()
+
+    article = response.json()["article"]
+
+    soup = BeautifulSoup(
+        article["body"],
+        "html.parser"
+    )
+
+    current_version = ""
+    current_date = datetime.strptime(
+        article["updated_at"],
+        "%Y-%m-%dT%H:%M:%SZ"
+    ).replace(
+        tzinfo=timezone.utc
+    )
+
+    for h2 in soup.find_all("h2"):
+
+        header_text = h2.get_text(
+            " ",
+            strip=True
+        )
+
+        #
+        # Example:
+        # Current release v8.3.0 Public Preview
+        # (Release date: November 17, 2026)
+        #
+
+        version_match = re.search(
+            r"v(\d+\.\d+\.\d+)",
+            header_text
+        )
+
+        if version_match:
+
+            current_version = (
+                version_match.group(1)
+            )
+
+        #
+        # Extract release date if present
+        #
+
+        date_match = re.search(
+            r"Release date:\s*([^)]+)",
+            header_text
+        )
+
+        if date_match:
+
+            try:
+
+                current_date = (
+                    datetime.strptime(
+                        date_match.group(1).strip(),
+                        "%B %d, %Y"
+                    ).replace(
+                        tzinfo=timezone.utc
+                    )
+                )
+
+            except Exception:
+                pass
+
+        #
+        # Walk this release section
+        #
+
+        for element in h2.next_elements:
+
+            if (
+                getattr(
+                    element,
+                    "name",
+                    None
+                ) == "h2"
+                and element is not h2
+            ):
+                break
+
+            if (
+                getattr(
+                    element,
+                    "name",
+                    None
+                ) == "li"
+            ):
+
+                text = element.get_text(
+                    " ",
+                    strip=True
+                )
+
+                if len(text) < 20:
+                    continue
+
+                bold = element.find(
+                    "strong"
+                )
+
+                if bold:
+
+                    title = (
+                        bold.get_text(
+                            strip=True
+                        )
+                    )
+
+                    summary = (
+                        text.replace(
+                            title,
+                            "",
+                            1
+                        )
+                        .strip()
+                    )
+
+                else:
+
+                    title = (
+                        text[:100]
+                    )
+
+                    summary = text
+
+                records.append(
+                    {
+                        "title": title,
+                        "version":
+                            current_version,
+                        "summary":
+                            summary,
+                        "url":
+                            article[
+                                "html_url"
+                            ],
+                        "published":
+                            current_date,
+                        "source":
+                            feed["name"],
+                        "product":
+                            "Nerdio",
+                        "category":
+                            feed["category"]
+                    }
+                )
+
+    return records
 def parse_date(entry):
 
     for field in [
@@ -560,7 +718,9 @@ def main():
         elif feed_type == "chocolatey":
 
             feed_articles = fetch_chocolatey_feed(feed)
+        elif feed_type == "nerdio":
 
+            feed_articles = fetch_nerdio_feed(feed)
 
         else:
 
