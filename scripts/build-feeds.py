@@ -191,17 +191,17 @@ def fetch_whatsnew_feed(feed):
             "User-Agent": (
                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/131.0.0.0 Safari/537.36"
-             ),
-    "Accept": (
-        "text/html,application/xhtml+xml,"
-        "application/xml;q=0.9,image/avif,"
-        "image/webp,*/*;q=0.8"
-    ),
-    "Accept-Language": "en-US,en;q=0.9",
-    "Referer": "https://nmehelp.getnerdio.com/",
-    "Cache-Control": "no-cache",
-}
+               "Chrome/131.0.0.0 Safari/537.36"
+                ),
+            "Accept": (
+                "text/html,application/xhtml+xml,"
+                "application/xml;q=0.9,image/avif,"
+                "image/webp,*/*;q=0.8"
+                ),
+            "Accept-Language": "en-US,en;q=0.9",
+            "Referer": "https://nmehelp.getnerdio.com/",
+            "Cache-Control": "no-cache",
+            }
 
         response = requests.get(
             feed["url"],
@@ -209,13 +209,21 @@ def fetch_whatsnew_feed(feed):
             timeout=30,
             allow_redirects=True
         )
+
         print(
-           f"Status Code: {response.status_code}"
+            f"Status Code: {response.status_code}"
         )
 
         print(
-          f"Final URL: {response.url}"
+            f"Final URL: {response.url}"
         )
+
+        print("Response Headers:")
+        print(response.headers)
+
+        print("Response Body:")
+        print(response.text[:2000])
+
         response.raise_for_status()
 
         soup = BeautifulSoup(
