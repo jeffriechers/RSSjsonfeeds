@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19T16:49:53.908803+00:00",
-  "article_count": 6250,
+  "generated": "2026-11-19T18:22:52.676725+00:00",
+  "article_count": 5924,
   "days_to_keep": 365,
   "latest_releases": [
     {
@@ -49,10 +49,10 @@
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
+      "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
       "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
@@ -76,46 +76,10 @@
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
-      "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
       "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-13-1-64-39.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler CPX Release (Maintenance Phase) 13.1 Build 64.39",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-13-1-64-39.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler Release (Maintenance Phase) 13.1 Build 64.39",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-13-1-build-64-39.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 64.39",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-13-1-64-39.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
@@ -139,10 +103,19 @@
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
-      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
       "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
@@ -157,10 +130,109 @@
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-13-1-64-39.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
       "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
       "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58-fips.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler Release (Maintenance Phase) 13.1 Build 64.39",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-13-1-build-64-39.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 64.39",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-13-1-64-39.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler CPX Release (Maintenance Phase) 13.1 Build 64.39",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-13-1-64-39.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for GCP",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-64-39.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for Azure",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-64-39.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler FIPS Release 13.1 Build 37.293",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-131-build-37293.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for GCP",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-37-293.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for AWS",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-64-39.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
@@ -179,78 +251,6 @@
       "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-37-293.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler FIPS Release 13.1 Build 37.293",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-131-build-37293.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for GCP",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-64-39.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for AWS",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-64-39.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for Azure",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-64-39.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for GCP",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-37-293.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
@@ -751,15 +751,6 @@
       "published": "2026-08-18T12:00:00-04:00"
     },
     {
-      "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
-      "source": "Citrix DaaS Local",
-      "product": "Citrix DaaS",
-      "published": "2026-08-18T00:00:00-04:00"
-    },
-    {
       "title": "New - Linux Virtual Delivery Agent 2507 LTSR, Cumulative Update 2",
       "version": "",
       "summary": "",
@@ -778,6 +769,15 @@
       "published": "2026-08-18T00:00:00-04:00"
     },
     {
+      "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-08-18T00:00:00-04:00"
+    },
+    {
       "title": "New - Citrix Virtual Apps and Desktops 7 2607 LTSR, All Editions",
       "version": "",
       "summary": "",
@@ -790,7 +790,7 @@
       "title": "New - StoreFront 2507 LTSR,Cumulative Update 2",
       "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-in-2507-ltsr-cu2.html",
+      "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-2507-CU2.html",
       "source": "Citrix StoreFront Local",
       "product": "StoreFront",
       "published": "2026-08-18T00:00:00-04:00"
@@ -1059,7 +1059,7 @@
           "published": "2026-11-17T20:45:50+00:00"
         },
         {
-          "title": "CVE-2026-130904",
+          "title": "[MEDIUM 6.5] CVE-2026-130904",
           "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130904",
@@ -1901,10 +1901,10 @@
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
+          "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
           "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
@@ -1928,46 +1928,10 @@
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
           "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-13-1-64-39.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler CPX Release (Maintenance Phase) 13.1 Build 64.39",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-13-1-64-39.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler Release (Maintenance Phase) 13.1 Build 64.39",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-13-1-build-64-39.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 64.39",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-13-1-64-39.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
@@ -1991,10 +1955,19 @@
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
           "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
@@ -2009,10 +1982,109 @@
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-13-1-64-39.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
           "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
           "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58-fips.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler Release (Maintenance Phase) 13.1 Build 64.39",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-13-1-build-64-39.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 64.39",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-13-1-64-39.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler CPX Release (Maintenance Phase) 13.1 Build 64.39",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-13-1-64-39.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for GCP",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-64-39.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for Azure",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-64-39.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler FIPS Release 13.1 Build 37.293",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-131-build-37293.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for GCP",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-37-293.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for AWS",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-64-39.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
@@ -2031,78 +2103,6 @@
           "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-37-293.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler FIPS Release 13.1 Build 37.293",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-131-build-37293.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for GCP",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-64-39.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for AWS",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-64-39.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for Azure",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-64-39.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for GCP",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-37-293.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
@@ -2603,15 +2603,6 @@
           "published": "2026-08-18T12:00:00-04:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
-          "source": "Citrix DaaS Local",
-          "product": "Citrix DaaS",
-          "published": "2026-08-18T00:00:00-04:00"
-        },
-        {
           "title": "New - Linux Virtual Delivery Agent 2507 LTSR, Cumulative Update 2",
           "version": "",
           "summary": "",
@@ -2630,6 +2621,15 @@
           "published": "2026-08-18T00:00:00-04:00"
         },
         {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
+          "source": "Citrix DaaS Local",
+          "product": "Citrix DaaS",
+          "published": "2026-08-18T00:00:00-04:00"
+        },
+        {
           "title": "New - Citrix Virtual Apps and Desktops 7 2607 LTSR, All Editions",
           "version": "",
           "summary": "",
@@ -2642,7 +2642,7 @@
           "title": "New - StoreFront 2507 LTSR,Cumulative Update 2",
           "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-in-2507-ltsr-cu2.html",
+          "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-2507-CU2.html",
           "source": "Citrix StoreFront Local",
           "product": "StoreFront",
           "published": "2026-08-18T00:00:00-04:00"
@@ -2760,6 +2760,258 @@
     "cloud": {
       "title": "Cloud Platform Updates",
       "items": [
+        {
+          "title": "Increased Azure tag limit for Nutanix resources:",
+          "version": "8.0.2",
+          "summary": "Increased the Azure tag limit from 15 to 50 for Nutanix resources.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "AVD:",
+          "version": "8.0.2",
+          "summary": "\"Desktop Admin\" RBAC Role Error: Resolved an issue in Nutanix-enabled environments where administrators with the \"Desktop Admin\" RBAC role may not have been able to create or update desktop images. Failed Desktop image task when boot diagnostics is enabled: Resolved an issue where, if boot diagnostics was enabled, updating a desktop image may have failed.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "NME Install Terraform Module is Now Public Preview:",
+          "version": "8.0.1",
+          "summary": "Download the latest module at https://github.com/Get-Nerdio/NME-Terraform . Additional Terraform modules for NME management capabilities will be added in future releases.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Console Connect:",
+          "version": "8.0.1",
+          "summary": "UK Region Support: Expanded regional availability to include the UK Region. Updated Favicon: Console Connect favicon now reflects the new Nerdio logo.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "ControlUp",
+          "version": "8.0.1",
+          "summary": "Integration is Now End of Maintenance (EOM): Nerdio's integration with ControlUp will no longer be developed moving forward. Starting with this release, the ControlUp integration settings have been removed for new installations of Nerdio Manager and for any existing deployments where the integration is not configured. Existing deployments where the integration is configured are unaffected, and Nerdio will continue to support the integration, including critical bugfixes.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "AVD Hybrid on Nutanix: Desktop image management support is now available!",
+          "version": "8.0.1",
+          "summary": "",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Device & App Management:",
+          "version": "8.0.1",
+          "summary": "Intune & Windows 365: Error when editing Windows 365 items in US Government tenants: Resolved an issue where the error Could not find a property named 'userExperienceType' may be displayed. The user experience type function is not supported by government tenants. This error has been suppressed. Intune User Experience call optimizations: The app service option IntuneUxHistory:Enabled may be added with a value of false to fully disable the user experience history data if desired. Unified App Management: Error when deploying Winget applications which contain unexpected version characters: Resolved an issue where the error No newer package versions are available from the configured sources may be returned during deployment if the application version contains the characters < or >. In this scenario, the source and target version are now treated as identical and no action is taken.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "New Menu & All Features Page:",
+          "version": "",
+          "summary": "Introduced a cleaner, more intuitive three-tier navigational menu. While off by default, users can enable it via the New Menu toggle in the top-left corner. A new All Features page provides a centralized, searchable view of every feature available within Nerdio Manager, and is only accessible when the new menu is enabled.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Localization Support:",
+          "version": "",
+          "summary": "Nerdio Manager is now localized for Japanese. Users can select their desired supported language by clicking on their display name in the upper-right corner. Support for additional languages is coming soon!",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Intune Policy Studio (Public Preview):",
+          "version": "",
+          "summary": "Introduced a new Policy Studio feature that takes Nerdio Manager's Intune policy management capabilities to the next level with two key capabilities: Settings Explorer surfaces Intune policies alongside their settings and assigned values, with real-time search across policy names, settings, and values. Policy Results shows in-scope policies for a selected device or group, with conflict and duplication flags surfaced inline. Note Device configuration policies are supported with this initial release, however some settings may be unavailable. Support for additional Intune policy types is planned.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Intune Script Management:",
+          "version": "",
+          "summary": "The same editing, versioning, back-up, and recovery capabilities that Nerdio Manager offers for Intune policies are now available for Intune platform scripts!",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "AVD Hybrid Support on Nutanix AHV is now Public Preview!",
+          "version": "",
+          "summary": "New features included in this release: Re-image and re-size of session hosts App Attach support Unified Application Management (UAM) support Scripted Actions support Session Time Limits support Custom Views support Please see our AVD Hybrid KB for more details.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "End of Support for AVD Classic.",
+          "version": "",
+          "summary": "Nerdio Manager for Enterprise 8.0 will be the last version that supports AVD Classic tenants and host pools. Microsoft will retire AVD Classic on September 30, 2026. After this date, regardless of which version of Nerdio Manager is deployed, AVD Classic will no longer function. Customers still using AVD Classic should migrate to AVD using the automated process within Nerdio Manager .",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Settings:",
+          "version": "",
+          "summary": "Update Azure Runbook Modules: Added the ability to update selected or all Azure Runbook modules to their latest version directly from the Scripted Actions settings page, simplifying module maintenance across your environment. View Egress Path Status: Added an Egress Path status to the Linked Networks settings page that displays the identified method used for routing internet traffic for each network, allowing quick identification of any networks still relying on legacy default outbound access.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "REST API:",
+          "version": "",
+          "summary": "List Linked Mailboxes and WebHooks : Added new endpoints to retrieve a list of linked mailboxes and a list of linked webhooks. Manage Notifications: Added a new endpoint for managing notifications. Enable/Disable Console Connect Regions: Added new endpoints to enable or disable specific Console Connect regions.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Installer Now Uses Cert-Based Auth:",
+          "version": "",
+          "summary": "New installations of Nerdio Manager now use certificate-based authentication for App Registrations by default, replacing client secrets with a more secure authentication method.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Display UPN:",
+          "version": "",
+          "summary": "The user's UPN is now displayed beneath the display name in the upper-right corner, making it easier to identify the user context of the current session.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Azure Files Settings Refresh:",
+          "version": "",
+          "summary": "The Azure Files settings experience has been redesigned with a tabbed layout, making it easier to navigate and manage configurations.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "FSLogix",
+          "version": "",
+          "summary": "Reset: Changed the default option selected and added a new option, Archive and delete after 30 days , when modifying existing FSLogix profiles.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Scripted Sequences:",
+          "version": "",
+          "summary": "Support for Scripted Actions: Existing Scripted Actions (Windows) may now be added as a task within a Scripted Sequence. Changes to the source script are automatically propagated to the sequence. Cross-Tenant Support: AVD and Intune devices located in linked Intune tenants may now have scripted sequences deployed to them, simplifying the management of Intune devices across a distributed management estate. Note Native Intune applications are not supported with Scripted Sequences. Task Worker Enhancements: Task Worker deployment no longer requires individual scripts and groups per device. Pagination has been added to the Scripted Sequences Executions page and all Task Worker Analytics pages. A tasks tab has been added for Task Worker Analytics , providing extensive reporting on the progress of tasks. A refresh button has been added for Task Worker Analytics , allowing data to be updated on demand.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Unified App Management:",
+          "version": "",
+          "summary": "Nutanix Support: AVD Hybrid on Nutanix environments now support the deployment of applications via policies and ad hoc using the session host context menu. ShellApps Cache Efficiency: The ShellApps cache is now cleared on target desktops on a 7-day rolling schedule to avoid potential storage issues. Search by Application IDs: Application IDs can now be searched for and selected when creating application groups.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Real Time Insights:",
+          "version": "",
+          "summary": "Auto-update Support for Insights Worker: Nerdio Manager now supports auto-update of the Insights Worker (on-device script that collects and sends data used for Real-Time Insights). As the NME version updates, a backend process will automatically update all endpoints with the latest worker. Configurable Log Directory: Added support for a configurable log data directory.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Nerdio Modeler Now Supports GPU SKUs:",
+          "version": "",
+          "summary": "Administrators and prospects can now select a GPU workload type in the Modeler (in-product and online) that surfaces GPU-enabled Azure VM SKUs as the recommended compute options, with contextual guidance on image and driver requirements.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Intune Insights App Metering (Private Preview):",
+          "version": "",
+          "summary": "Introduced a new App Metering feature that allows administrators to review the true usage of applications for in-scope devices within their organization. Review metrics on a per-application basis and drill down into usage details to identify unused applications for license reclamation.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Intune Insights OS and Patch Status showing as ‘Unknown’:",
+          "version": "",
+          "summary": "Devices may fail to report the OS and patch versions correctly, resulting in an unknown status being displayed. This is planned for resolution.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Azure Files \"Smart\" Blob access tier:",
+          "version": "",
+          "summary": "Azure Files storage accounts with the \"Smart\" blob access tier set as the default will not appear in Nerdio Manager. We will support this access tier in an upcoming release.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Console Connect Regions:",
+          "version": "",
+          "summary": "Enabling or changing Console Connect regions may result in an error in the 8.0 Public Preview release. Previous versions are not impacted. This will be resolved in the upcoming GA release.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "Removed ability to migrate to different resource group:",
+          "version": "",
+          "summary": "The option to move a VM to a different Azure resource group during AVD migration has been removed due to resource group lock conflicts affecting both source and destination groups. This feature is being refactored and will be re-introduced in a future release.",
+          "url": "https://nmehelp.getnerdio.com/hc/en-us/articles/19837802929677-Release-Notes",
+          "source": "Nerdio What's New",
+          "product": "Nerdio",
+          "published": "2026-11-19T17:28:21+00:00"
+        },
         {
           "title": "[In preview] Public Preview: AI bot ruleset for Azure Front Door Premium WAF",
           "version": "",
@@ -3404,258 +3656,6 @@
           "version": "",
           "summary": "",
           "url": "https://azure.microsoft.com/updates?id=580261",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[In preview] Public Preview: Azure Monitor traces and Trace Analytics",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=580184",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Azure Red Hat OpenShift with hosted control planes",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=580136",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Azure AI Gateway",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=580080",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Microsoft Agent 365 integration with Azure API Management and Azure AI Gateway",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=580055",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Azure API Management Premium v2",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=580046",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Azure Connector Namespace",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=580041",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Unified Model API in Azure API Management",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=580036",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available:  Azure HorizonDB now integrates with Azure Advisor",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579938",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Azure HorizonDB Monitoring via Alerts",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579933",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Azure HorizonDB Auditing",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579928",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Azure Multicloud Interconnect new cloud service provider support",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579766",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Microsoft Foundry Support for Business Applications in Work IQ",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579680",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[In preview] Public Preview: Azure SQL Database container provisioning in SQL Server Management Studio",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579665",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Improved Apache AGE graph query and ingestion performance on Azure HorizonDB",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579660",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[In preview] Public Preview: Azure Application Gateway confidential compute support",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579649",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[In preview] Public Preview: Migrate Oracle databases to Azure Database for PostgreSQL using Azure Database Migration Service",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579607",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[In preview] Public Preview: Build Knowledge Graphs with AI pipeline in Azure HorizonDB",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579602",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Azure HorizonDB Generic Log Analytics Integration",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579574",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[In preview] Public Preview: Encryption at rest with customer-managed keys in Azure HorizonDB",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579540",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Transparent data encryption (TDE) in Azure SQL Database AES keys",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579531",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[In preview] Public Preview: Build with Azure SQL Database container locally without an Azure subscription or credit card",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579525",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Managed Connectors in Azure Functions",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579440",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[In preview] Public Preview: Bring-your-own image and Cosmos DB MCP server in Azure Connector Namespace hosted MCP​",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579435",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Azure HorizonDB",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579388",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Symmetric keys on Azure Key Vault Premium",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579374",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[In preview] Public Preview: Azure Files NFS shares on HDD",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579369",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[In preview] Public Preview: Azure SQL updates for mid-November 2026",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579359",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Azure DocumentDB elasticity—query from any node",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=579354",
           "source": "Azure Updates",
           "product": "Azure Tech Zone",
           "published": "2026-11-17T20:00:32+00:00"
