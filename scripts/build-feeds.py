@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
+# cSpell:ignore winscp whatsnew KHTML Referer
 
 import json
-import yaml
-import feedparser
-import requests
+import yaml  # type: ignore[import-not-found]
+import feedparser  # type: ignore[import-not-found]
+import requests  # type: ignore[import-not-found]
 import re
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup  # type: ignore[import-not-found]
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
@@ -187,9 +188,20 @@ def fetch_whatsnew_feed(feed):
     try:
 
         headers = {
-            "User-Agent":
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-        }
+            "User-Agent": (
+               "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+               "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/131.0.0.0 Safari/537.36"
+             ),
+    "Accept": (
+        "text/html,application/xhtml+xml,"
+        "application/xml;q=0.9,image/avif,"
+        "image/webp,*/*;q=0.8"
+    ),
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://nmehelp.getnerdio.com/",
+    "Cache-Control": "no-cache",
+}
 
         response = requests.get(
             feed["url"],
