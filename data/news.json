@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19T15:32:52.943466+00:00",
-  "article_count": 5439,
+  "generated": "2026-11-19T16:00:57.160301+00:00",
+  "article_count": 5636,
   "days_to_keep": 365,
   "latest_releases": [
     {
@@ -844,7 +844,7 @@
       "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
       "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2507-ltsr-cu2.html",
+      "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-25072.html",
       "source": "Citrix PVS",
       "product": "Provisioning Services",
       "published": "2026-08-11T00:00:00-04:00"
@@ -2696,7 +2696,7 @@
           "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
           "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2507-ltsr-cu2.html",
+          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-25072.html",
           "source": "Citrix PVS",
           "product": "Provisioning Services",
           "published": "2026-08-11T00:00:00-04:00"
@@ -2761,58 +2761,904 @@
       "title": "Cloud Platform Updates",
       "items": [
         {
-          "title": "Register Cloud Connectors with a registration code",
+          "title": "[In preview] Public Preview: AI bot ruleset for Azure Front Door Premium WAF",
           "version": "",
           "summary": "",
-          "url": "https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html#register-cloud-connectors-with-a-registration-code",
-          "source": "Citrix Cloud What's New",
-          "product": "Citrix Cloud",
-          "published": "2026-11-01T00:00:00+00:00"
+          "url": "https://azure.microsoft.com/updates?id=581604",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-18T18:27:29+00:00"
         },
         {
-          "title": "Cloud Connector services on Microsoft .NET 10",
+          "title": "Announcing: The new Azure Databricks on Azure Government is now in Beta",
           "version": "",
           "summary": "",
-          "url": "https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html#cloud-connector-services-on-microsoft-.net-10",
-          "source": "Citrix Cloud What's New",
-          "product": "Citrix Cloud",
-          "published": "2026-11-01T00:00:00+00:00"
+          "url": "https://azure.microsoft.com/updates?id=581645",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-18T18:01:03+00:00"
         },
         {
-          "title": "Licensing for Citrix Platform Flex",
+          "title": "[Launched] Generally Available: Cross-subscription backup for Azure Virtual Machines in Azure Backup",
           "version": "",
-          "summary": "Citrix Platform Flex is a managed, cloud‑delivered platform designed to provide secure, resilient, and flexible delivery of digital stores and platform services across clouds. For more information, see: Licensing for Citrix Platform Flex Flex Credit consumption and reporting",
-          "url": "https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html#may-2026",
-          "source": "Citrix Cloud What's New",
-          "product": "Citrix Cloud",
-          "published": "2026-05-01T00:00:00+00:00"
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581048",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-18T18:00:04+00:00"
         },
         {
-          "title": "Configurable inactivity timeout for console",
+          "title": "[In preview] Public Preview: AI-powered application and database modernization with Modernize CLI",
           "version": "",
-          "summary": "Full-access administrators can now configure the duration of inactivity on the Citrix Cloud console before administrators are automatically signed out. The configurable inactivity timeout ranges from 10 minutes to 12 hours, with a default of 60 minutes. For more information, see System and Connectivity Requirements .",
-          "url": "https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html#april-2026",
-          "source": "Citrix Cloud What's New",
-          "product": "Citrix Cloud",
-          "published": "2026-04-01T00:00:00+00:00"
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579943",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-18T17:58:45+00:00"
         },
         {
-          "title": "Conditional Authentication enhancements",
+          "title": "[In preview] Public Preview: Immutable snapshots for Azure Disk Storage",
           "version": "",
-          "summary": "Conditional Authentication now supports additional identity providers and policy conditions. For more information, see Conditional Authentication .",
-          "url": "https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html#april-2026",
-          "source": "Citrix Cloud What's New",
-          "product": "Citrix Cloud",
-          "published": "2026-04-01T00:00:00+00:00"
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581503",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-18T00:00:09+00:00"
         },
         {
-          "title": "SAML using Entra ID for Guest and B2B identities",
+          "title": "Announcing: Azure Boost observability for NVMe disks",
           "version": "",
-          "summary": "Citrix Cloud now supports store authentication for guest and B2B user identities using Entra ID as a SAML provider. For more information, see SAML using Entra ID for Guest and B2B identities for store authentication .",
-          "url": "https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html#january-2026",
-          "source": "Citrix Cloud What's New",
-          "product": "Citrix Cloud",
-          "published": "2026-01-01T00:00:00+00:00"
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581227",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-18T00:00:09+00:00"
+        },
+        {
+          "title": "Generally Available: Cobalt 200 Arm-based Dplsv7, Dpsv7, Epsv7, Mpsv4, and Lpsv5-series Virtual Machines",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581298",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T23:55:53+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Intel and AMD v6 with temp disk for Azure Database for PostgreSQL",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579590",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T23:52:49+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Intel and AMD v5 diskless tier for Azure Database for PostgreSQL",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579595",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T23:51:44+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Cobalt 200 compute for Azure Database for PostgreSQL",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579585",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T23:50:40+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Geo-redundant backup and restore for Azure HorizonDB",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=574168",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T23:47:55+00:00"
+        },
+        {
+          "title": "[In preview] Generally Available: Customize backup retention from 1 to 35 days in Azure HorizonDB",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=574163",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T23:46:26+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Throughput buckets in Azure Cosmos DB",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=571488",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T23:44:26+00:00"
+        },
+        {
+          "title": "[In preview] Limited Preview: AI model management in Azure HorizonDB",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=563097",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T23:42:10+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Semantic Reranker in Azure Cosmos DB",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=577520",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T23:07:42+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Pod Sandboxing kata-vm-isolation-v2 runtime class",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581120",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T23:00:02+00:00"
+        },
+        {
+          "title": "[In preview] Pulic Preview: Azure Elastic SAN Next Generation",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581634",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T22:54:18+00:00"
+        },
+        {
+          "title": "[In preview] Limited Preview: Azure Workload Center for SAP and Azure Copilot Run SAP Agent",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581209",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T22:48:10+00:00"
+        },
+        {
+          "title": "[In preview] Limited Preview: Azure Workload Center for Oracle and Azure Copilot Run Oracle Agent",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581214",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T22:46:30+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Database Agent for SQL with contextual Copilot",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580091",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T22:43:01+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Database Hub real-time performance dashboards",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579644",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T22:42:06+00:00"
+        },
+        {
+          "title": "[In development] Private Preview: Azure DH/EHasv8 VMs based on 6th Gen AMD EPYC™ (“Venice”) processors",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581308",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T22:40:50+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Azure SQL DB Hyperscale Cross Database Querying",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579221",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T22:35:29+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Near-instant provisioning for Azure DocumentDB clusters",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579349",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T21:57:41+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Confidential VMs with Intel TDX support on AKS",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581130",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T21:00:05+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Confidential VMs with OS Disk Encryption support on AKS",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581125",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T21:00:05+00:00"
+        },
+        {
+          "title": "[In preview] Generally Available: Private endpoint support for Azure HorizonDB clusters",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=574153",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:56:06+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Service tags for inbound rules in network security perimeter",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579201",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:52:28+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Perimeter link (cross perimeter) in network security perimeter",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579206",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:51:13+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Agent Grid helping secure AI agent communications",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580684",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:47:31+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Azure Adaptive Virtual Patching",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580689",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:29:13+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: AI Security add-on for Azure Firewall Premium",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580694",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:27:29+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Azure Bastion RDP and SSH vision",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580699",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:25:18+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Azure API Management Application",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581277",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:15:03+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Scale ExpressRoute Direct connectivity with link groups",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580926",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:15:03+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Agent Sandbox cluster extension",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580916",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:15:03+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: IBM Spectrum LSF integration with Azure Compute Fleet",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581259",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Azure Artifact Validation for VM images",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581249",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: VM adaptive placement",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581244",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Discover Data Guardian from Sovereign Control Panel",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581226",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "Announcing: Production Touch Ledger (PTL) Assessment Report",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581221",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Sovereign Control Panel",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581220",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In development] Private Preview: Azure confidential VMs on 5th Gen AMD EPYC processors (DCasv7 and ECasv7 series)",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581199",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In development] Private Preview: Project Nova",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581193",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure Policy support for Azure HorizonDB",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581180",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Azure DDoS Protection peacetime telemetry",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581175",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure HorizonDB System Managed Maintenance Window",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581170",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure Linux 4.0",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581165",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure Ebsv6 and Ebdsv6",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581160",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Azure Compute Spot plus",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581145",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Rename Server in Azure Database for MySQL",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581140",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Windows Server 2028",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581135",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Native AWS and Google Cloud support in Azure SRE Agent",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580975",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Pod snapshot cluster extension",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580921",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Azure DDoS Protection support for NAT Gateway v2 IP",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580862",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Generally Available: Azure DDoS Protection custom policy",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580852",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In development] Private Preview: Slack integration for Azure SRE Agent",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580768",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Microsoft Entra Agent ID and Agent 365 for Azure SRE Agent",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580763",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Agent-to-Agent (A2A) protocol support in Azure SRE Agent",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580758",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Microsoft Teams integration for Azure SRE Agent",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580753",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure Infrastructure Resiliency Manager",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580748",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: New integration, hybrid deployment, and observability capabilities in Azure Logic Apps",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580589",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Enhanced developer experience in Azure Logic Apps Automation",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580559",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Managed AI Models in Logic Apps Automation",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580554",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Virtual network integration in Logic Apps Automation",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580549",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: New built-in Azure automation connectors in Logic Apps Automation",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580544",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Decision actions in Azure Logic Apps Automation",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580539",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Next-generation elastic architecture for Azure Application Gateway v2",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580428",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Advanced load balancing in Azure Application Gateway",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580423",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Centralized user authentication + JWT validation for Azure Application Gateway",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580418",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Session-based authentication for Azure Blob and Data Lake Storage",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580306",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure Monitor Health Models",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580261",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Azure Monitor traces and Trace Analytics",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580184",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure Red Hat OpenShift with hosted control planes",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580136",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure AI Gateway",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580080",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Microsoft Agent 365 integration with Azure API Management and Azure AI Gateway",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580055",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure API Management Premium v2",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580046",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure Connector Namespace",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580041",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Unified Model API in Azure API Management",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580036",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available:  Azure HorizonDB now integrates with Azure Advisor",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579938",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure HorizonDB Monitoring via Alerts",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579933",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure HorizonDB Auditing",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579928",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure Multicloud Interconnect new cloud service provider support",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579766",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Microsoft Foundry Support for Business Applications in Work IQ",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579680",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Azure SQL Database container provisioning in SQL Server Management Studio",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579665",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Improved Apache AGE graph query and ingestion performance on Azure HorizonDB",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579660",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Azure Application Gateway confidential compute support",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579649",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Migrate Oracle databases to Azure Database for PostgreSQL using Azure Database Migration Service",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579607",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Build Knowledge Graphs with AI pipeline in Azure HorizonDB",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579602",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure HorizonDB Generic Log Analytics Integration",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579574",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Encryption at rest with customer-managed keys in Azure HorizonDB",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579540",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Transparent data encryption (TDE) in Azure SQL Database AES keys",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579531",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Build with Azure SQL Database container locally without an Azure subscription or credit card",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579525",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Managed Connectors in Azure Functions",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579440",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Bring-your-own image and Cosmos DB MCP server in Azure Connector Namespace hosted MCP​",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579435",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure HorizonDB",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579388",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Symmetric keys on Azure Key Vault Premium",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579374",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Azure Files NFS shares on HDD",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579369",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Azure SQL updates for mid-November 2026",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579359",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Azure DocumentDB elasticity—query from any node",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579354",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-17T20:00:32+00:00"
         }
       ]
     },
