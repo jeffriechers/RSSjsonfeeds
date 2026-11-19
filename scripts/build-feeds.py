@@ -804,6 +804,11 @@ def main():
 
             feed_articles = fetch_nerdio_feed(feed)
 
+            print(
+                f"Nerdio returned {len(feed_articles)} records"
+            )
+
+
         else:
 
             print(f"Unsupported feed type: {feed_type}")
