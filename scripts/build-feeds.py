@@ -150,117 +150,140 @@ def fetch_nerdio_feed(feed):
 
     records = []
 
-    response = requests.get(
-        feed["url"],
-        timeout=30
-    )
-
     print(
-        f"Status: {response.status_code}"
+        f"Loading Nerdio feed: {feed['name']}"
     )
 
-    print(
-        f"Content Type: {response.headers.get('content-type')}"
-    )
+    try:
 
-    print(
-        response.text[:1000]
-    )
-
-    response.raise_for_status()
-
-    article = response.json()["article"]
-
-    decoded_body = html.unescape(article["body"])
-
-    soup = BeautifulSoup(decoded_body,"html.parser")
-    print(
-        f"Found {len(soup.find_all('h2'))} h2 tags"
-    )
-
-    print(
-        f"Found {len(soup.find_all('li'))} li tags"
-    )
-    current_version = ""
-    current_date = datetime.strptime(
-        article["updated_at"],
-        "%Y-%m-%dT%H:%M:%SZ"
-    ).replace(
-        tzinfo=timezone.utc
-    )
-
-    for h2 in soup.find_all("h2"):
-
-        header_text = h2.get_text(
-            " ",
-            strip=True
+        response = requests.get(
+            feed["url"],
+            timeout=30
         )
 
-        #
-        # Example:
-        # Current release v8.3.0 Public Preview
-        # (Release date: November 17, 2026)
-        #
+        response.raise_for_status()
 
-        version_match = re.search(
-            r"v(\d+\.\d+\.\d+)",
-            header_text
+        article = response.json()["article"]
+
+        decoded_body = html.unescape(
+            article["body"]
         )
 
-        if version_match:
+        soup = BeautifulSoup(
+            decoded_body,
+            "html.parser"
+        )
 
-            current_version = (
-                version_match.group(1)
+        print(
+            f"Found {len(soup.find_all('h2'))} releases"
+        )
+
+        release_headers = soup.find_all(
+            "h2"
+        )
+
+        for h2 in release_headers:
+
+            header_text = h2.get_text(
+                " ",
+                strip=True
             )
 
-        #
-        # Extract release date if present
-        #
+            print(
+                f"Release Header: {header_text}"
+            )
 
-        date_match = re.search(
-            r"Release date:\s*([^)]+)",
-            header_text
-        )
+            #
+            # Extract version
+            #
+            # Example:
+            # Current release v8.3.0 Public Preview
+            #
 
-        if date_match:
+            version = ""
 
-            try:
+            version_match = re.search(
+                r"v(\d+\.\d+\.\d+)",
+                header_text,
+                re.IGNORECASE
+            )
 
-                current_date = (
-                    datetime.strptime(
-                        date_match.group(1).strip(),
-                        "%B %d, %Y"
-                    ).replace(
-                        tzinfo=timezone.utc
-                    )
+            if version_match:
+
+                version = (
+                    version_match.group(1)
                 )
 
-            except Exception:
-                pass
+            #
+            # Extract release date
+            #
 
-        #
-        # Walk this release section
-        #
+            release_date = datetime.strptime(
+                article["updated_at"],
+                "%Y-%m-%dT%H:%M:%SZ"
+            ).replace(
+                tzinfo=timezone.utc
+            )
 
-        for element in h2.next_elements:
+            date_match = re.search(
+                r"Release date:\s*([^)]+)",
+                header_text,
+                re.IGNORECASE
+            )
 
-            if (
-                getattr(
-                    element,
-                    "name",
-                    None
-                ) == "h2"
-                and element is not h2
-            ):
-                break
+            if date_match:
 
-            if (
-                getattr(
-                    element,
-                    "name",
-                    None
-                ) == "li"
-            ):
+                try:
+
+                    release_date = (
+                        datetime.strptime(
+                            date_match.group(1).strip(),
+                            "%B %d, %Y"
+                        ).replace(
+                            tzinfo=timezone.utc
+                        )
+                    )
+
+                except Exception:
+                    pass
+
+            #
+            # Walk everything until
+            # next H2 release section
+            #
+
+            for element in h2.next_elements:
+
+                if (
+                    getattr(
+                        element,
+                        "name",
+                        None
+                    ) == "h2"
+                    and element is not h2
+                ):
+                    break
+
+                #
+                # Process only list items
+                #
+
+                if (
+                    getattr(
+                        element,
+                        "name",
+                        None
+                    ) != "li"
+                ):
+                    continue
+
+                #
+                # Ignore nested list items
+                #
+
+                if element.find_parent("li"):
+
+                    continue
 
                 text = element.get_text(
                     " ",
@@ -268,18 +291,17 @@ def fetch_nerdio_feed(feed):
                 )
 
                 if len(text) < 20:
+
                     continue
 
-                bold = element.find(
+                strong = element.find(
                     "strong"
                 )
 
-                if bold:
+                if strong:
 
-                    title = (
-                        bold.get_text(
-                            strip=True
-                        )
+                    title = strong.get_text(
+                        strip=True
                     )
 
                     summary = (
@@ -293,17 +315,36 @@ def fetch_nerdio_feed(feed):
 
                 else:
 
-                    title = (
-                        text[:100]
+                    #
+                    # No strong tag.
+                    # Use first sentence.
+                    #
+
+                    parts = text.split(
+                        ".",
+                        1
                     )
+
+                    title = parts[0].strip()
 
                     summary = text
 
+                #
+                # Skip "Learn More"
+                #
+
+                if (
+                    title.lower()
+                    == "learn more..."
+                ):
+                    continue
+
                 records.append(
                     {
-                        "title": title,
+                        "title":
+                            title,
                         "version":
-                            current_version,
+                            version,
                         "summary":
                             summary,
                         "url":
@@ -311,7 +352,7 @@ def fetch_nerdio_feed(feed):
                                 "html_url"
                             ],
                         "published":
-                            current_date,
+                            release_date,
                         "source":
                             feed["name"],
                         "product":
@@ -321,8 +362,21 @@ def fetch_nerdio_feed(feed):
                     }
                 )
 
-    return records
+                print(
+                    f"Feature: {title}"
+                )
 
+        print(
+            f"Generated {len(records)} Nerdio records"
+        )
+
+    except Exception as ex:
+
+        print(
+            f"ERROR loading {feed['name']}: {ex}"
+        )
+
+    return records
 def parse_date(entry):
 
     for field in [
