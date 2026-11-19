@@ -206,7 +206,8 @@ def fetch_whatsnew_feed(feed):
         response = requests.get(
             feed["url"],
             headers=headers,
-            timeout=30
+            timeout=30,
+            allow_redirects=True
         )
 
         response.raise_for_status()
