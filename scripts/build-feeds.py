@@ -23,6 +23,85 @@ MONTH_ID_PATTERN = re.compile(
     re.IGNORECASE
 )
 
+def fetch_chocolatey_feed(feed):
+
+    records = []
+
+    packages = {
+        p.lower()
+        for p in feed.get(
+            "packages",
+            []
+        )
+    }
+
+    rss = feedparser.parse(
+        feed["url"]
+    )
+
+    for entry in rss.entries:
+
+        title = entry.get(
+            "title",
+            ""
+        )
+
+        #
+        # Example:
+        # winscp (6.5.4)
+        #
+
+        match = re.match(
+            r"^([^(]+)\s+\(([^)]+)\)$",
+            title
+        )
+
+        if not match:
+            continue
+
+        package = (
+            match.group(1)
+            .strip()
+        )
+
+        version = (
+            match.group(2)
+            .strip()
+        )
+
+        if (
+            package.lower()
+            not in packages
+        ):
+            continue
+
+        records.append(
+            {
+                "title": package,
+                "version": version,
+                "summary": entry.get(
+                    "summary",
+                    ""
+                ),
+                "url": entry.get(
+                    "link",
+                    ""
+                ),
+                "published":
+                    parse_date(
+                        entry
+                    ),
+                "source":
+                    feed["name"],
+                "product":
+                    package,
+                "category":
+                    feed["category"]
+            }
+        )
+
+    return records
+
 def parse_month_header(text):
 
     text = text.strip()
@@ -361,6 +440,10 @@ def to_json_article(item):
 
     return {
         "title": item["title"],
+        "version": item.get(
+            "version",
+            ""
+        ),
         "summary": item.get(
             "summary",
             ""
@@ -447,6 +530,10 @@ def main():
         elif feed_type == "whatsnew":
 
             feed_articles = fetch_whatsnew_feed(feed)
+        elif feed_type == "chocolatey":
+
+            feed_articles = fetch_chocolatey_feed(feed)
+
 
         else:
 

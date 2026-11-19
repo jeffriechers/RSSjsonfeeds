@@ -22,7 +22,24 @@ categories:
 - id: community
   title: Community & Open Source
 
+- id: chocolatey
+  title: Chocolatey Packages update
+
 feeds:
+
+- name: Chocolatey Packages
+  category: releases
+  type: chocolatey
+  url: https://feeds.feedburner.com/chocolatey
+
+  packages:
+  - winscp
+  - putty
+  - notepadplusplus
+  - vscode
+  - googlechrome
+  - wireshark
+  - firefox
 
 #
 # Citrix Releases
@@ -127,13 +144,13 @@ feeds:
 
 - name: Citrix Tech Zone Document History
   product: Tech Zone
-  category: news
+  category: blogs
   type: rss
   url: https://community.citrix.com/rss/1-citrix-tech-zone-document-history.xml
 
 - name: Citrix Tech Zone Blogs
   product: Tech Zone
-  category: news
+  category: blogs
   type: rss
   url: https://community.citrix.com/rss/3-citrix-tech-zone-blogs.xml
 
@@ -170,3 +187,9 @@ feeds:
   category: security
   type: rss
   url: https://cve.assurestart.co/api/feed.xml?term=VMware
+
+- name: Browser CVE
+  product: Web Browsers
+  category: security
+  type: rss
+  url: https://cve.assurestart.co/api/feed.xml?term=Google,Firefox,Safari,Opera
