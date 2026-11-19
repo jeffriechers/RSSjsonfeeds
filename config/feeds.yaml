@@ -159,6 +159,16 @@ feeds:
   url: https://community.citrix.com/rss/3-citrix-tech-zone-blogs.xml
 
 #
+# Omnissa Community
+#
+
+- name: Omnissa Tech Zone Blogs
+  product: Tech Zone
+  category: blogs
+  type: rss
+  url: https://www.omnissa.com/rss.xml
+
+#
 # Security Feeds
 #
 
