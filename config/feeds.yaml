@@ -1,7 +1,7 @@
 settings:
   days_to_keep: 365
   max_items_per_category: 100
-  max_release_summary: 25
+  max_release_summary: 100
 
 categories:
 - id: security
@@ -28,7 +28,7 @@ categories:
 feeds:
 
 - name: Chocolatey Packages
-  category: releases
+  category: chocolatey
   type: chocolatey
   url: https://feeds.feedburner.com/chocolatey
 
@@ -42,6 +42,8 @@ feeds:
   - firefox
   - adobereader
   - vmware-tools
+  - 7zip
+  - microsoft-edge
 
 #
 # Citrix Releases
