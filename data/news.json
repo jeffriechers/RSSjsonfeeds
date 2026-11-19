@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19T15:15:51.068728+00:00",
-  "article_count": 5287,
+  "generated": "2026-11-19T15:32:52.943466+00:00",
+  "article_count": 5439,
   "days_to_keep": 365,
   "latest_releases": [
     {
@@ -844,7 +844,7 @@
       "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
       "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-25072.html",
+      "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2507-ltsr-cu2.html",
       "source": "Citrix PVS",
       "product": "Provisioning Services",
       "published": "2026-08-11T00:00:00-04:00"
@@ -1014,7 +1014,7 @@
           "published": "2026-11-18T08:00:00-08:00"
         },
         {
-          "title": "CVE-2026-130021",
+          "title": "[HIGH 8.8] CVE-2026-130021",
           "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130021",
@@ -2696,7 +2696,7 @@
           "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
           "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-25072.html",
+          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2507-ltsr-cu2.html",
           "source": "Citrix PVS",
           "product": "Provisioning Services",
           "published": "2026-08-11T00:00:00-04:00"
@@ -2838,6 +2838,15 @@
           "published": "2026-11-16T16:18:00+00:00"
         },
         {
+          "title": "Horizon 8 2609: Performance, security, management",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/horizon-8-2609",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-11-13T18:16:05+00:00"
+        },
+        {
           "title": "Security updates for NetScaler ADC, NetScaler Gateway, and NetScaler Console",
           "version": "",
           "summary": "",
@@ -2845,6 +2854,15 @@
           "source": "Citrix Tech Zone Blogs",
           "product": "Tech Zone",
           "published": "2026-11-12T12:04:00+00:00"
+        },
+        {
+          "title": "What is digital friction? How it affects your business",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/what-is-digital-friction",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-11-12T09:30:58+00:00"
         },
         {
           "title": "NetScaler WAF Signatures Update v188",
@@ -2901,6 +2919,24 @@
           "published": "2026-11-06T09:56:33+00:00"
         },
         {
+          "title": "Omnissa DEX Agent for end users: AI that fixes, not flags",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-emea-2026-dex-agents-for-end-users",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-11-05T20:44:59+00:00"
+        },
+        {
+          "title": "Omnissa DEX: Fix employee experience on any desktop",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-emea-2026-dex-for-all-desktops",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-11-05T20:21:01+00:00"
+        },
+        {
           "title": "Tokenomics: AI token spend control in Citrix SecurSpaces",
           "version": "",
           "summary": "",
@@ -2937,6 +2973,15 @@
           "published": "2026-11-05T07:12:36+00:00"
         },
         {
+          "title": "Zero Trust for AI agents",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-emea-2026-zero-trust",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-11-04T22:20:50+00:00"
+        },
+        {
           "title": "Zero Trust for MCP: Controlling what AI agents are allowed to do",
           "version": "",
           "summary": "",
@@ -2946,6 +2991,33 @@
           "published": "2026-11-04T13:00:00+00:00"
         },
         {
+          "title": "AI needs a safe place to run",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-emea-2026-safe-place-to-run-for-ai",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-11-04T09:04:32+00:00"
+        },
+        {
+          "title": "Omnissa Sovereign Solution expands to servers and new markets",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-emea-2026-oss-expands-to-more-countries",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-11-04T09:04:28+00:00"
+        },
+        {
+          "title": "Omnissa expands Sovereign Solution to more markets",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/news/omnissa-one-safe-place-to-run-release",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-11-04T09:04:23+00:00"
+        },
+        {
           "title": "October 2026 Tech Wire",
           "version": "",
           "summary": "",
@@ -2953,6 +3025,15 @@
           "source": "Citrix Tech Zone Blogs",
           "product": "Tech Zone",
           "published": "2026-11-03T17:13:00+00:00"
+        },
+        {
+          "title": "How HP and Omnissa streamline PC provisioning",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-emea-2026-omnissa-and-hp-bring-drop-ship-provisioning",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-11-03T14:24:56+00:00"
         },
         {
           "title": "How Do I: Plan and Execute NetScaler Upgrades with Console Upgrade Jobs?",
@@ -2973,6 +3054,15 @@
           "published": "2026-10-27T17:59:00+00:00"
         },
         {
+          "title": "Horizon 8 on Red Hat OpenShift: More hypervisor choice",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/more-hypervisor-choice-horizon-8-red-hat-openshift",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-26T13:13:00+00:00"
+        },
+        {
           "title": "NetScaler WAF Signatures Update v186",
           "version": "",
           "summary": "",
@@ -2982,6 +3072,33 @@
           "published": "2026-10-22T20:00:28+00:00"
         },
         {
+          "title": "Are you managing endpoints or managing workarounds?",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/managing-endpoints-or-workarounds",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-22T16:22:12+00:00"
+        },
+        {
+          "title": "Shadow AI governance: Why visibility beats bans",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/why-visibility-beats-bans",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-22T15:52:37+00:00"
+        },
+        {
+          "title": "Omnissa adoption resources: Adoption Wizard and Kits",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-adoption-resources-adoption-wizard-and-kits",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-22T15:06:15+00:00"
+        },
+        {
           "title": "Protecting NetScaler Management Access from PHP CVE-2026-109618 & CVE 2026-109619",
           "version": "",
           "summary": "",
@@ -2989,6 +3106,24 @@
           "source": "Citrix Tech Zone Blogs",
           "product": "Tech Zone",
           "published": "2026-10-21T20:23:00+00:00"
+        },
+        {
+          "title": "The link between device performance & employee productivity",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/device-performance-undermining-employee-productivity",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-21T18:26:11+00:00"
+        },
+        {
+          "title": "Omnissa expands into the Kingdom of Saudi Arabia",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/news/Omnissa-enters-KSA",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-20T19:51:38+00:00"
         },
         {
           "title": "Protecting automotive and manufacturing innovation without slowing down",
@@ -3009,6 +3144,276 @@
           "published": "2026-10-20T12:04:00+00:00"
         },
         {
+          "title": "Driving EUC adoption: A step-by-step guide to success",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/driving-euc-adoption",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-19T16:08:05+00:00"
+        },
+        {
+          "title": "The device fleet is a budget strategy, not a perk",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/device-fleet-as-a-budget-decision",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-16T18:04:46+00:00"
+        },
+        {
+          "title": "Citrix to Omnissa Horizon: why IT teams are switching",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/switching-from-citrix-to-horizon",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-14T17:37:38+00:00"
+        },
+        {
+          "title": "How federal agencies can modernize IT efficiently",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/federal-IT-modernization",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-06T13:09:32+00:00"
+        },
+        {
+          "title": "How Workspace ONE UEM enables real-time remediation",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-amer-2026-real-time-remediation",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-01T13:50:40+00:00"
+        },
+        {
+          "title": "Vulnerability management for the agentic enterprise",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-amer-2026-trending-in-security-at-omnissa",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-10-01T12:59:29+00:00"
+        },
+        {
+          "title": "One platform for virtual and physical desktop management",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-amer-2026-extending-uem-to-virtual-desktops",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-30T13:31:56+00:00"
+        },
+        {
+          "title": "Omnissa Horizon infrastructure choice: OpenShift, GCP & more",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-amer-2026-horizon-hypervisor-support",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-30T13:17:27+00:00"
+        },
+        {
+          "title": "Omnissa DEX | Turning insight into action, automatically",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-amer-2026-dex-ai",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-30T12:47:53+00:00"
+        },
+        {
+          "title": "AI-ready workspaces with Omnissa Horizon",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-amer-2026-horizon-and-ai",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-29T19:57:30+00:00"
+        },
+        {
+          "title": "Omnissa and 2Pint simplify endpoint deployment",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-amer-2026-2pint-resell-partnership",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-29T19:24:04+00:00"
+        },
+        {
+          "title": "Introducing Omnissa Elara: an authority layer for AI",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-amer-2026-announcing-omnissa-elara",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-29T17:46:38+00:00"
+        },
+        {
+          "title": "The building blocks of autonomous endpoint management",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-amer-2026-aem-building-blocks",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-29T08:57:44+00:00"
+        },
+        {
+          "title": "Omnissa introduces Elara, a new authority layer for AI",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/news/omnissa-one-amer-2026-elara-press-release",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-29T08:57:14+00:00"
+        },
+        {
+          "title": "Omnissa unveils AI innovations for autonomous IT workspaces",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/news/omnissa-one-amer-2026-autonomous-announcements-press-release",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-29T08:55:38+00:00"
+        },
+        {
+          "title": "The agentic endpoint, the last mile of enterprise security",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/agentic-endpoint",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-29T07:12:10+00:00"
+        },
+        {
+          "title": "Introducing Omnissa Cloud PC: Security at your fingertips",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-amer-2026-introducing-omnissa-cloud-pc",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-29T05:58:56+00:00"
+        },
+        {
+          "title": "Endpoint recovery: The missing layer of resilience",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-amer-2026-igel-diamond-partner",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-28T18:52:17+00:00"
+        },
+        {
+          "title": "Build resilient AI-ready VDI with Nutanix and Omnissa",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-amer-2026-nutanix-diamond-partner",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-28T14:05:19+00:00"
+        },
+        {
+          "title": "NVIDIA and Omnissa: GPU-powered AI workspaces",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-one-amer-2026-nvidia-diamond-partner",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-28T13:29:52+00:00"
+        },
+        {
+          "title": "Omnissa appoints Amit Singh as new CEO",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/news/omnissa-appoints-amit-singh-as-new-ceo",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-28T08:17:57+00:00"
+        },
+        {
+          "title": "Horizon Cloud on Nutanix reaches Limited Availability",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/horizon-cloud-on-nutanix",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-24T09:12:13+00:00"
+        },
+        {
+          "title": "How AI agents are reshaping enterprise work",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/new-shape-of-enterprise-work",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-23T18:09:59+00:00"
+        },
+        {
+          "title": "Digital workplace with Samsung Knox Suite and Workspace ONE",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/insights/samsung-knox-and-omnissa",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-23T10:34:49+00:00"
+        },
+        {
+          "title": "Omnissa is a Leader in the 2026 IDC VCC MarketScape",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/news/omnissa-leader-2026-idc-vcc-marketscape",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-22T14:50:24+00:00"
+        },
+        {
+          "title": "Omnissa named a Leader in the IDC MarketScape for VCC 2026",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/2026-IDC-marketscape-for-vcc",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-21T14:29:30+00:00"
+        },
+        {
+          "title": "Why regulated industries run the least patched devices",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/why-regulated-industries-run-the-least-patched-devices",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-17T14:07:58+00:00"
+        },
+        {
+          "title": "iOS 27 & iPhone 18 support with Workspace ONE UEM",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/same-day-apple-support-ios-27",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-16T16:03:00+00:00"
+        },
+        {
+          "title": "Mobile threat management 2026 Leader | Omnissa",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/mobile-threat-management-2026-omnissa-named-leader",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-14T09:00:00+00:00"
+        },
+        {
+          "title": "Secure digital workspace for CMMC and CUI control",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/cmmc-compliance-securing-how-users-access-cui",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-10T09:00:00+00:00"
+        },
+        {
           "title": "Learn how to configure NetScaler Gateway with SAML Service Provider Authentication for Secure Citrix Remote Access",
           "version": "",
           "summary": "",
@@ -3016,6 +3421,159 @@
           "source": "Citrix Tech Zone Document History",
           "product": "Tech Zone",
           "published": "2026-09-09T02:56:00+00:00"
+        },
+        {
+          "title": "Agentic DEX: automated remediation for IT issues",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/what-if-it-fixed-issues-you-noticed",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-08T09:00:00+00:00"
+        },
+        {
+          "title": "Horizon 8 2606: Mac support, Wayland preview, and SSO",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/horizon-8-2606-security-management-performance-updates",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-04T09:00:00+00:00"
+        },
+        {
+          "title": "Omnissa marks fourth year as a leader in Gartner DaaS report",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/insights/Omnissa-Gartner-Magic-Quadrant-DaaS-2026-press-release",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-01T11:22:19+00:00"
+        },
+        {
+          "title": "Omnissa named Desktop as a Service Leader four years running",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/insights/blog/omnissa-named-desktop-service-leader-four-years-running",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-09-01T09:00:00+00:00"
+        },
+        {
+          "title": "What's new in Workspace ONE UEM 2607 for Apple",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/insights/blog/workspace-one-uem-2607-apple-management-upgrades",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-08-31T12:00:00+00:00"
+        },
+        {
+          "title": "Omnissa brings DEX capabilities to macOS without MDM",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/insights/blog/macos-registered-mode-dex-without-mdm",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-08-31T12:00:00+00:00"
+        },
+        {
+          "title": "Modern Windows management with Workspace ONE",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/insights/blog/modern-windows-management-made-simple-workspace-one",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-08-31T12:00:00+00:00"
+        },
+        {
+          "title": "Modern printer management with Workspace ONE",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/insights/blog/modern-printer-management-workspace-one-uem",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-08-26T20:59:03+00:00"
+        },
+        {
+          "title": "Workspace ONE UEM: The top new features of the 2607 release",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/insights/blog/workspace-one-uem-2607-release",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-08-26T20:39:29+00:00"
+        },
+        {
+          "title": "Omnissa to host Omnissa ONE  2026",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/Omnissa-ONE-2026-press-release",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-08-26T15:20:20+00:00"
+        },
+        {
+          "title": "Modern digital workspaces for higher education IT",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/modern-digital-workspaces-higher-education-it",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-08-20T19:38:15+00:00"
+        },
+        {
+          "title": "Autonomous workflows: Real IT wins with Workspace ONE",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/autonomous-workflows-real-it-wins-workspace-one",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-08-20T18:52:07+00:00"
+        },
+        {
+          "title": "DEX ROI: The true cost of failed patches",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/dex-roi-what-failed-patches-really-cost-you",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-08-20T15:03:50+00:00"
+        },
+        {
+          "title": "Modern government IT: Why legacy tech costs you",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/modern-government-it-why-legacy-tech-costs-you",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-08-19T13:09:05+00:00"
+        },
+        {
+          "title": "Rethinking digital access for the modern university",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/rethinking-digital-access-modern-university",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-08-14T15:27:34+00:00"
+        },
+        {
+          "title": "Rethinking federal mobility beyond the device",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/rethinking-federal-mobility-beyond-device",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-08-13T14:12:35+00:00"
+        },
+        {
+          "title": "What your disaster recovery plan may be missing",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/what-most-disaster-recovery-plans-still-get-wrong",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-08-10T14:18:47+00:00"
         },
         {
           "title": "Learn how to configure NetScaler Gateway with LDAP and RADIUS for secure Citrix remote access",
@@ -3036,94 +3594,130 @@
           "published": "2026-08-07T19:20:00+00:00"
         },
         {
-          "title": "The Citrix Automation Handbook 2601 - Part 6",
+          "title": "Shadow AI and AI-powered attacks: Know your enterprise risk",
           "version": "",
           "summary": "",
-          "url": "https://community.citrix.com/tech-zone/automation/automation-handbook-2601-part6/",
-          "source": "Citrix Tech Zone Document History",
+          "url": "https://www.omnissa.com/newsroom/blog/shadow-ai-and-ai-powered-attacks-know-your-enterprise-risk",
+          "source": "Omnissa Tech Zone Blogs",
           "product": "Tech Zone",
-          "published": "2026-01-21T09:14:10+00:00"
+          "published": "2026-08-07T15:00:00+00:00"
         },
         {
-          "title": "The Citrix Automation Handbook 2601 - Part 5",
+          "title": "Zero to value in 30 Days: 5 DEX quick wins",
           "version": "",
           "summary": "",
-          "url": "https://community.citrix.com/tech-zone/automation/automation-handbook-2601-part5/",
-          "source": "Citrix Tech Zone Document History",
+          "url": "https://www.omnissa.com/newsroom/blog/zero-value-30-days-5-dex-quick-wins",
+          "source": "Omnissa Tech Zone Blogs",
           "product": "Tech Zone",
-          "published": "2026-01-21T09:13:42+00:00"
+          "published": "2026-08-06T17:03:39+00:00"
         },
         {
-          "title": "The Citrix Automation Handbook 2601 - Part 4",
+          "title": "Expanded Workspace ONE offerings in FedRAMP",
           "version": "",
           "summary": "",
-          "url": "https://community.citrix.com/tech-zone/automation/automation-handbook-2601-part4/",
-          "source": "Citrix Tech Zone Document History",
+          "url": "https://www.omnissa.com/newsroom/blog/more-workspace-one-now-available-fedramp",
+          "source": "Omnissa Tech Zone Blogs",
           "product": "Tech Zone",
-          "published": "2026-01-21T09:13:09+00:00"
+          "published": "2026-08-03T12:54:10+00:00"
         },
         {
-          "title": "The Citrix Automation Handbook 2601 - Part 3",
+          "title": "5 things to look for in an enterprise browser security tool",
           "version": "",
           "summary": "",
-          "url": "https://community.citrix.com/tech-zone/automation/automation-handbook-2601-part3/",
-          "source": "Citrix Tech Zone Document History",
+          "url": "https://www.omnissa.com/newsroom/blog/browser-where-work-happens",
+          "source": "Omnissa Tech Zone Blogs",
           "product": "Tech Zone",
-          "published": "2026-01-21T09:12:37+00:00"
+          "published": "2026-07-29T15:06:00+00:00"
         },
         {
-          "title": "The Citrix Automation Handbook 2601 - Part 2",
+          "title": "Omnissa Monitor unifies visibility for on-premises Horizon 8",
           "version": "",
           "summary": "",
-          "url": "https://community.citrix.com/tech-zone/automation/automation-handbook-2601-part2/",
-          "source": "Citrix Tech Zone Document History",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-monitor-intro",
+          "source": "Omnissa Tech Zone Blogs",
           "product": "Tech Zone",
-          "published": "2026-01-21T09:12:09+00:00"
+          "published": "2026-07-24T17:09:44+00:00"
         },
         {
-          "title": "The Citrix Automation Handbook 2601",
+          "title": "4 AI use cases for Omnissa Horizon with NVIDIA vGPU",
           "version": "",
           "summary": "",
-          "url": "https://community.citrix.com/tech-zone/automation/automation-handbook-2601/",
-          "source": "Citrix Tech Zone Document History",
+          "url": "https://www.omnissa.com/newsroom/blog/omnissa-horizon-nvidia-vgpu-ai-use-cases",
+          "source": "Omnissa Tech Zone Blogs",
           "product": "Tech Zone",
-          "published": "2026-01-21T09:11:00+00:00"
+          "published": "2026-07-23T19:48:24+00:00"
         },
         {
-          "title": "Licensing Guide",
+          "title": "Omnissa Workspace ONE recognized as a leader by Forrester",
           "version": "",
           "summary": "",
-          "url": "https://community.citrix.com/tech-zone/learn/tech-briefs/unicon-licensing-guide/",
-          "source": "Citrix Tech Zone Document History",
+          "url": "https://www.omnissa.com/insights/news/Omnissa-WorkspaceONE-leader-Forrester-Wave-2026",
+          "source": "Omnissa Tech Zone Blogs",
           "product": "Tech Zone",
-          "published": "2026-01-15T13:10:00+00:00"
+          "published": "2026-07-23T14:44:49+00:00"
         },
         {
-          "title": "Avoid Common Misconfigurations that Can Negatively Impact DaaS Resiliency",
+          "title": "Rethinking the PC refresh cycle in the age of AI",
           "version": "",
           "summary": "",
-          "url": "https://community.citrix.com/tech-zone/learn/tech-briefs/avoid-daas-resiliency-misconfiguration/",
-          "source": "Citrix Tech Zone Document History",
+          "url": "https://www.omnissa.com/newsroom/blog/rethinking-pc-refresh-cycle-ai",
+          "source": "Omnissa Tech Zone Blogs",
           "product": "Tech Zone",
-          "published": "2026-01-09T14:35:00+00:00"
+          "published": "2026-07-23T14:16:21+00:00"
         },
         {
-          "title": "Deployment Guide: The Modern Way of creating Master Images using IaC with Packer, Ansible, Chocolatey, and GitHub Actions",
+          "title": "Omnissa UX Research Program: Help shape the products you use",
           "version": "",
           "summary": "",
-          "url": "https://community.citrix.com/tech-zone/automation/masterimage-iac-packer-ansible-chocolatey-github/",
-          "source": "Citrix Tech Zone Document History",
+          "url": "https://www.omnissa.com/insights/blog/omnissa-ux-research-program",
+          "source": "Omnissa Tech Zone Blogs",
           "product": "Tech Zone",
-          "published": "2026-01-08T11:40:33+00:00"
+          "published": "2026-07-23T13:15:11+00:00"
         },
         {
-          "title": "Deployment Guide: Using Infrastructure-as-Code for deploying Citrix® Virtual Apps and Desktops™ 2507 LTSR on vSphere 8",
+          "title": "What is digital friction? | Omnissa",
           "version": "",
           "summary": "",
-          "url": "https://community.citrix.com/tech-zone/automation/iac-cvad2507-vsphere8/",
-          "source": "Citrix Tech Zone Document History",
+          "url": "https://www.omnissa.com/insights/blog/what-is-digital-friction",
+          "source": "Omnissa Tech Zone Blogs",
           "product": "Tech Zone",
-          "published": "2025-11-19T15:54:00+00:00"
+          "published": "2026-07-14T15:17:54+00:00"
+        },
+        {
+          "title": "Rethink VDI: Horizon Cloud on Google Cloud is in Beta",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/insights/blog/horizon-cloud-on-google-cloud-platform-in-beta",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-07-08T21:55:58+00:00"
+        },
+        {
+          "title": "Operationalizing Zero Trust across the digital workspace",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/insights/operationalizing-zero-trust",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-06-29T21:00:54+00:00"
+        },
+        {
+          "title": "Why Omnissa leads in autonomous endpoint management (AEM)",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/insights/blog/autonomous-endpoint-management-omnissa",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-06-29T15:58:38+00:00"
+        },
+        {
+          "title": "The hidden value of proactive IT with Omnissa DEX",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/insights/blog/dex-strategic-value-proactive-it",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-06-29T14:19:26+00:00"
         }
       ]
     },
