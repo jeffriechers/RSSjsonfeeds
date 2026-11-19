@@ -304,6 +304,7 @@ def fetch_nerdio_feed(feed):
                 )
 
     return records
+
 def parse_date(entry):
 
     for field in [
