@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-19T12:44:07.229427+00:00",
-  "article_count": 5236,
+  "generated": "2026-11-19T14:45:43.471732+00:00",
+  "article_count": 5287,
   "days_to_keep": 365,
   "latest_releases": [
     {
+      "title": "wireshark",
+      "version": "4.6.10",
+      "summary": "Wireshark",
+      "url": "https://community.chocolatey.org/packages/wireshark/4.6.10",
+      "source": "Chocolatey Packages",
+      "product": "wireshark",
+      "published": "2026-11-18T22:22:42+00:00"
+    },
+    {
       "title": "What's new in Azure Virtual Desktop? - Azure - Azure Virtual Desktop",
+      "version": "",
       "summary": "",
       "url": "https://learn.microsoft.com/en-us/azure/virtual-desktop/whats-new",
       "source": "Microsoft FSLogix",
@@ -12,7 +22,17 @@
       "published": "2026-11-17T18:25:00+00:00"
     },
     {
+      "title": "Firefox",
+      "version": "160.0.1",
+      "summary": "Bringing together all kinds of awesomeness to make browsing better for you",
+      "url": "https://community.chocolatey.org/packages/Firefox/160.0.1",
+      "source": "Chocolatey Packages",
+      "product": "Firefox",
+      "published": "2026-11-17T18:13:48+00:00"
+    },
+    {
       "title": "New - Download UniconOS 2603 LTSR CU2",
+      "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Software-Packages/eLux-Software-Packages-2603LTSRCU2.html",
       "source": "Citrix UniconOS",
@@ -21,6 +41,7 @@
     },
     {
       "title": "New - Download UniconOS 2609",
+      "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Software-Packages/eLux-Software-Packages-2609.html",
       "source": "Citrix UniconOS",
@@ -29,6 +50,7 @@
     },
     {
       "title": "New - Citrix Workspace App 2611 Technology Preview for macOS",
+      "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/workspace-app/betas-and-tech-previews/workspace-app-tp-for-mac.html",
       "source": "Citrix Workspace App Updates",
@@ -37,6 +59,7 @@
     },
     {
       "title": "New - NetScaler VPX FIPS Release 13.1 Build 37.293",
+      "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-131-FIPS.html",
       "source": "Citrix NetScaler",
@@ -44,47 +67,44 @@
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
-      "title": "New - NetScaler VPX FIPS Release 14.1 Build 73.58",
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
+      "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-141-73-58-fips.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
-      "title": "New - NetScaler FIPS Release 14.1 Build 73.58",
+      "title": "New - NetScaler CPX Release (Maintenance Phase) 14.1 Build 73.58",
+      "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-141-build-73-58-fips.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-58.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
+      "title": "New - NetScaler Release (Maintenance Phase) 14.1 Build 73.58",
+      "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-58.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
-      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
+      "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
+      "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58-fips.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
       "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39",
+      "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-13-1-64-39.html",
       "source": "Citrix NetScaler",
@@ -93,6 +113,7 @@
     },
     {
       "title": "New - NetScaler CPX Release (Maintenance Phase) 13.1 Build 64.39",
+      "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-13-1-64-39.html",
       "source": "Citrix NetScaler",
@@ -101,6 +122,7 @@
     },
     {
       "title": "New - NetScaler Release (Maintenance Phase) 13.1 Build 64.39",
+      "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-13-1-build-64-39.html",
       "source": "Citrix NetScaler",
@@ -108,15 +130,8 @@
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
-      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58-fips.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
       "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 64.39",
+      "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-13-1-64-39.html",
       "source": "Citrix NetScaler",
@@ -124,39 +139,71 @@
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
+      "title": "New - NetScaler VPX FIPS Release 14.1 Build 73.58",
+      "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-141-73-58-fips.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
-      "title": "New - NetScaler Release (Maintenance Phase) 14.1 Build 73.58",
+      "title": "New - NetScaler FIPS Release 14.1 Build 73.58",
+      "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-58.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-141-build-73-58-fips.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
-      "title": "New - NetScaler CPX Release (Maintenance Phase) 14.1 Build 73.58",
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+      "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-58.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
-      "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
+      "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58-fips.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58-fips.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for Azure",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-37-293.html",
+      "source": "Citrix NetScaler",
+      "product": "NetScaler",
+      "published": "2026-11-12T13:30:00-05:00"
+    },
+    {
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for AWS",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-37-293.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
       "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
+      "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58.html",
       "source": "Citrix NetScaler",
@@ -165,6 +212,7 @@
     },
     {
       "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+      "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58.html",
       "source": "Citrix NetScaler",
@@ -172,33 +220,10 @@
       "published": "2026-11-12T13:30:00-05:00"
     },
     {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for GCP",
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
+      "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-64-39.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for Azure",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-64-39.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for AWS",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-64-39.html",
-      "source": "Citrix NetScaler",
-      "product": "NetScaler",
-      "published": "2026-11-12T13:30:00-05:00"
-    },
-    {
-      "title": "New - NetScaler FIPS Release 13.1 Build 37.293",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-131-build-37293.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
       "source": "Citrix NetScaler",
       "product": "NetScaler",
       "published": "2026-11-12T13:30:00-05:00"
@@ -242,6 +267,14 @@
       "count": 7
     },
     {
+      "product": "wireshark",
+      "count": 1
+    },
+    {
+      "product": "Firefox",
+      "count": 1
+    },
+    {
       "product": "Secure Private Access",
       "count": 1
     }
@@ -251,7 +284,17 @@
       "title": "Security Advisories",
       "items": [
         {
+          "title": "[HIGH 8.1] CVE-2026-124939",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124939",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:18:05+00:00"
+        },
+        {
           "title": "CVE-2026-118148 Active Directory Domain Services Elevation of Privilege Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118148",
           "source": "Microsoft CVE",
@@ -259,7 +302,449 @@
           "published": "2026-11-18T08:00:00-08:00"
         },
         {
+          "title": "CVE-2026-130021",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130021",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T22:29:01+00:00"
+        },
+        {
+          "title": "[CRITICAL 9.8] CVE-2026-130020",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130020",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T22:29:01+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.3] CVE-2026-124927",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124927",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T21:17:37+00:00"
+        },
+        {
+          "title": "[HIGH 8.3] CVE-2026-130999",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130999",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T21:04:16+00:00"
+        },
+        {
+          "title": "[HIGH 8.3] CVE-2026-130918",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130918",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:50+00:00"
+        },
+        {
+          "title": "CVE-2026-130904",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130904",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:50+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.3] CVE-2026-131098",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131098",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:49+00:00"
+        },
+        {
+          "title": "[HIGH 8.1] CVE-2026-131055",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131055",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:49+00:00"
+        },
+        {
+          "title": "[HIGH 8.1] CVE-2026-131037",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131037",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:49+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-131001",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131001",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:49+00:00"
+        },
+        {
+          "title": "[HIGH 8.1] CVE-2026-130998",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130998",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:49+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.3] CVE-2026-130993",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130993",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:49+00:00"
+        },
+        {
+          "title": "[LOW 3.1] CVE-2026-130972",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130972",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:49+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.7] CVE-2026-130966",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130966",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:49+00:00"
+        },
+        {
+          "title": "[HIGH 8.1] CVE-2026-130964",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130964",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:49+00:00"
+        },
+        {
+          "title": "[MEDIUM 6.8] CVE-2026-130953",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130953",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:49+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-130950",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130950",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:49+00:00"
+        },
+        {
+          "title": "[MEDIUM 5.4] CVE-2026-130922",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130922",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:49+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.3] CVE-2026-130920",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130920",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:49+00:00"
+        },
+        {
+          "title": "[HIGH 8.3] CVE-2026-130919",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130919",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:49+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-131049",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131049",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:48+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.3] CVE-2026-131035",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131035",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:48+00:00"
+        },
+        {
+          "title": "[HIGH 8.1] CVE-2026-131029",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131029",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:48+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.3] CVE-2026-131027",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131027",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:48+00:00"
+        },
+        {
+          "title": "[LOW 3.1] CVE-2026-131012",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131012",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:48+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-131005",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131005",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:48+00:00"
+        },
+        {
+          "title": "[MEDIUM 6.5] CVE-2026-130981",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130981",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:48+00:00"
+        },
+        {
+          "title": "[MEDIUM 5.3] CVE-2026-130973",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130973",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:48+00:00"
+        },
+        {
+          "title": "[MEDIUM 5.4] CVE-2026-130955",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130955",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:48+00:00"
+        },
+        {
+          "title": "[MEDIUM 5.4] CVE-2026-130949",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130949",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:48+00:00"
+        },
+        {
+          "title": "[HIGH 8.1] CVE-2026-130927",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130927",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:48+00:00"
+        },
+        {
+          "title": "[HIGH 8.1] CVE-2026-130906",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130906",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:48+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.3] CVE-2026-131105",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131105",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:47+00:00"
+        },
+        {
+          "title": "[MEDIUM 5.4] CVE-2026-131102",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131102",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:47+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.7] CVE-2026-131099",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131099",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:47+00:00"
+        },
+        {
+          "title": "[MEDIUM 5.4] CVE-2026-131085",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131085",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:47+00:00"
+        },
+        {
+          "title": "[MEDIUM 6.5] CVE-2026-131073",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131073",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:47+00:00"
+        },
+        {
+          "title": "[MEDIUM 6.5] CVE-2026-131072",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131072",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:47+00:00"
+        },
+        {
+          "title": "[MEDIUM 6.5] CVE-2026-131034",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131034",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:47+00:00"
+        },
+        {
+          "title": "[HIGH 8.1] CVE-2026-131018",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131018",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:47+00:00"
+        },
+        {
+          "title": "[HIGH 8.1] CVE-2026-130983",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130983",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:47+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.2] CVE-2026-130931",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130931",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:47+00:00"
+        },
+        {
+          "title": "[MEDIUM 6.5] CVE-2026-130916",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130916",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:47+00:00"
+        },
+        {
+          "title": "[MEDIUM 6.8] CVE-2026-130911",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130911",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:47+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.2] CVE-2026-130908",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130908",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:47+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-131106",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131106",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:46+00:00"
+        },
+        {
+          "title": "[CRITICAL 9.6] CVE-2026-131088",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131088",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:46+00:00"
+        },
+        {
+          "title": "[HIGH 8.1] CVE-2026-131041",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131041",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:46+00:00"
+        },
+        {
+          "title": "[MEDIUM 6.5] CVE-2026-131040",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131040",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-17T20:45:46+00:00"
+        },
+        {
           "title": "[CRITICAL 9.3] CVE-2026-120864",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120864",
           "source": "Citrix CVE",
@@ -268,6 +753,7 @@
         },
         {
           "title": "[HIGH 8.7] CVE-2026-120862",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120862",
           "source": "Citrix CVE",
@@ -276,6 +762,7 @@
         },
         {
           "title": "[HIGH 8.7] CVE-2026-120861",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120861",
           "source": "Citrix CVE",
@@ -284,6 +771,7 @@
         },
         {
           "title": "[HIGH 8.7] CVE-2026-120860",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120860",
           "source": "Citrix CVE",
@@ -292,6 +780,7 @@
         },
         {
           "title": "[MEDIUM 6.9] CVE-2026-111339",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111339",
           "source": "Citrix CVE",
@@ -300,6 +789,7 @@
         },
         {
           "title": "CVE-2026-121680 Windows NTLM Spoofing Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-121680",
           "source": "Microsoft CVE",
@@ -308,6 +798,7 @@
         },
         {
           "title": "CVE-2026-119961 Windows Internet Information Services Remote Code Execution Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119961",
           "source": "Microsoft CVE",
@@ -316,6 +807,7 @@
         },
         {
           "title": "CVE-2026-119914 Windows Setup and Deployment Elevation of Privilege Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119914",
           "source": "Microsoft CVE",
@@ -324,6 +816,7 @@
         },
         {
           "title": "CVE-2026-108440 Microsoft Office Word Remote Code Execution Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108440",
           "source": "Microsoft CVE",
@@ -332,6 +825,7 @@
         },
         {
           "title": "CVE-2026-96251 Microsoft PowerShell Remote Code Execution Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96251",
           "source": "Microsoft CVE",
@@ -340,6 +834,7 @@
         },
         {
           "title": "CVE-2026-88208 Microsoft Office SharePoint Spoofing Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88208",
           "source": "Microsoft CVE",
@@ -348,6 +843,7 @@
         },
         {
           "title": "CVE-2026-70278 Microsoft Windows Media Foundation Elevation of Privilege Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70278",
           "source": "Microsoft CVE",
@@ -356,6 +852,7 @@
         },
         {
           "title": "CVE-2026-78524 Microsoft Office Remote Code Execution Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78524",
           "source": "Microsoft CVE",
@@ -364,6 +861,7 @@
         },
         {
           "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
           "source": "Microsoft CVE",
@@ -372,6 +870,7 @@
         },
         {
           "title": "[HIGH 7.7] CVE-2026-120866",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120866",
           "source": "Citrix CVE",
@@ -380,6 +879,7 @@
         },
         {
           "title": "[HIGH 8.7] CVE-2026-120865",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120865",
           "source": "Citrix CVE",
@@ -388,6 +888,7 @@
         },
         {
           "title": "[MEDIUM 6.9] CVE-2026-111338",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111338",
           "source": "Citrix CVE",
@@ -396,6 +897,7 @@
         },
         {
           "title": "[HIGH 8.7] CVE-2026-111342",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111342",
           "source": "Citrix CVE",
@@ -404,6 +906,7 @@
         },
         {
           "title": "[HIGH 8.7] CVE-2026-111341",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111341",
           "source": "Citrix CVE",
@@ -412,6 +915,7 @@
         },
         {
           "title": "[HIGH 8.7] CVE-2026-111340",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111340",
           "source": "Citrix CVE",
@@ -420,6 +924,7 @@
         },
         {
           "title": "[HIGH 8.7] CVE-2026-111337",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111337",
           "source": "Citrix CVE",
@@ -428,6 +933,7 @@
         },
         {
           "title": "[HIGH 8.3] CVE-2026-111336",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111336",
           "source": "Citrix CVE",
@@ -436,6 +942,7 @@
         },
         {
           "title": "[MEDIUM 6.9] CVE-2026-111335",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111335",
           "source": "Citrix CVE",
@@ -444,6 +951,7 @@
         },
         {
           "title": "[MEDIUM 6.9] CVE-2026-111333",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111333",
           "source": "Citrix CVE",
@@ -452,6 +960,7 @@
         },
         {
           "title": "[CRITICAL 9.3] CVE-2026-107415",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107415",
           "source": "Citrix CVE",
@@ -460,6 +969,7 @@
         },
         {
           "title": "[HIGH 8.7] CVE-2026-107414",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107414",
           "source": "Citrix CVE",
@@ -468,6 +978,7 @@
         },
         {
           "title": "[HIGH 8.7] CVE-2026-120863",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120863",
           "source": "Citrix CVE",
@@ -476,6 +987,7 @@
         },
         {
           "title": "[HIGH 8.7] CVE-2026-120867",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120867",
           "source": "Citrix CVE",
@@ -484,6 +996,7 @@
         },
         {
           "title": "[CRITICAL 9.3] CVE-2026-111334",
+          "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111334",
           "source": "Citrix CVE",
@@ -492,6 +1005,7 @@
         },
         {
           "title": "CVE-2026-105544 .NET VSTest Elevation of Privilege Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105544",
           "source": "Microsoft CVE",
@@ -500,6 +1014,7 @@
         },
         {
           "title": "CVE-2026-124223 Microsoft Office SharePoint Remote Code Execution Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-124223",
           "source": "Microsoft CVE",
@@ -508,6 +1023,7 @@
         },
         {
           "title": "CVE-2026-124222 Microsoft Office SharePoint Elevation of Privilege Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-124222",
           "source": "Microsoft CVE",
@@ -516,6 +1032,7 @@
         },
         {
           "title": "CVE-2026-94522 Windows Kernel Transaction Manager Elevation of Privilege Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-94522",
           "source": "Microsoft CVE",
@@ -524,6 +1041,7 @@
         },
         {
           "title": "CVE-2026-95922 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95922",
           "source": "Microsoft CVE",
@@ -532,6 +1050,7 @@
         },
         {
           "title": "CVE-2026-95942 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95942",
           "source": "Microsoft CVE",
@@ -540,6 +1059,7 @@
         },
         {
           "title": "CVE-2026-95953 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95953",
           "source": "Microsoft CVE",
@@ -548,6 +1068,7 @@
         },
         {
           "title": "CVE-2026-96126 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96126",
           "source": "Microsoft CVE",
@@ -556,6 +1077,7 @@
         },
         {
           "title": "CVE-2026-96144 Windows Graphics Kernel Information Disclosure Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96144",
           "source": "Microsoft CVE",
@@ -564,6 +1086,7 @@
         },
         {
           "title": "CVE-2026-96150 Microsoft Windows Codecs Library Information Disclosure Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96150",
           "source": "Microsoft CVE",
@@ -572,6 +1095,7 @@
         },
         {
           "title": "CVE-2026-88217 Windows Graphics Kernel Information Disclosure Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88217",
           "source": "Microsoft CVE",
@@ -580,6 +1104,7 @@
         },
         {
           "title": "CVE-2026-95932 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95932",
           "source": "Microsoft CVE",
@@ -588,6 +1113,7 @@
         },
         {
           "title": "CVE-2026-95948 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95948",
           "source": "Microsoft CVE",
@@ -596,6 +1122,7 @@
         },
         {
           "title": "CVE-2026-112765 Windows Print Spooler Components Elevation of Privilege Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112765",
           "source": "Microsoft CVE",
@@ -604,6 +1131,7 @@
         },
         {
           "title": "CVE-2026-113749 Microsoft Windows Codecs Library Remote Code Execution Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113749",
           "source": "Microsoft CVE",
@@ -612,6 +1140,7 @@
         },
         {
           "title": "CVE-2026-108401 Remote Desktop Services Remote Code Execution Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108401",
           "source": "Microsoft CVE",
@@ -620,6 +1149,7 @@
         },
         {
           "title": "CVE-2026-109473 Windows Kernel Elevation of Privilege Vulnerability",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-109473",
           "source": "Microsoft CVE",
@@ -628,6 +1158,7 @@
         },
         {
           "title": "Chromium CVE-2026-125342: Uninitialized resource",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-125342",
           "source": "Microsoft CVE",
@@ -636,6 +1167,7 @@
         },
         {
           "title": "Chromium CVE-2026-125344: Type confusion",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-125344",
           "source": "Microsoft CVE",
@@ -644,408 +1176,9 @@
         },
         {
           "title": "Chromium CVE-2026-125348: Out of bounds write",
+          "version": "",
           "summary": "",
           "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-125348",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126840: Out of bounds write",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126840",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126841: Out of bounds read",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126841",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126843: Type confusion",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126843",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126844: Uninitialized resource",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126844",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126845: Uninitialized resource",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126845",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126847: Type confusion",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126847",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126848: Uninitialized resource",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126848",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126849: Type confusion",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126849",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126851: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126851",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126852: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126852",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126853: Uninitialized resource",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126853",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126854: Incorrect authorization",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126854",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126856: Incomplete cleanup",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126856",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126857: Out of bounds read",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126857",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126858: Uninitialized resource",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126858",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126859: Link following",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126859",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126863: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126863",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126864: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126864",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126865: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126865",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126866: Incorrect authorization",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126866",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126868: Type confusion",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126868",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126869: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126869",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126870: Uninitialized resource",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126870",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126871: Out of bounds read",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126871",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126872: Incorrect authorization",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126872",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126873: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126873",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126874: Type confusion",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126874",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126875: Missing authorization",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126875",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126876: Integer overflow",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126876",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126878: Information leak",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126878",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126879: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126879",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126880: Type confusion",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126880",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126881: Improper initialization",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126881",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126883: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126883",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126884: Out of bounds read",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126884",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126885: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126885",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126886: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126886",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126887: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126887",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126888: Buffer overflow",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126888",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126889: Off-by-one error",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126889",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126891: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126891",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126892: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126892",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126893: Out of bounds write",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126893",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126894: Out of bounds read",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126894",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126895: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126895",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126896: Missing authorization",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126896",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126897: Type confusion",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126897",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126898: Uninitialized resource",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126898",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126900: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126900",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "Chromium CVE-2026-126901: Use after free",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126901",
           "source": "Microsoft CVE",
           "product": "Microsoft",
           "published": "2026-11-13T08:00:00-08:00"
@@ -1056,7 +1189,17 @@
       "title": "Product Releases & Updates",
       "items": [
         {
+          "title": "wireshark",
+          "version": "4.6.10",
+          "summary": "Wireshark",
+          "url": "https://community.chocolatey.org/packages/wireshark/4.6.10",
+          "source": "Chocolatey Packages",
+          "product": "wireshark",
+          "published": "2026-11-18T22:22:42+00:00"
+        },
+        {
           "title": "What's new in Azure Virtual Desktop? - Azure - Azure Virtual Desktop",
+          "version": "",
           "summary": "",
           "url": "https://learn.microsoft.com/en-us/azure/virtual-desktop/whats-new",
           "source": "Microsoft FSLogix",
@@ -1064,7 +1207,17 @@
           "published": "2026-11-17T18:25:00+00:00"
         },
         {
+          "title": "Firefox",
+          "version": "160.0.1",
+          "summary": "Bringing together all kinds of awesomeness to make browsing better for you",
+          "url": "https://community.chocolatey.org/packages/Firefox/160.0.1",
+          "source": "Chocolatey Packages",
+          "product": "Firefox",
+          "published": "2026-11-17T18:13:48+00:00"
+        },
+        {
           "title": "New - Download UniconOS 2603 LTSR CU2",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Software-Packages/eLux-Software-Packages-2603LTSRCU2.html",
           "source": "Citrix UniconOS",
@@ -1073,6 +1226,7 @@
         },
         {
           "title": "New - Download UniconOS 2609",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Software-Packages/eLux-Software-Packages-2609.html",
           "source": "Citrix UniconOS",
@@ -1081,6 +1235,7 @@
         },
         {
           "title": "New - Citrix Workspace App 2611 Technology Preview for macOS",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/betas-and-tech-previews/workspace-app-tp-for-mac.html",
           "source": "Citrix Workspace App Updates",
@@ -1089,6 +1244,7 @@
         },
         {
           "title": "New - NetScaler VPX FIPS Release 13.1 Build 37.293",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-131-FIPS.html",
           "source": "Citrix NetScaler",
@@ -1096,47 +1252,44 @@
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler VPX FIPS Release 14.1 Build 73.58",
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
+          "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-141-73-58-fips.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler FIPS Release 14.1 Build 73.58",
+          "title": "New - NetScaler CPX Release (Maintenance Phase) 14.1 Build 73.58",
+          "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-141-build-73-58-fips.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-58.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
+          "title": "New - NetScaler Release (Maintenance Phase) 14.1 Build 73.58",
+          "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-58.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
+          "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
+          "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58-fips.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
           "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-13-1-64-39.html",
           "source": "Citrix NetScaler",
@@ -1145,6 +1298,7 @@
         },
         {
           "title": "New - NetScaler CPX Release (Maintenance Phase) 13.1 Build 64.39",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-13-1-64-39.html",
           "source": "Citrix NetScaler",
@@ -1153,6 +1307,7 @@
         },
         {
           "title": "New - NetScaler Release (Maintenance Phase) 13.1 Build 64.39",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-13-1-build-64-39.html",
           "source": "Citrix NetScaler",
@@ -1160,15 +1315,8 @@
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58-fips.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
           "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 64.39",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-13-1-64-39.html",
           "source": "Citrix NetScaler",
@@ -1176,95 +1324,53 @@
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
+          "title": "New - NetScaler VPX FIPS Release 14.1 Build 73.58",
+          "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-141-73-58-fips.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler Release (Maintenance Phase) 14.1 Build 73.58",
+          "title": "New - NetScaler FIPS Release 14.1 Build 73.58",
+          "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-58.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-141-build-73-58-fips.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler CPX Release (Maintenance Phase) 14.1 Build 73.58",
+          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+          "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-58.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
+          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
+          "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58-fips.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
+          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
+          "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for GCP",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-64-39.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for Azure",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-64-39.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for AWS",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-64-39.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler FIPS Release 13.1 Build 37.293",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-131-build-37293.html",
-          "source": "Citrix NetScaler",
-          "product": "NetScaler",
-          "published": "2026-11-12T13:30:00-05:00"
-        },
-        {
-          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for GCP",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-37-293.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58-fips.html",
           "source": "Citrix NetScaler",
           "product": "NetScaler",
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
           "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for Azure",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-37-293.html",
           "source": "Citrix NetScaler",
@@ -1273,6 +1379,7 @@
         },
         {
           "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for AWS",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-37-293.html",
           "source": "Citrix NetScaler",
@@ -1280,7 +1387,80 @@
           "published": "2026-11-12T13:30:00-05:00"
         },
         {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler FIPS Release 13.1 Build 37.293",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-131-build-37293.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for GCP",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-64-39.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for AWS",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-64-39.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for Azure",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-64-39.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
+          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for GCP",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-37-293.html",
+          "source": "Citrix NetScaler",
+          "product": "NetScaler",
+          "published": "2026-11-12T13:30:00-05:00"
+        },
+        {
           "title": "New - NetScaler Console Release (Maintenance Phase) 14.1 Build 74.34",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-application-management/product-software/citrix-adm-14-1-build-74-34.html",
           "source": "Citrix NetScaler Console",
@@ -1289,6 +1469,7 @@
         },
         {
           "title": "New - Download UniconOS Management (Scout)",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Scout-Elias/Scout.html",
           "source": "Citrix UniconOS",
@@ -1297,6 +1478,7 @@
         },
         {
           "title": "FSLogix Release Notes - FSLogix",
+          "version": "",
           "summary": "",
           "url": "https://learn.microsoft.com/en-us/fslogix/overview-release-notes",
           "source": "Microsoft FSLogix",
@@ -1305,6 +1487,7 @@
         },
         {
           "title": "New - Citrix Audio Diagnostic Tool",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-tools/citrixtoolspage/CitrixAudioDiagnosticTool.html",
           "source": "Citrix Tools",
@@ -1313,6 +1496,7 @@
         },
         {
           "title": "New - Browser Content Redirection",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/browser-content-redirection-mac/bcr-files.html",
           "source": "Citrix Workspace App Updates",
@@ -1321,6 +1505,7 @@
         },
         {
           "title": "New - Download Scout Cloud Gateway",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Scout-Elias/Scout-Cloud-Gateway.html",
           "source": "Citrix UniconOS",
@@ -1329,6 +1514,7 @@
         },
         {
           "title": "New - Virtual Channel SDKs",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/virtual-channel-sdks/virtual-channel-sdk.html",
           "source": "Citrix Workspace App Updates",
@@ -1337,6 +1523,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2608 for Linux",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/linux/workspace-app-for-linux-latest.html",
           "source": "Citrix Workspace App Updates",
@@ -1345,6 +1532,7 @@
         },
         {
           "title": "New - Citrix Workspace app for Linux - Certificate Identity Declaration SDK -2608",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-certificate-identity-declaration-sdk-2608.html",
           "source": "Citrix Workspace App Updates",
@@ -1353,6 +1541,7 @@
         },
         {
           "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2608",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk-2608.html",
           "source": "Citrix Workspace App Updates",
@@ -1361,6 +1550,7 @@
         },
         {
           "title": "New - Citrix Workspace app for Linux - Credential Insertion SDK - 2608",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-credential-insertion-sdk-2608.html",
           "source": "Citrix Workspace App Updates",
@@ -1369,6 +1559,7 @@
         },
         {
           "title": "New - Citrix LTSR Assistant Tool",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-tools/citrixtoolspage/CitrixLTSRAssistantTool.html",
           "source": "Citrix Tools",
@@ -1377,6 +1568,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2610 for Windows",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest.html",
           "source": "Citrix Workspace App Updates",
@@ -1385,6 +1577,7 @@
         },
         {
           "title": "New - Citrix DaaS MCP Server Local - Tech Preview",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/citrix-daas-mcp-local.html",
           "source": "Citrix DaaS Local",
@@ -1393,6 +1586,7 @@
         },
         {
           "title": "New - Session Recording 2609",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/session-recording-2609.html",
           "source": "Citrix DaaS Local",
@@ -1401,6 +1595,7 @@
         },
         {
           "title": "New - Download UniconOS (eLux) Migration Tools",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Scout-Tool/eLux_Migration_Tools.html",
           "source": "Citrix UniconOS",
@@ -1409,6 +1604,7 @@
         },
         {
           "title": "New - Download StickWizz",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Scout-Tool/StickWizz.html",
           "source": "Citrix UniconOS",
@@ -1417,6 +1613,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2607 for ChromeOS",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/chrome/workspace-app-for-chrome-latest.html",
           "source": "Citrix Workspace App Updates",
@@ -1425,6 +1622,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2607 for ChromeOS SDK",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/chrome/workspace-app-for-chrome-sdk-latest.html",
           "source": "Citrix Workspace App Updates",
@@ -1433,6 +1631,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2607 for HTML5",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/html5/workspace-app-for-html5-latest.html",
           "source": "Citrix Workspace App Updates",
@@ -1441,6 +1640,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2607 for HTML5 SDK",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/html5/workspace-app-for-html5-sdk-latest.html",
           "source": "Citrix Workspace App Updates",
@@ -1449,6 +1649,7 @@
         },
         {
           "title": "New - Citrix Workspace app for Windows LTSR 2507.1 Cumulative Update 3 Hotfix 1",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/workspace-app-for-windows-long-term-service-release/workspace-app-for-windows-LTSR-Latest.html",
           "source": "Citrix Workspace App Updates",
@@ -1457,6 +1658,7 @@
         },
         {
           "title": "New - Citrix Workspace app for Windows LTSR 2607 Hotfix 1",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/workspace-app-for-windows-long-term-service-release/workspace-app-for-windows-LTSR-Latest1.html",
           "source": "Citrix Workspace App Updates",
@@ -1465,6 +1667,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2607 for Android",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/android/workspace-app-for-android.html",
           "source": "Citrix Workspace App Updates",
@@ -1473,6 +1676,7 @@
         },
         {
           "title": "New - Fast Connect API for Citrix Workspace app 2603.20 for Windows",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/fast-connect-sdks/fast-connect-api-2603-20.html",
           "source": "Citrix Workspace App Updates",
@@ -1481,6 +1685,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2603.20 for Windows - Certificate Identity Declaration SDK",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/Windows-sdks/windows-certificate-identity-declaration-sdk-2603-20.html",
           "source": "Citrix Workspace App Updates",
@@ -1489,6 +1694,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2603.20 for Windows",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest-2603-20.html",
           "source": "Citrix Workspace App Updates",
@@ -1497,6 +1703,7 @@
         },
         {
           "title": "New - Download ELIAS",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Scout-Elias/Elias.html",
           "source": "Citrix UniconOS",
@@ -1505,6 +1712,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2609 for iOS",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/ios/workspace-app-for-ios.html",
           "source": "Citrix Workspace App Updates",
@@ -1513,6 +1721,7 @@
         },
         {
           "title": "New - Download UniconOS 2607.2",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Software-Packages/eLux-Software-Packages-CR1.html",
           "source": "Citrix UniconOS",
@@ -1521,6 +1730,7 @@
         },
         {
           "title": "New - Download CWA 2608 EAR",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/Elux-Download-Pages/EARDownloads/DownloadCWAEAR.html",
           "source": "Citrix UniconOS",
@@ -1529,6 +1739,7 @@
         },
         {
           "title": "New - Browser Content Redirection Download Files",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/browser-content-redirection-windows/bcr-files.html",
           "source": "Citrix Workspace App Updates",
@@ -1537,6 +1748,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2609 for Mac",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/mac/workspace-app-for-mac-latest.html",
           "source": "Citrix Workspace App Updates",
@@ -1545,6 +1757,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2603.60 for ChromeOS",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-260360.html",
           "source": "Citrix Workspace App Updates",
@@ -1553,6 +1766,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2603.60 for ChromeOS SDK",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-sdk-260360.html",
           "source": "Citrix Workspace App Updates",
@@ -1561,6 +1775,7 @@
         },
         {
           "title": "New - Citrix Workspace App for Isolated Web Apps - Tech Preview",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/betas-and-tech-previews/workspace-app-tp-iwa.html",
           "source": "Citrix Workspace App Updates",
@@ -1569,6 +1784,7 @@
         },
         {
           "title": "New - Citrix Always on Tracing  Log Server",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-tools/citrixtoolspage/CitrixAlwaysOnTracing-LogServer-2507CU1.html",
           "source": "Citrix Tools",
@@ -1577,6 +1793,7 @@
         },
         {
           "title": "New - NetScaler SDX Bundle (Maintenance Phase) 13.1-64.22",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/service-delivery-appliances/sdx-bundle-13-1-64-22.html",
           "source": "Citrix NetScaler",
@@ -1585,6 +1802,7 @@
         },
         {
           "title": "New - Citrix Virtual Delivery Agent for macOS 2607",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/mac-vda-2607.html",
           "source": "Citrix DaaS Local",
@@ -1593,6 +1811,7 @@
         },
         {
           "title": "New - Linux Virtual Delivery Agent 2607",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/linux-vda-2607.html",
           "source": "Citrix DaaS Local",
@@ -1601,6 +1820,7 @@
         },
         {
           "title": "New - NetScaler Console Release (Maintenance Phase) 14.1 Build 73.36",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-application-management/earlier-versions/citrix-adm-14-1-build-73-36.html",
           "source": "Citrix NetScaler Console",
@@ -1609,6 +1829,7 @@
         },
         {
           "title": "New - Session Recording Agent for Endpoint Devices 2607",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/session-recording-agent-for-endpoint-devices-2607.html",
           "source": "Citrix DaaS Local",
@@ -1617,6 +1838,7 @@
         },
         {
           "title": "New - Citrix Workspace app LTSR 2607 for Windows - Certificate Identity Declaration SDK",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/Windows-sdks/windows-certificate-identity-declaration-sdk-2204.html",
           "source": "Citrix Workspace App Updates",
@@ -1625,6 +1847,7 @@
         },
         {
           "title": "New - Fast Connect API for Citrix Workspace app LTSR 2607 for Windows",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/fast-connect-sdks/fast-connect-api-2607.html",
           "source": "Citrix Workspace App Updates",
@@ -1633,6 +1856,7 @@
         },
         {
           "title": "New - Citrix Workspace app for Windows LTSR 2607",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-windows-ltsr/workspace-app-for-windows-LTSR-2607.html",
           "source": "Citrix Workspace App Updates",
@@ -1640,15 +1864,8 @@
           "published": "2026-08-31T00:00:00-04:00"
         },
         {
-          "title": "New - Citrix Workspace app 2603.50 for ChromeOS SDK",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-sdk-260350.html",
-          "source": "Citrix Workspace App Updates",
-          "product": "Workspace App",
-          "published": "2026-08-24T14:30:00-04:00"
-        },
-        {
           "title": "New - Citrix Workspace app 2603.50 for ChromeOS",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-260350.html",
           "source": "Citrix Workspace App Updates",
@@ -1656,7 +1873,17 @@
           "published": "2026-08-24T14:30:00-04:00"
         },
         {
+          "title": "New - Citrix Workspace app 2603.50 for ChromeOS SDK",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-sdk-260350.html",
+          "source": "Citrix Workspace App Updates",
+          "product": "Workspace App",
+          "published": "2026-08-24T14:30:00-04:00"
+        },
+        {
           "title": "New - Citrix Infra Monitor",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/Citrix-Infra-Monitor.html",
           "source": "Citrix DaaS Local",
@@ -1665,6 +1892,7 @@
         },
         {
           "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 63.21",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/vpx-release-13-1-63-21.html",
           "source": "Citrix NetScaler",
@@ -1673,6 +1901,7 @@
         },
         {
           "title": "New - NetScaler Release (Maintenance Phase) 13.1 Build 63.21",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/release-13-1-build-63-21.html",
           "source": "Citrix NetScaler",
@@ -1681,6 +1910,7 @@
         },
         {
           "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 63.21",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/blx-13-1-63-21.html",
           "source": "Citrix NetScaler",
@@ -1689,6 +1919,7 @@
         },
         {
           "title": "New - NetScaler CPX Release (Maintenance Phase) 13.1 Build 63.21",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/cpx-13-1-63-21.html",
           "source": "Citrix NetScaler",
@@ -1697,6 +1928,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2607 for Mac",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/mac/workspace-app-for-mac-latest2607.html",
           "source": "Citrix Workspace App Updates",
@@ -1705,6 +1937,7 @@
         },
         {
           "title": "New - Citrix Probe Agent 2607",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/app-probe-agent.html",
           "source": "Citrix DaaS Local",
@@ -1713,6 +1946,7 @@
         },
         {
           "title": "New - Workspace Environment Management 2607",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/workspace-environment-management-2607.html",
           "source": "Citrix DaaS Local",
@@ -1720,7 +1954,17 @@
           "published": "2026-08-18T12:00:00-04:00"
         },
         {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
+          "source": "Citrix DaaS Local",
+          "product": "Citrix DaaS",
+          "published": "2026-08-18T00:00:00-04:00"
+        },
+        {
           "title": "New - Linux Virtual Delivery Agent 2507 LTSR, Cumulative Update 2",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/linux-vda-2507-ltsr-cu2.html",
           "source": "Citrix DaaS Local",
@@ -1729,6 +1973,7 @@
         },
         {
           "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2.html",
           "source": "Citrix DaaS Local",
@@ -1736,15 +1981,8 @@
           "published": "2026-08-18T00:00:00-04:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
-          "source": "Citrix DaaS Local",
-          "product": "Citrix DaaS",
-          "published": "2026-08-18T00:00:00-04:00"
-        },
-        {
           "title": "New - Citrix Virtual Apps and Desktops 7 2607 LTSR, All Editions",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-alleditions-2607.html",
           "source": "Citrix DaaS Local",
@@ -1753,14 +1991,16 @@
         },
         {
           "title": "New - StoreFront 2507 LTSR,Cumulative Update 2",
+          "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-2507-CU2.html",
+          "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-in-2507-ltsr-cu2.html",
           "source": "Citrix StoreFront Local",
           "product": "StoreFront",
           "published": "2026-08-18T00:00:00-04:00"
         },
         {
           "title": "New - StoreFront 2607 LTSR",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-2607.html",
           "source": "Citrix StoreFront Local",
@@ -1769,6 +2009,7 @@
         },
         {
           "title": "New - Citrix Provisioning 2607 LTSR",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2607.html",
           "source": "Citrix PVS",
@@ -1777,6 +2018,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2604.10 for Linux",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-linux/workspace-app-for-linux-2604-10.html",
           "source": "Citrix Workspace App Updates",
@@ -1785,6 +2027,7 @@
         },
         {
           "title": "New - Citrix Workspace app for Windows LTSR 2507.1 Cumulative Update 3",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-windows-ltsr/workspace-app-for-windows-LTSR-2507-CU3.html",
           "source": "Citrix Workspace App Updates",
@@ -1793,6 +2036,7 @@
         },
         {
           "title": "New - Citrix Workspace app 2603.11 for Windows",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-windows/workspace-app-for-windows-latest1.html",
           "source": "Citrix Workspace App Updates",
@@ -1801,14 +2045,16 @@
         },
         {
           "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
+          "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-25072.html",
+          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2507-ltsr-cu2.html",
           "source": "Citrix PVS",
           "product": "Provisioning Services",
           "published": "2026-08-11T00:00:00-04:00"
         },
         {
           "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU4 Update 1",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU4-Update1.html",
           "source": "Citrix DaaS Local",
@@ -1817,6 +2063,7 @@
         },
         {
           "title": "New - Citrix Virtual Apps and Desktops 7 2203 LTSR CU7 Update 4",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2203-CU7-Update4.html",
           "source": "Citrix DaaS Local",
@@ -1825,6 +2072,7 @@
         },
         {
           "title": "New - NetScaler SDX Bundle (Maintenance Phase) 14.1-73.30",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-adc/service-delivery-appliances/sdx-bundle-14-1-73-30.html",
           "source": "Citrix NetScaler",
@@ -1833,27 +2081,12 @@
         },
         {
           "title": "New - Citrix Workspace app 2603.10 for HTML5 SDK",
+          "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-html5/workspace-app-for-html5-sdk-260310.html",
           "source": "Citrix Workspace App Updates",
           "product": "Workspace App",
           "published": "2026-07-22T14:30:00-04:00"
-        },
-        {
-          "title": "New - Citrix Workspace app 2603.10 for HTML5",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-html5/workspace-app-for-html5-260310.html",
-          "source": "Citrix Workspace App Updates",
-          "product": "Workspace App",
-          "published": "2026-07-22T14:30:00-04:00"
-        },
-        {
-          "title": "New - Citrix Workspace app for Linux - Certificate Identity Declaration SDK -2604",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-certificate-identity-declaration-sdk-2604.html",
-          "source": "Citrix Workspace App Updates",
-          "product": "Workspace App",
-          "published": "2026-07-17T14:30:00-04:00"
         }
       ]
     },
@@ -1862,6 +2095,7 @@
       "items": [
         {
           "title": "Register Cloud Connectors with a registration code",
+          "version": "",
           "summary": "",
           "url": "https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html#register-cloud-connectors-with-a-registration-code",
           "source": "Citrix Cloud What's New",
@@ -1870,6 +2104,7 @@
         },
         {
           "title": "Cloud Connector services on Microsoft .NET 10",
+          "version": "",
           "summary": "",
           "url": "https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html#cloud-connector-services-on-microsoft-.net-10",
           "source": "Citrix Cloud What's New",
@@ -1878,6 +2113,7 @@
         },
         {
           "title": "Licensing for Citrix Platform Flex",
+          "version": "",
           "summary": "Citrix Platform Flex is a managed, cloud‑delivered platform designed to provide secure, resilient, and flexible delivery of digital stores and platform services across clouds. For more information, see: Licensing for Citrix Platform Flex Flex Credit consumption and reporting",
           "url": "https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html#may-2026",
           "source": "Citrix Cloud What's New",
@@ -1886,6 +2122,7 @@
         },
         {
           "title": "Configurable inactivity timeout for console",
+          "version": "",
           "summary": "Full-access administrators can now configure the duration of inactivity on the Citrix Cloud console before administrators are automatically signed out. The configurable inactivity timeout ranges from 10 minutes to 12 hours, with a default of 60 minutes. For more information, see System and Connectivity Requirements .",
           "url": "https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html#april-2026",
           "source": "Citrix Cloud What's New",
@@ -1894,6 +2131,7 @@
         },
         {
           "title": "Conditional Authentication enhancements",
+          "version": "",
           "summary": "Conditional Authentication now supports additional identity providers and policy conditions. For more information, see Conditional Authentication .",
           "url": "https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html#april-2026",
           "source": "Citrix Cloud What's New",
@@ -1902,6 +2140,7 @@
         },
         {
           "title": "SAML using Entra ID for Guest and B2B identities",
+          "version": "",
           "summary": "Citrix Cloud now supports store authentication for guest and B2B user identities using Entra ID as a SAML provider. For more information, see SAML using Entra ID for Guest and B2B identities for store authentication .",
           "url": "https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html#january-2026",
           "source": "Citrix Cloud What's New",
@@ -1912,13 +2151,10 @@
     },
     "blogs": {
       "title": "Product Blogs & Vendor News",
-      "items": []
-    },
-    "news": {
-      "title": "Industry News",
       "items": [
         {
           "title": "Citrix DaaS Profiles Flex: Profiles that outlive the desktop",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/app-and-desktop-virtualization/citrix-daas-profiles-flex-profiles-that-outlive-the-desktop/",
           "source": "Citrix Tech Zone Blogs",
@@ -1927,6 +2163,7 @@
         },
         {
           "title": "Post-quantum cryptography architectural considerations",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/platform-services/post-quantum-cryptography-architectural-considerations-pt6/",
           "source": "Citrix Tech Zone Blogs",
@@ -1935,6 +2172,7 @@
         },
         {
           "title": "Security updates for NetScaler ADC, NetScaler Gateway, and NetScaler Console",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/110_security-updates/security-updates-for-netscaler-adc-netscaler-gateway-and-netscaler-console/",
           "source": "Citrix Tech Zone Blogs",
@@ -1943,6 +2181,7 @@
         },
         {
           "title": "NetScaler WAF Signatures Update v188",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-waf-signatures-update-v188-r1655/",
           "source": "Citrix Tech Zone Blogs",
@@ -1951,6 +2190,7 @@
         },
         {
           "title": "NetScaler WAF Signatures Update v185",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-waf-signatures-update-v185-r1654/",
           "source": "Citrix Tech Zone Blogs",
@@ -1959,6 +2199,7 @@
         },
         {
           "title": "NetScaler WAF Signatures Update v184",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-waf-signatures-update-v184-r1653/",
           "source": "Citrix Tech Zone Blogs",
@@ -1967,6 +2208,7 @@
         },
         {
           "title": "Plan ahead: NetScaler security release program begins November 12",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/110_security-updates/plan-ahead-netscaler-security-release-program-begins-november-12-r1652/",
           "source": "Citrix Tech Zone Blogs",
@@ -1975,6 +2217,7 @@
         },
         {
           "title": "How Do I: Provision a NetScaler VPX on Google Cloud Using Terraform?",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/netscaler/how-do-i-provision-a-netscaler-vpx-on-google-cloud-using-terraform-r1651/",
           "source": "Citrix Tech Zone Blogs",
@@ -1983,6 +2226,7 @@
         },
         {
           "title": "Citrix Session Insights Flex: Session visibility without the infrastructure overhead",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/112_platform-flex/session-insights-flex/",
           "source": "Citrix Tech Zone Blogs",
@@ -1991,6 +2235,7 @@
         },
         {
           "title": "Tokenomics: AI token spend control in Citrix SecurSpaces",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/securspaces/tokenomics-ai-token-spend-control-in-citrix-securspaces/",
           "source": "Citrix Tech Zone Blogs",
@@ -1999,6 +2244,7 @@
         },
         {
           "title": "Your users already use AI agents: give them a safe place to run",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/securspaces/your-users-already-use-ai-agents-give-them-a-safe-place-to-run/",
           "source": "Citrix Tech Zone Blogs",
@@ -2007,6 +2253,7 @@
         },
         {
           "title": "Citrix SecurSpaces Community Edition",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/securspaces/citrix-securspaces-community-edition/",
           "source": "Citrix Tech Zone Blogs",
@@ -2015,6 +2262,7 @@
         },
         {
           "title": "Inside the sandbox -  how Citrix SecurSpaces runs enterprise agents",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/securspaces/inside-the-sandbox-how-citrix-securspaces-runs-enterprise-agents/",
           "source": "Citrix Tech Zone Blogs",
@@ -2023,6 +2271,7 @@
         },
         {
           "title": "Zero Trust for MCP: Controlling what AI agents are allowed to do",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/secure-private-access/zero-trust-for-mcp-controlling-what-ai-agents-are-allowed-to-do/",
           "source": "Citrix Tech Zone Blogs",
@@ -2031,6 +2280,7 @@
         },
         {
           "title": "October 2026 Tech Wire",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/newsletter/october_2026/",
           "source": "Citrix Tech Zone Blogs",
@@ -2039,6 +2289,7 @@
         },
         {
           "title": "How Do I: Plan and Execute NetScaler Upgrades with Console Upgrade Jobs?",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/netscaler/how-do-i-plan-and-execute-netscaler-upgrades-with-console-upgrade-jobs-r1645/",
           "source": "Citrix Tech Zone Blogs",
@@ -2047,6 +2298,7 @@
         },
         {
           "title": "How Do I: Validate a NetScaler upgrade and confirm it succeeded?",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/netscaler/how-do-i-validate-a-netscaler-upgrade-and-confirm-it-succeeded-r1644/",
           "source": "Citrix Tech Zone Blogs",
@@ -2055,6 +2307,7 @@
         },
         {
           "title": "NetScaler WAF Signatures Update v186",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-waf-signatures-update-v186-r1642/",
           "source": "Citrix Tech Zone Blogs",
@@ -2063,6 +2316,7 @@
         },
         {
           "title": "Protecting NetScaler Management Access from PHP CVE-2026-109618 & CVE 2026-109619",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/110_security-updates/protecting-netscaler-management-access-from-php-cve-2026-109618-cve-2026-109619-r1640/",
           "source": "Citrix Tech Zone Blogs",
@@ -2071,6 +2325,7 @@
         },
         {
           "title": "Protecting automotive and manufacturing innovation without slowing down",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/citrix-devicetrust/protecting-automotive-and-manufacturing-innovation-without-slowing-down/",
           "source": "Citrix Tech Zone Blogs",
@@ -2079,6 +2334,7 @@
         },
         {
           "title": "Citrix DaaS MCP server is now available in preview",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/techzone-blogs/app-and-desktop-virtualization/daas-mcp-preview/",
           "source": "Citrix Tech Zone Blogs",
@@ -2087,6 +2343,7 @@
         },
         {
           "title": "Learn how to configure NetScaler Gateway with SAML Service Provider Authentication for Secure Citrix Remote Access",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/tech-zone/build/deployment-guides/learn-how-to-configure-netscaler-gateway-with-saml-service-provider-authentication-for-secure-citrix-remote-access-r381/",
           "source": "Citrix Tech Zone Document History",
@@ -2095,6 +2352,7 @@
         },
         {
           "title": "Learn how to configure NetScaler Gateway with LDAP and RADIUS for secure Citrix remote access",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/tech-zone/build/deployment-guides/learn-how-to-configure-netscaler-gateway-with-ldap-and-radius-for-secure-citrix-remote-access-r380/",
           "source": "Citrix Tech Zone Document History",
@@ -2103,6 +2361,7 @@
         },
         {
           "title": "Learn how to configure NetScaler Gateway with LDAP and RADIUS as an OAuth IdP for Citrix Cloud Gateway",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/tech-zone/build/deployment-guides/learn-how-to-configure-netscaler-gateway-with-ldap-and-radius-as-an-oauth-idp-for-citrix-cloud-gateway-r379/",
           "source": "Citrix Tech Zone Document History",
@@ -2111,6 +2370,7 @@
         },
         {
           "title": "The Citrix Automation Handbook 2601 - Part 6",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/tech-zone/automation/automation-handbook-2601-part6/",
           "source": "Citrix Tech Zone Document History",
@@ -2119,6 +2379,7 @@
         },
         {
           "title": "The Citrix Automation Handbook 2601 - Part 5",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/tech-zone/automation/automation-handbook-2601-part5/",
           "source": "Citrix Tech Zone Document History",
@@ -2127,6 +2388,7 @@
         },
         {
           "title": "The Citrix Automation Handbook 2601 - Part 4",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/tech-zone/automation/automation-handbook-2601-part4/",
           "source": "Citrix Tech Zone Document History",
@@ -2135,6 +2397,7 @@
         },
         {
           "title": "The Citrix Automation Handbook 2601 - Part 3",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/tech-zone/automation/automation-handbook-2601-part3/",
           "source": "Citrix Tech Zone Document History",
@@ -2143,6 +2406,7 @@
         },
         {
           "title": "The Citrix Automation Handbook 2601 - Part 2",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/tech-zone/automation/automation-handbook-2601-part2/",
           "source": "Citrix Tech Zone Document History",
@@ -2151,6 +2415,7 @@
         },
         {
           "title": "The Citrix Automation Handbook 2601",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/tech-zone/automation/automation-handbook-2601/",
           "source": "Citrix Tech Zone Document History",
@@ -2159,6 +2424,7 @@
         },
         {
           "title": "Licensing Guide",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/tech-zone/learn/tech-briefs/unicon-licensing-guide/",
           "source": "Citrix Tech Zone Document History",
@@ -2167,6 +2433,7 @@
         },
         {
           "title": "Avoid Common Misconfigurations that Can Negatively Impact DaaS Resiliency",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/tech-zone/learn/tech-briefs/avoid-daas-resiliency-misconfiguration/",
           "source": "Citrix Tech Zone Document History",
@@ -2175,6 +2442,7 @@
         },
         {
           "title": "Deployment Guide: The Modern Way of creating Master Images using IaC with Packer, Ansible, Chocolatey, and GitHub Actions",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/tech-zone/automation/masterimage-iac-packer-ansible-chocolatey-github/",
           "source": "Citrix Tech Zone Document History",
@@ -2183,24 +2451,25 @@
         },
         {
           "title": "Deployment Guide: Using Infrastructure-as-Code for deploying Citrix® Virtual Apps and Desktops™ 2507 LTSR on vSphere 8",
+          "version": "",
           "summary": "",
           "url": "https://community.citrix.com/tech-zone/automation/iac-cvad2507-vsphere8/",
           "source": "Citrix Tech Zone Document History",
           "product": "Tech Zone",
           "published": "2025-11-19T15:54:00+00:00"
-        },
-        {
-          "title": "Deployment Guide: Using Infrastructure-as-Code for deploying Citrix® Virtual Apps and Desktops™ 2507 LTSR on XenServer™ 8.4",
-          "summary": "",
-          "url": "https://community.citrix.com/tech-zone/automation/iac-cvad2507-xenserver8/",
-          "source": "Citrix Tech Zone Document History",
-          "product": "Tech Zone",
-          "published": "2025-11-19T13:08:00+00:00"
         }
       ]
     },
+    "news": {
+      "title": "Industry News",
+      "items": []
+    },
     "community": {
       "title": "Community & Open Source",
+      "items": []
+    },
+    "chocolatey": {
+      "title": "Chocolatey Packages update",
       "items": []
     }
   }
