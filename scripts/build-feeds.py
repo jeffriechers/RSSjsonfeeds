@@ -375,7 +375,16 @@ def fetch_nerdio_feed(feed):
         print(
             f"ERROR loading {feed['name']}: {ex}"
         )
+    print(
+        f"Nerdio records generated: {len(records)}"
+    )
 
+    for record in records[:10]:
+
+        print(
+            f"{record['version']} | "
+            f"{record['title']}"
+        )
     return records
 def parse_date(entry):
 
