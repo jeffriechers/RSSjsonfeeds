@@ -7,6 +7,7 @@ import feedparser  # type: ignore[import-not-found]
 import requests  # type: ignore[import-not-found]
 import re
 import html
+import time
 
 from bs4 import BeautifulSoup  # type: ignore[import-not-found]
 from pathlib import Path
@@ -385,36 +386,51 @@ def fetch_nerdio_feed(feed):
     return records
 def parse_date(entry):
 
+    # Preferred parsed fields
     for field in [
-        
-        "updated",
-        "published",
-        "created"
+        "published_parsed",
+        "created_parsed",
+        "issued_parsed",
+        "updated_parsed"
     ]:
 
-        if field in entry:
+        if field in entry and entry[field]:
+
+            return datetime.fromtimestamp(
+                time.mktime(
+                    entry[field]
+                ),
+                tz=timezone.utc
+            )
+
+    # String fields as fallback
+    for field in [
+        "published",
+        "created",
+        "issued",
+        "updated"
+    ]:
+
+        if field in entry and entry[field]:
 
             try:
 
-                dt = parsedate_to_datetime(
+                return dateutil.parser.parse(
                     entry[field]
                 )
 
-                if dt.tzinfo is None:
-
-                    dt = dt.replace(
-                        tzinfo=timezone.utc
-                    )
-
-                return dt
-
             except Exception:
+
                 pass
+
+    print(
+        f"WARNING: No date found for: "
+        f"{entry.get('title', 'Unknown')}"
+    )
 
     return datetime.now(
         timezone.utc
     )
-
 def fetch_whatsnew_feed(feed):
 
     records = []
