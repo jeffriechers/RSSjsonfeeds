@@ -98,7 +98,9 @@ def fetch_chocolatey_feed(feed):
                 "product":
                     package,
                 "category":
-                    feed["category"]
+                    feed["category"],
+                "vendor":
+                    feed["vendor"]
             }
         )
 
@@ -358,7 +360,9 @@ def fetch_nerdio_feed(feed):
                         "product":
                             "Nerdio",
                         "category":
-                            feed["category"]
+                            feed["category"],
+                        "vendor":
+                            feed["vendor"]
                     }
                 )
 
@@ -555,7 +559,9 @@ def fetch_whatsnew_feed(feed):
                                 "product",
                                 feed["name"]
                             ),
-                            "category": feed["category"]
+                            "category": feed["category"],
+                            "vendor":
+                                feed["vendor"]
                         }
                     )
 
@@ -630,7 +636,9 @@ def fetch_whatsnew_feed(feed):
                                     feed["name"]
                                 ),
                             "category":
-                                feed["category"]
+                                feed["category"],
+                            "vendor":
+                                feed["vendor"]
                         }
                     )
 
@@ -653,33 +661,146 @@ def fetch_rss_feed(feed):
 
     records = []
 
-    print(f"Loading RSS feed: {feed['name']}")
+    print(
+        f"Loading RSS feed: {feed['name']}"
+    )
 
     try:
 
-        rss = feedparser.parse(feed["url"])
+        rss = feedparser.parse(
+            feed["url"]
+        )
 
         for entry in rss.entries:
 
-            published = parse_date(entry)
+            published = parse_date(
+                entry
+            )
+
+            title = entry.get(
+                "title",
+                "Untitled"
+            )
+
+            severity = ""
+            cvss = ""
+            cve = ""
+
+            #
+            # Additional parsing
+            # for security feeds
+            #
+
+            if (
+                feed.get(
+                    "category"
+                ) == "security"
+            ):
+
+                #
+                # Example:
+                # [HIGH 8.2] CVE-2026-30798
+                #
+
+                sev_match = re.search(
+                    r"\[(CRITICAL|HIGH|MEDIUM|LOW)\s+(\d+(?:\.\d+)?)\]",
+                    title,
+                    re.IGNORECASE
+                )
+
+                if sev_match:
+
+                    severity = (
+                        sev_match.group(1)
+                        .upper()
+                    )
+
+                    cvss = (
+                        sev_match.group(2)
+                    )
+
+                #
+                # Extract CVE
+                #
+                # Example:
+                # CVE-2026-30798
+                #
+
+                cve_match = re.search(
+                    r"(CVE-\d{4}-\d+)",
+                    title,
+                    re.IGNORECASE
+                )
+
+                if cve_match:
+
+                    cve = (
+                        cve_match.group(1)
+                        .upper()
+                    )
 
             records.append(
                 {
-                    "title": entry.get("title", "Untitled"),
-                    "url": entry.get("link", ""),
-                    "published": published,
-                    "source": feed["name"],
-                    "product": feed.get("product", feed["name"]),
-                    "category": feed["category"],
+                    "title":
+                        title,
+
+                    "version":
+                        "",
+
+                    "summary":
+                        entry.get(
+                            "summary",
+                            ""
+                        ),
+
+                    "url":
+                        entry.get(
+                            "link",
+                            ""
+                        ),
+
+                    "published":
+                        published,
+
+                    "source":
+                        feed["name"],
+
+                    "category":
+                        feed.get(
+                            "category",
+                            ""
+                        ),
+
+                    "vendor":
+                        feed.get(
+                            "vendor",
+                            ""
+                        ),
+
+                    "product":
+                        feed.get(
+                            "product",
+                            feed["name"]
+                        ),
+
+                    "severity":
+                        severity,
+
+                    "cvss":
+                        cvss,
+
+                    "cve":
+                        cve,
                 }
             )
 
     except Exception as ex:
 
-        print(f"ERROR: {feed['name']} : {ex}")
+        print(
+            f"ERROR: {feed['name']} : {ex}"
+        )
 
     return records
-
 
 def deduplicate(items):
 
@@ -707,8 +828,14 @@ def to_json_article(item):
 
     return {
         "title": item["title"],
-        "version": item.get("version", ""),
-        "summary": item.get("summary", ""),
+        "version": item.get(
+            "version",
+            ""
+        ),
+        "summary": item.get(
+            "summary",
+            ""
+        ),
         "url": item["url"],
 
         "category": item.get(
@@ -733,6 +860,11 @@ def to_json_article(item):
 
         "cvss": item.get(
             "cvss",
+            ""
+        ),
+
+        "cve": item.get(
+            "cve",
             ""
         ),
 
