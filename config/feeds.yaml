@@ -16,19 +16,11 @@ categories:
 - id: blogs
   title: Product Blogs & Vendor News
 
-- id: news
-  title: Industry News
-
-- id: community
-  title: Community & Open Source
-
-- id: chocolatey
-  title: Chocolatey Packages
-
 feeds:
 
 - name: Chocolatey Packages
-  category: chocolatey
+  category: releases
+  vendor: Chocolatey
   type: chocolatey
   url: https://feeds.feedburner.com/chocolatey
 
@@ -52,54 +44,63 @@ feeds:
 - name: Citrix Workspace App Updates
   product: Workspace App
   category: releases
+  vendor: Citrix
   type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/workspace-app.rss
 
 - name: Citrix DaaS Local
   product: Citrix DaaS
   category: releases
+  vendor: Citrix
   type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-virtual-apps-and-desktops.rss
 
 - name: Citrix StoreFront Local
   product: StoreFront
   category: releases
+  vendor: Citrix
   type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/storefront.rss
 
 - name: Citrix UniconOS
   product: UniconOS
   category: releases
+  vendor: Citrix
   type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/Elux-Download-Pages.rss
 
 - name: Citrix PVS
   product: Provisioning Services
   category: releases
+  vendor: Citrix
   type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/provisioning-services.rss
 
 - name: Citrix NetScaler
   product: NetScaler
   category: releases
+  vendor: Citrix
   type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-adc.rss
 
 - name: Citrix NetScaler Console
   product: NetScaler Console
   category: releases
+  vendor: Citrix
   type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-application-management.rss
 
 - name: Citrix ZTNA
   product: Secure Private Access
   category: releases
+  vendor: Citrix
   type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-secure-private-access.rss
 
 - name: Citrix Tools
   product: Citrix Tools
   category: releases
+  vendor: Citrix
   type: rss
   url: https://www.citrix.com/content/citrix/en_us/downloads/citrix-tools.rss
 
@@ -110,12 +111,14 @@ feeds:
 - name: Microsoft FSLogix
   product: FSLogix
   category: releases
+  vendor: Microsoft
   type: rss
   url: https://learn.microsoft.com/api/search/rss?search=%22FSLogix+Release+Notes%22&locale=en-us
 
 - name: Azure Updates
   product: Azure Tech Zone
   category: cloud
+  vendor: Microsoft
   type: rss
   url: https://www.microsoft.com/releasecommunications/api/v2/azure/rss
 
@@ -126,6 +129,7 @@ feeds:
 - name: Citrix Cloud What's New
   product: Citrix Cloud
   category: cloud
+  vendor: Citrix
   type: whatsnew
   url: https://docs.citrix.com/us/en/citrix-cloud/citrix-cloud-overview/whats-new.html
 
@@ -136,6 +140,7 @@ feeds:
 - name: Nerdio What's New
   product: Nerdio
   category: cloud
+  vendor: Nerdio
   type: nerdio
   url: https://nmehelp.getnerdio.com/api/v2/help_center/articles/19837802929677.json
 
@@ -164,12 +169,14 @@ feeds:
 - name: Citrix Tech Zone Document History
   product: Tech Zone
   category: blogs
+  vendor: Citrix
   type: rss
   url: https://community.citrix.com/rss/1-citrix-tech-zone-document-history.xml
 
 - name: Citrix Tech Zone Blogs
   product: Tech Zone
   category: blogs
+  vendor: Citrix
   type: rss
   url: https://community.citrix.com/rss/3-citrix-tech-zone-blogs.xml
 
@@ -180,6 +187,7 @@ feeds:
 - name: Omnissa Tech Zone Blogs
   product: Tech Zone
   category: blogs
+  vendor: Omnissa
   type: rss
   url: https://www.omnissa.com/rss.xml
 
@@ -190,35 +198,41 @@ feeds:
 - name: Citrix CVE
   product: Citrix
   category: security
+  vendor: Citrix
   type: rss
   url: https://cve.assurestart.co/api/feed.xml?term=Citrix
 
 - name: Microsoft CVE
   product: Microsoft
   category: security
+  vendor: Microsoft
   type: rss
   url: https://api.msrc.microsoft.com/update-guide/rss
 
 - name: Nutanix CVE
   product: Nutanix
   category: security
+  vendor: Nutanix
   type: rss
   url: https://cve.assurestart.co/api/feed.xml?term=Nutanix
 
 - name: Omnissa CVE
   product: Omnissa
   category: security
+  vendor: Omnissa
   type: rss
   url: https://cve.assurestart.co/api/feed.xml?term=Omnissa
 
 - name: VMware CVE
   product: VMware
   category: security
+  vendor: Broadcom
   type: rss
   url: https://cve.assurestart.co/api/feed.xml?term=VMware
 
 - name: Browser CVE
   product: Web Browsers
   category: security
+  vendor: Web Browsers
   type: rss
   url: https://cve.assurestart.co/api/feed.xml?term=Google,Firefox,Safari,Opera

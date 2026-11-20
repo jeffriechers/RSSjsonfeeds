@@ -711,8 +711,8 @@ def to_json_article(item):
         "summary": item.get("summary", ""),
         "url": item["url"],
 
-        "type": item.get(
-            "type",
+        "category": item.get(
+            "category",
             ""
         ),
 
