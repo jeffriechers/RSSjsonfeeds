@@ -383,29 +383,22 @@ def fetch_nerdio_feed(feed):
             f"{record['title']}"
         )
     return records
+
 def parse_date(entry):
 
     for field in [
         "published",
-        "updated",
-        "created"
+        "created",
+        "issued",
+        "updated"
     ]:
 
         if field in entry:
 
             try:
-
-                dt = parsedate_to_datetime(
+                return dateutil.parser.parse(
                     entry[field]
                 )
-
-                if dt.tzinfo is None:
-
-                    dt = dt.replace(
-                        tzinfo=timezone.utc
-                    )
-
-                return dt
 
             except Exception:
                 pass
