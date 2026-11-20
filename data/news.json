@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19T18:22:52.676725+00:00",
-  "article_count": 5924,
+  "generated": "2026-11-20T12:44:52.253898+00:00",
+  "article_count": 5891,
   "days_to_keep": 365,
   "latest_releases": [
     {
@@ -751,6 +751,15 @@
       "published": "2026-08-18T12:00:00-04:00"
     },
     {
+      "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-08-18T00:00:00-04:00"
+    },
+    {
       "title": "New - Linux Virtual Delivery Agent 2507 LTSR, Cumulative Update 2",
       "version": "",
       "summary": "",
@@ -764,15 +773,6 @@
       "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2.html",
-      "source": "Citrix DaaS Local",
-      "product": "Citrix DaaS",
-      "published": "2026-08-18T00:00:00-04:00"
-    },
-    {
-      "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
       "source": "Citrix DaaS Local",
       "product": "Citrix DaaS",
       "published": "2026-08-18T00:00:00-04:00"
@@ -844,25 +844,25 @@
       "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
       "version": "",
       "summary": "",
-      "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2507-ltsr-cu2.html",
+      "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-25072.html",
       "source": "Citrix PVS",
       "product": "Provisioning Services",
       "published": "2026-08-11T00:00:00-04:00"
-    },
-    {
-      "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU4 Update 1",
-      "version": "",
-      "summary": "",
-      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU4-Update1.html",
-      "source": "Citrix DaaS Local",
-      "product": "Citrix DaaS",
-      "published": "2026-08-07T00:00:00-04:00"
     },
     {
       "title": "New - Citrix Virtual Apps and Desktops 7 2203 LTSR CU7 Update 4",
       "version": "",
       "summary": "",
       "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2203-CU7-Update4.html",
+      "source": "Citrix DaaS Local",
+      "product": "Citrix DaaS",
+      "published": "2026-08-07T00:00:00-04:00"
+    },
+    {
+      "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU4 Update 1",
+      "version": "",
+      "summary": "",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU4-Update1.html",
       "source": "Citrix DaaS Local",
       "product": "Citrix DaaS",
       "published": "2026-08-07T00:00:00-04:00"
@@ -930,15 +930,15 @@
       "count": 8
     },
     {
-      "product": "Provisioning Services",
-      "count": 8
-    },
-    {
       "product": "FSLogix",
       "count": 7
     },
     {
       "product": "StoreFront",
+      "count": 7
+    },
+    {
+      "product": "Provisioning Services",
       "count": 7
     },
     {
@@ -950,6 +950,582 @@
     "security": {
       "title": "Security Advisories",
       "items": [
+        {
+          "title": "Chromium: CVE-2024-7533 Use after free in Sharing",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-7532",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-20T01:06:50-08:00"
+        },
+        {
+          "title": "Chromium: CVE-2023-1531 Use after free in ANGLE",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-1531",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-20T01:05:37-08:00"
+        },
+        {
+          "title": "[HIGH 8.2] CVE-2026-30798",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30798",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-19T19:17:31+00:00"
+        },
+        {
+          "title": "[CRITICAL 9.3] CVE-2026-30797",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30797",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-19T19:17:31+00:00"
+        },
+        {
+          "title": "[CRITICAL 9.3] CVE-2026-30793",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30793",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-19T19:17:30+00:00"
+        },
+        {
+          "title": "[HIGH 8.3] CVE-2026-30792",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30792",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-19T19:17:30+00:00"
+        },
+        {
+          "title": "CVE-2026-105584 Windows Inventory Backup Information Disclosure Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105584",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-95874 Xbox Gaming Services Elevation of Privilege Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95874",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-95989 vhdmp.sys Elevation of Privilege Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95989",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-96082 Windows Kerberos Denial of Service Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96082",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-113817 Windows Devices Human Interface Elevation of Privilege Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113817",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-121669 PowerShell Information Disclosure Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-121669",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-118302 Microsoft Office Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118302",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-69370 Visual Studio Code Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69370",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-69918 Windows Core Messaging Elevation of Privilege Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69918",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-70223 Windows Console Driver Elevation of Privilege Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70223",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-83722 Microsoft Local Security Authority (LSA) Server Elevation of Privilege Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83722",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-83753 Windows Camera Frame Server Monitor Elevation of Privilege Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83753",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-83760 Microsoft Bluetooth Driver Information Disclosure Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83760",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-84015 Remote Access Point-to-Point Protocol (PPP) EAP-TLS Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-84015",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-84016 Windows EAPHost Service Elevation of Privilege Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-84016",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-84020 Windows Routing and Remote Access Service (RRAS) Elevation of Privilege Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-84020",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-85794 Windows Routing and Remote Access Service (RRAS) Information Disclosure Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85794",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-85846 Web Account Manager Elevation of Privilege Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85846",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-70174 .NET Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70174",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-70197 .NET and Visual Studio Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70197",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-88151 Microsoft Office Excel Information Disclosure Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88151",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-97749 Microsoft Office Outlook Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97749",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-97761 Microsoft Office Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97761",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-97780 Microsoft Office Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97780",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-97767 Microsoft Office Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97767",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-85910 Windows StateRepository API Information Disclosure Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85910",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-87698 Windows Remote Access Service Infrastructure Information Disclosure Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87698",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-88130 Role: DNS Server Denial of Service Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88130",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-88207 Microsoft Office PowerPoint Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88207",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-70007 .NET Framework Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70007",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-70035 .NET Framework Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70035",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-97756 Microsoft Office Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97756",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-97773 Microsoft Office Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97773",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-97743 Microsoft Office Excel Information Disclosure Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97743",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-97777 Microsoft Office Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97777",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-97741 Microsoft Office Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97741",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-97763 Microsoft Office Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97763",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-97772 Microsoft Office Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97772",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-97768 Microsoft Office Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97768",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-97745 Microsoft Office Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97745",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-100211 Microsoft Office Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-100211",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-100209 Microsoft Office Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-100209",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-111497 Google: CVE-2026-111497 Buffer overflow vulnerability in the Brotli decoder",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-55007 Microsoft Exchange Server Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55007",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-69544 Windows SMB Client Elevation of Privilege Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69544",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-78505 Microsoft Office Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78505",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-69360 Microsoft Office Word Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69360",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-58649 .NET Information Disclosure Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58649",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-72973 Microsoft Office Word Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72973",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-77911 Microsoft Office Word Information Disclosure Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-77911",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-78455 Xbox Information Disclosure Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78455",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-78521 Microsoft Office Word Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78521",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-78524 Microsoft Office Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78524",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-78526 Microsoft Office Word Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78526",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-81957 Microsoft Excel Remote Code Execution Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-81957",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-69381 Windows Storage Port Driver Information Disclosure Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69381",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-63516 Microsoft SharePoint Server Spoofing Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63516",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
+        {
+          "title": "CVE-2026-55121 Microsoft Office Information Disclosure Vulnerability",
+          "version": "",
+          "summary": "",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55121",
+          "source": "Microsoft CVE",
+          "product": "Microsoft",
+          "published": "2026-11-19T08:00:00-08:00"
+        },
         {
           "title": "[MEDIUM 6.7] CVE-2026-123894",
           "version": "",
@@ -1005,6 +1581,177 @@
           "published": "2026-11-18T16:18:05+00:00"
         },
         {
+          "title": "[MEDIUM 6.5] CVE-2026-130921",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130921",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:16:14+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-130923",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130923",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:16:01+00:00"
+        },
+        {
+          "title": "[MEDIUM 5.3] CVE-2026-130925",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130925",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:15:48+00:00"
+        },
+        {
+          "title": "[HIGH 8.3] CVE-2026-130930",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130930",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:15:36+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.3] CVE-2026-130933",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130933",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:15:24+00:00"
+        },
+        {
+          "title": "[MEDIUM 6.5] CVE-2026-130935",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130935",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:15:11+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.3] CVE-2026-130936",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130936",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:14:54+00:00"
+        },
+        {
+          "title": "[HIGH 8.3] CVE-2026-130938",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130938",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:13:55+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.3] CVE-2026-130941",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130941",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:13:44+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-130943",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130943",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:13:33+00:00"
+        },
+        {
+          "title": "[HIGH 8.3] CVE-2026-130907",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130907",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:12:24+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-130909",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130909",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:12:03+00:00"
+        },
+        {
+          "title": "[CRITICAL 9.6] CVE-2026-130910",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130910",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:11:51+00:00"
+        },
+        {
+          "title": "[MEDIUM 4.7] CVE-2026-130914",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130914",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:11:38+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-130915",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130915",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:11:24+00:00"
+        },
+        {
+          "title": "[MEDIUM 6.5] CVE-2026-130916",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130916",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:11:13+00:00"
+        },
+        {
+          "title": "[HIGH 8.3] CVE-2026-130917",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130917",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:11:01+00:00"
+        },
+        {
+          "title": "[HIGH 8.3] CVE-2026-130918",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130918",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:10:29+00:00"
+        },
+        {
+          "title": "[HIGH 8.3] CVE-2026-130919",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130919",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T16:03:30+00:00"
+        },
+        {
           "title": "CVE-2026-118148 Active Directory Domain Services Elevation of Privilege Vulnerability",
           "version": "",
           "summary": "",
@@ -1014,409 +1761,22 @@
           "published": "2026-11-18T08:00:00-08:00"
         },
         {
-          "title": "[HIGH 8.8] CVE-2026-130021",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130021",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T22:29:01+00:00"
-        },
-        {
-          "title": "[CRITICAL 9.8] CVE-2026-130020",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130020",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T22:29:01+00:00"
-        },
-        {
-          "title": "[MEDIUM 4.3] CVE-2026-124927",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124927",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T21:17:37+00:00"
-        },
-        {
-          "title": "[HIGH 8.3] CVE-2026-130999",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130999",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T21:04:16+00:00"
-        },
-        {
-          "title": "[HIGH 8.3] CVE-2026-130918",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130918",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:50+00:00"
-        },
-        {
-          "title": "[MEDIUM 6.5] CVE-2026-130904",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130904",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:50+00:00"
-        },
-        {
-          "title": "[MEDIUM 4.3] CVE-2026-131098",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131098",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:49+00:00"
-        },
-        {
-          "title": "[HIGH 8.1] CVE-2026-131055",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131055",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:49+00:00"
-        },
-        {
-          "title": "[HIGH 8.1] CVE-2026-131037",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131037",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:49+00:00"
-        },
-        {
-          "title": "[HIGH 8.8] CVE-2026-131001",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131001",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:49+00:00"
-        },
-        {
-          "title": "[HIGH 8.1] CVE-2026-130998",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130998",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:49+00:00"
-        },
-        {
-          "title": "[MEDIUM 4.3] CVE-2026-130993",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130993",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:49+00:00"
-        },
-        {
-          "title": "[LOW 3.1] CVE-2026-130972",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130972",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:49+00:00"
-        },
-        {
-          "title": "[MEDIUM 4.7] CVE-2026-130966",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130966",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:49+00:00"
-        },
-        {
-          "title": "[HIGH 8.1] CVE-2026-130964",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130964",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:49+00:00"
-        },
-        {
-          "title": "[MEDIUM 6.8] CVE-2026-130953",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130953",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:49+00:00"
-        },
-        {
-          "title": "[HIGH 8.8] CVE-2026-130950",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130950",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:49+00:00"
-        },
-        {
-          "title": "[MEDIUM 5.4] CVE-2026-130922",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130922",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:49+00:00"
-        },
-        {
           "title": "[MEDIUM 4.3] CVE-2026-130920",
           "version": "",
           "summary": "",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130920",
           "source": "Browser CVE",
           "product": "Web Browsers",
-          "published": "2026-11-17T20:45:49+00:00"
+          "published": "2026-11-18T15:58:19+00:00"
         },
         {
-          "title": "[HIGH 8.3] CVE-2026-130919",
+          "title": "[MEDIUM 6.5] CVE-2026-130978",
           "version": "",
           "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130919",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130978",
           "source": "Browser CVE",
           "product": "Web Browsers",
-          "published": "2026-11-17T20:45:49+00:00"
-        },
-        {
-          "title": "[HIGH 8.8] CVE-2026-131049",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131049",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:48+00:00"
-        },
-        {
-          "title": "[MEDIUM 4.3] CVE-2026-131035",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131035",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:48+00:00"
-        },
-        {
-          "title": "[HIGH 8.1] CVE-2026-131029",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131029",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:48+00:00"
-        },
-        {
-          "title": "[MEDIUM 4.3] CVE-2026-131027",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131027",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:48+00:00"
-        },
-        {
-          "title": "[LOW 3.1] CVE-2026-131012",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131012",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:48+00:00"
-        },
-        {
-          "title": "[HIGH 8.8] CVE-2026-131005",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131005",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:48+00:00"
-        },
-        {
-          "title": "[MEDIUM 6.5] CVE-2026-130981",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130981",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:48+00:00"
-        },
-        {
-          "title": "[MEDIUM 5.3] CVE-2026-130973",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130973",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:48+00:00"
-        },
-        {
-          "title": "[MEDIUM 5.4] CVE-2026-130955",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130955",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:48+00:00"
-        },
-        {
-          "title": "[MEDIUM 5.4] CVE-2026-130949",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130949",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:48+00:00"
-        },
-        {
-          "title": "[HIGH 8.1] CVE-2026-130927",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130927",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:48+00:00"
-        },
-        {
-          "title": "[HIGH 8.1] CVE-2026-130906",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130906",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:48+00:00"
-        },
-        {
-          "title": "[MEDIUM 4.3] CVE-2026-131105",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131105",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:47+00:00"
-        },
-        {
-          "title": "[MEDIUM 5.4] CVE-2026-131102",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131102",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:47+00:00"
-        },
-        {
-          "title": "[MEDIUM 4.7] CVE-2026-131099",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131099",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:47+00:00"
-        },
-        {
-          "title": "[MEDIUM 5.4] CVE-2026-131085",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131085",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:47+00:00"
-        },
-        {
-          "title": "[MEDIUM 6.5] CVE-2026-131073",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131073",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:47+00:00"
-        },
-        {
-          "title": "[MEDIUM 6.5] CVE-2026-131072",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131072",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:47+00:00"
-        },
-        {
-          "title": "[MEDIUM 6.5] CVE-2026-131034",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131034",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:47+00:00"
-        },
-        {
-          "title": "[HIGH 8.1] CVE-2026-131018",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131018",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:47+00:00"
-        },
-        {
-          "title": "[HIGH 8.1] CVE-2026-130983",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130983",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:47+00:00"
-        },
-        {
-          "title": "[MEDIUM 4.2] CVE-2026-130931",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130931",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:47+00:00"
-        },
-        {
-          "title": "[MEDIUM 6.5] CVE-2026-130916",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130916",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:47+00:00"
-        },
-        {
-          "title": "[MEDIUM 6.8] CVE-2026-130911",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130911",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:47+00:00"
-        },
-        {
-          "title": "[MEDIUM 4.2] CVE-2026-130908",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130908",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:47+00:00"
+          "published": "2026-11-18T14:17:41+00:00"
         },
         {
           "title": "[HIGH 8.8] CVE-2026-131106",
@@ -1425,7 +1785,52 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131106",
           "source": "Browser CVE",
           "product": "Web Browsers",
-          "published": "2026-11-17T20:45:46+00:00"
+          "published": "2026-11-18T05:19:21+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-131101",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131101",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T05:19:20+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-131100",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131100",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T05:19:20+00:00"
+        },
+        {
+          "title": "[HIGH 8.3] CVE-2026-131093",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131093",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T05:19:20+00:00"
+        },
+        {
+          "title": "[HIGH 8.3] CVE-2026-131092",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131092",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T05:19:20+00:00"
+        },
+        {
+          "title": "[HIGH 8.8] CVE-2026-131090",
+          "version": "",
+          "summary": "",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131090",
+          "source": "Browser CVE",
+          "product": "Web Browsers",
+          "published": "2026-11-18T05:19:20+00:00"
         },
         {
           "title": "[CRITICAL 9.6] CVE-2026-131088",
@@ -1434,421 +1839,16 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131088",
           "source": "Browser CVE",
           "product": "Web Browsers",
-          "published": "2026-11-17T20:45:46+00:00"
+          "published": "2026-11-18T05:19:19+00:00"
         },
         {
-          "title": "[HIGH 8.1] CVE-2026-131041",
+          "title": "[HIGH 8.8] CVE-2026-131087",
           "version": "",
           "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131041",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131087",
           "source": "Browser CVE",
           "product": "Web Browsers",
-          "published": "2026-11-17T20:45:46+00:00"
-        },
-        {
-          "title": "[MEDIUM 6.5] CVE-2026-131040",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131040",
-          "source": "Browser CVE",
-          "product": "Web Browsers",
-          "published": "2026-11-17T20:45:46+00:00"
-        },
-        {
-          "title": "[CRITICAL 9.3] CVE-2026-120864",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120864",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T16:17:39+00:00"
-        },
-        {
-          "title": "[HIGH 8.7] CVE-2026-120862",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120862",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T16:17:39+00:00"
-        },
-        {
-          "title": "[HIGH 8.7] CVE-2026-120861",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120861",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T16:17:39+00:00"
-        },
-        {
-          "title": "[HIGH 8.7] CVE-2026-120860",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120860",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T16:17:38+00:00"
-        },
-        {
-          "title": "[MEDIUM 6.9] CVE-2026-111339",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111339",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T16:17:37+00:00"
-        },
-        {
-          "title": "CVE-2026-121680 Windows NTLM Spoofing Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-121680",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-17T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-119961 Windows Internet Information Services Remote Code Execution Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119961",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-17T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-119914 Windows Setup and Deployment Elevation of Privilege Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119914",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-17T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-108440 Microsoft Office Word Remote Code Execution Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108440",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-17T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-96251 Microsoft PowerShell Remote Code Execution Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96251",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-17T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-88208 Microsoft Office SharePoint Spoofing Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88208",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-17T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-70278 Microsoft Windows Media Foundation Elevation of Privilege Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70278",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-17T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-78524 Microsoft Office Remote Code Execution Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78524",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-17T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-17T08:00:00-08:00"
-        },
-        {
-          "title": "[HIGH 7.7] CVE-2026-120866",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120866",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T15:17:33+00:00"
-        },
-        {
-          "title": "[HIGH 8.7] CVE-2026-120865",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120865",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T15:17:33+00:00"
-        },
-        {
-          "title": "[MEDIUM 6.9] CVE-2026-111338",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111338",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T15:17:31+00:00"
-        },
-        {
-          "title": "[HIGH 8.7] CVE-2026-111342",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111342",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T15:17:31+00:00"
-        },
-        {
-          "title": "[HIGH 8.7] CVE-2026-111341",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111341",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T15:17:31+00:00"
-        },
-        {
-          "title": "[HIGH 8.7] CVE-2026-111340",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111340",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T15:17:31+00:00"
-        },
-        {
-          "title": "[HIGH 8.7] CVE-2026-111337",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111337",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T15:17:30+00:00"
-        },
-        {
-          "title": "[HIGH 8.3] CVE-2026-111336",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111336",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T15:17:30+00:00"
-        },
-        {
-          "title": "[MEDIUM 6.9] CVE-2026-111335",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111335",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T15:17:30+00:00"
-        },
-        {
-          "title": "[MEDIUM 6.9] CVE-2026-111333",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111333",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T15:17:30+00:00"
-        },
-        {
-          "title": "[CRITICAL 9.3] CVE-2026-107415",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107415",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T15:17:28+00:00"
-        },
-        {
-          "title": "[HIGH 8.7] CVE-2026-107414",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107414",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T15:17:28+00:00"
-        },
-        {
-          "title": "[HIGH 8.7] CVE-2026-120863",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120863",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-17T00:17:24+00:00"
-        },
-        {
-          "title": "[HIGH 8.7] CVE-2026-120867",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120867",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-16T23:17:14+00:00"
-        },
-        {
-          "title": "[CRITICAL 9.3] CVE-2026-111334",
-          "version": "",
-          "summary": "",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111334",
-          "source": "Citrix CVE",
-          "product": "Citrix",
-          "published": "2026-11-16T20:37:04+00:00"
-        },
-        {
-          "title": "CVE-2026-105544 .NET VSTest Elevation of Privilege Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105544",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-16T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-124223 Microsoft Office SharePoint Remote Code Execution Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-124223",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-16T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-124222 Microsoft Office SharePoint Elevation of Privilege Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-124222",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-16T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-94522 Windows Kernel Transaction Manager Elevation of Privilege Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-94522",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-95922 Windows Graphics Kernel Elevation of Privilege Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95922",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-95942 Windows Graphics Kernel Elevation of Privilege Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95942",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-95953 Windows Graphics Kernel Elevation of Privilege Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95953",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-96126 Windows Graphics Kernel Elevation of Privilege Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96126",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-96144 Windows Graphics Kernel Information Disclosure Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96144",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-96150 Microsoft Windows Codecs Library Information Disclosure Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96150",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-88217 Windows Graphics Kernel Information Disclosure Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88217",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-95932 Windows Graphics Kernel Elevation of Privilege Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95932",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-95948 Windows Graphics Kernel Elevation of Privilege Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95948",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-112765 Windows Print Spooler Components Elevation of Privilege Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112765",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
-        },
-        {
-          "title": "CVE-2026-113749 Microsoft Windows Codecs Library Remote Code Execution Vulnerability",
-          "version": "",
-          "summary": "",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113749",
-          "source": "Microsoft CVE",
-          "product": "Microsoft",
-          "published": "2026-11-13T08:00:00-08:00"
+          "published": "2026-11-18T05:19:19+00:00"
         }
       ]
     },
@@ -2603,6 +2603,15 @@
           "published": "2026-08-18T12:00:00-04:00"
         },
         {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
+          "source": "Citrix DaaS Local",
+          "product": "Citrix DaaS",
+          "published": "2026-08-18T00:00:00-04:00"
+        },
+        {
           "title": "New - Linux Virtual Delivery Agent 2507 LTSR, Cumulative Update 2",
           "version": "",
           "summary": "",
@@ -2616,15 +2625,6 @@
           "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2.html",
-          "source": "Citrix DaaS Local",
-          "product": "Citrix DaaS",
-          "published": "2026-08-18T00:00:00-04:00"
-        },
-        {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
           "source": "Citrix DaaS Local",
           "product": "Citrix DaaS",
           "published": "2026-08-18T00:00:00-04:00"
@@ -2696,25 +2696,25 @@
           "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
           "version": "",
           "summary": "",
-          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2507-ltsr-cu2.html",
+          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-25072.html",
           "source": "Citrix PVS",
           "product": "Provisioning Services",
           "published": "2026-08-11T00:00:00-04:00"
-        },
-        {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU4 Update 1",
-          "version": "",
-          "summary": "",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU4-Update1.html",
-          "source": "Citrix DaaS Local",
-          "product": "Citrix DaaS",
-          "published": "2026-08-07T00:00:00-04:00"
         },
         {
           "title": "New - Citrix Virtual Apps and Desktops 7 2203 LTSR CU7 Update 4",
           "version": "",
           "summary": "",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2203-CU7-Update4.html",
+          "source": "Citrix DaaS Local",
+          "product": "Citrix DaaS",
+          "published": "2026-08-07T00:00:00-04:00"
+        },
+        {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU4 Update 1",
+          "version": "",
+          "summary": "",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU4-Update1.html",
           "source": "Citrix DaaS Local",
           "product": "Citrix DaaS",
           "published": "2026-08-07T00:00:00-04:00"
@@ -2760,6 +2760,42 @@
     "cloud": {
       "title": "Cloud Platform Updates",
       "items": [
+        {
+          "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Malaysia and Saudi Arabia",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=580700",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-20T00:00:14+00:00"
+        },
+        {
+          "title": "[Launched] Generally Available: Soft delete in Azure Compute Gallery",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581907",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-19T23:47:55+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: PostgreSQL 19 on Azure Database for PostgreSQL",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=574587",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-19T23:25:49+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Zone resilience for Azure VMs",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=581254",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-19T20:34:19+00:00"
+        },
         {
           "title": "Increased Azure tag limit for Nutanix resources:",
           "version": "8.0.2",
@@ -3011,6 +3047,15 @@
           "source": "Nerdio What's New",
           "product": "Nerdio",
           "published": "2026-11-19T17:28:21+00:00"
+        },
+        {
+          "title": "[In preview] Public Preview: Database Agent for Azure Database for PostgreSQL",
+          "version": "",
+          "summary": "",
+          "url": "https://azure.microsoft.com/updates?id=579579",
+          "source": "Azure Updates",
+          "product": "Azure Tech Zone",
+          "published": "2026-11-19T17:25:28+00:00"
         },
         {
           "title": "[In preview] Public Preview: AI bot ruleset for Azure Front Door Premium WAF",
@@ -3614,51 +3659,6 @@
           "source": "Azure Updates",
           "product": "Azure Tech Zone",
           "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[In preview] Public Preview: Next-generation elastic architecture for Azure Application Gateway v2",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=580428",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[In preview] Public Preview: Advanced load balancing in Azure Application Gateway",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=580423",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[In preview] Public Preview: Centralized user authentication + JWT validation for Azure Application Gateway",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=580418",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[In preview] Public Preview: Session-based authentication for Azure Blob and Data Lake Storage",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=580306",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
-        },
-        {
-          "title": "[Launched] Generally Available: Azure Monitor Health Models",
-          "version": "",
-          "summary": "",
-          "url": "https://azure.microsoft.com/updates?id=580261",
-          "source": "Azure Updates",
-          "product": "Azure Tech Zone",
-          "published": "2026-11-17T20:00:32+00:00"
         }
       ]
     },
@@ -3673,6 +3673,15 @@
           "source": "Omnissa Tech Zone Blogs",
           "product": "Tech Zone",
           "published": "2026-11-19T18:56:07+00:00"
+        },
+        {
+          "title": "Workspace ONE UEM 2610: What's new for your fleet",
+          "version": "",
+          "summary": "",
+          "url": "https://www.omnissa.com/newsroom/blog/workspace-one-uem-2610-whats-new-your-fleet",
+          "source": "Omnissa Tech Zone Blogs",
+          "product": "Tech Zone",
+          "published": "2026-11-19T14:48:55+00:00"
         },
         {
           "title": "Citrix DaaS Profiles Flex: Profiles that outlive the desktop",
@@ -4555,15 +4564,6 @@
           "source": "Omnissa Tech Zone Blogs",
           "product": "Tech Zone",
           "published": "2026-06-29T21:00:54+00:00"
-        },
-        {
-          "title": "Why Omnissa leads in autonomous endpoint management (AEM)",
-          "version": "",
-          "summary": "",
-          "url": "https://www.omnissa.com/insights/blog/autonomous-endpoint-management-omnissa",
-          "source": "Omnissa Tech Zone Blogs",
-          "product": "Tech Zone",
-          "published": "2026-06-29T15:58:38+00:00"
         }
       ]
     },
@@ -4595,15 +4595,6 @@
           "source": "Chocolatey Packages",
           "product": "wireshark",
           "published": "2026-11-18T22:22:42+00:00"
-        },
-        {
-          "title": "Firefox",
-          "version": "160.0.1",
-          "summary": "Bringing together all kinds of awesomeness to make browsing better for you",
-          "url": "https://community.chocolatey.org/packages/Firefox/160.0.1",
-          "source": "Chocolatey Packages",
-          "product": "Firefox",
-          "published": "2026-11-17T18:13:48+00:00"
         }
       ]
     }
