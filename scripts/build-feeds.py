@@ -152,10 +152,6 @@ def fetch_nerdio_feed(feed):
 
     records = []
 
-    print(
-        f"Loading Nerdio feed: {feed['name']}"
-    )
-
     try:
 
         response = requests.get(
@@ -370,9 +366,6 @@ def fetch_nerdio_feed(feed):
                     f"Feature: {title}"
                 )
 
-        print(
-            f"Generated {len(records)} Nerdio records"
-        )
 
     except Exception as ex:
 
@@ -823,6 +816,161 @@ def deduplicate(items):
 
     return list(unique.values())
 
+def fetch_nutanix_feed(feed):
+
+    import html
+    import json
+    import requests
+
+    from bs4 import BeautifulSoup
+
+    records = []
+
+    print(
+        f"Loading Nutanix feed: {feed['name']}"
+    )
+
+    try:
+
+        response = requests.get(
+            feed["url"],
+            timeout=30,
+            headers={
+                "User-Agent":
+                    "Mozilla/5.0"
+            }
+        )
+
+        response.raise_for_status()
+
+        soup = BeautifulSoup(
+            response.text,
+            "html.parser"
+        )
+
+        container = soup.find(
+            attrs={
+                "data-preact":
+                "product-updates-destination/ProductUpdatesOverview"
+            }
+        )
+
+        if not container:
+
+            print(
+                "ERROR: Nutanix data container not found"
+            )
+
+            return records
+
+        props_raw = container.get(
+            "data-props",
+            "{}"
+        )
+
+        props_json = html.unescape(
+            props_raw
+        )
+
+        data = json.loads(
+            props_json
+        )
+
+        updates = data.get(
+            "productUpdates",
+            []
+        )
+
+        for update in updates:
+
+            title = update.get(
+                "title",
+                ""
+            ).strip()
+
+            content_html = update.get(
+                "content",
+                ""
+            )
+
+            published = parse_date(
+                update.get(
+                    "publishedAt"
+                )
+            )
+
+            url = (
+                update
+                .get(
+                    "topicUrl",
+                    {}
+                )
+                .get(
+                    "destination",
+                    ""
+                )
+            )
+
+            summary = (
+                BeautifulSoup(
+                    content_html,
+                    "html.parser"
+                )
+                .get_text(
+                    separator=" ",
+                    strip=True
+                )
+            )
+
+            summary = summary[:3000]
+
+            records.append(
+                {
+                    "title":
+                        title,
+
+                    "version":
+                        "",
+
+                    "summary":
+                        summary,
+
+                    "url":
+                        url,
+
+                    "source":
+                        feed["name"],
+
+                    "category":
+                        feed.get(
+                            "category",
+                            ""
+                        ),
+
+                    "vendor":
+                        feed.get(
+                            "vendor",
+                            "Nutanix"
+                        ),
+
+                    "product":
+                        feed.get(
+                            "product",
+                            "Nutanix"
+                        ),
+
+                    "published":
+                        published,
+                }
+            )
+
+    except Exception as ex:
+
+        print(
+            f"ERROR: {feed['name']} : {ex}"
+        )
+
+    return records
 
 def to_json_article(item):
 
@@ -957,9 +1105,9 @@ def main():
 
             feed_articles = fetch_nerdio_feed(feed)
 
-            print(
-                f"Nerdio returned {len(feed_articles)} records"
-            )
+        elif feed["type"] == "nutanix":
+
+            articles.extend(fetch_nutanix_feed(feed))
 
 
         else:
