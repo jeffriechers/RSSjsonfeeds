@@ -707,18 +707,39 @@ def to_json_article(item):
 
     return {
         "title": item["title"],
-        "version": item.get(
-            "version",
-            ""
-        ),
-        "summary": item.get(
-            "summary",
-            ""
-        ),
+        "version": item.get("version", ""),
+        "summary": item.get("summary", ""),
         "url": item["url"],
+
+        "type": item.get(
+            "type",
+            ""
+        ),
+
+        "vendor": item.get(
+            "vendor",
+            ""
+        ),
+
+        "product": item.get(
+            "product",
+            ""
+        ),
+
+        "severity": item.get(
+            "severity",
+            ""
+        ),
+
+        "cvss": item.get(
+            "cvss",
+            ""
+        ),
+
         "source": item["source"],
-        "product": item["product"],
-        "published": item["published"].isoformat(),
+
+        "published":
+            item["published"].isoformat(),
     }
     
 def build_release_summary(articles, max_items):
