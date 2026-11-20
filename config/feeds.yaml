@@ -1,6 +1,6 @@
 settings:
   days_to_keep: 365
-  max_items_per_category: 100
+  max_items_per_category: 1000
   max_release_summary: 100
 
 categories:
