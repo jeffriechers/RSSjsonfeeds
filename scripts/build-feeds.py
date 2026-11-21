@@ -12,7 +12,6 @@ import time
 from bs4 import BeautifulSoup  # type: ignore[import-not-found]
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
-from dateutil import parser
 from email.utils import parsedate_to_datetime
 from collections import Counter
 
@@ -911,10 +910,8 @@ def fetch_nutanix_feed(feed):
                 ""
             )
 
-            published = dateutil.parser.parse(
-                update.get(
-                    "publishedAt"
-                )
+            published = datetime.fromisoformat(
+                update["publishedAt"]
             )
 
             url = (
