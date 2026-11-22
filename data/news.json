@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-21T21:02:53.432729+00:00",
-  "article_count": 5941,
+  "generated": "2026-11-22T00:39:46.283151+00:00",
+  "article_count": 5940,
   "days_to_keep": 365,
   "latest_releases": [
     {
@@ -44,20 +44,6 @@
       "cve": "",
       "source": "VMWare Updates",
       "published": "2026-11-19T10:28:46+00:00"
-    },
-    {
-      "title": "GoogleChrome",
-      "version": "159.0.8154.13",
-      "summary": "",
-      "url": "https://community.chocolatey.org/packages/GoogleChrome/159.0.8154.13",
-      "category": "releases",
-      "vendor": "Chocolatey",
-      "product": "GoogleChrome",
-      "severity": "",
-      "cvss": "",
-      "cve": "",
-      "source": "Chocolatey Packages",
-      "published": "2026-11-19T00:14:07+00:00"
     },
     {
       "title": "What's new in Azure Virtual Desktop? - Azure - Azure Virtual Desktop",
@@ -1166,10 +1152,10 @@
       "published": "2026-08-25T12:52:05+00:00"
     },
     {
-      "title": "New - Citrix Workspace app 2603.50 for ChromeOS SDK",
+      "title": "New - Citrix Workspace app 2603.50 for ChromeOS",
       "version": "",
       "summary": "New downloads are available for Citrix Workspace app",
-      "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-sdk-260350.html",
+      "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-260350.html",
       "category": "releases",
       "vendor": "Citrix",
       "product": "Workspace App",
@@ -1180,10 +1166,10 @@
       "published": "2026-08-24T18:30:00+00:00"
     },
     {
-      "title": "New - Citrix Workspace app 2603.50 for ChromeOS",
+      "title": "New - Citrix Workspace app 2603.50 for ChromeOS SDK",
       "version": "",
       "summary": "New downloads are available for Citrix Workspace app",
-      "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-260350.html",
+      "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-sdk-260350.html",
       "category": "releases",
       "vendor": "Citrix",
       "product": "Workspace App",
@@ -1362,20 +1348,6 @@
       "published": "2026-08-18T13:59:17+00:00"
     },
     {
-      "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
-      "version": "",
-      "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
-      "category": "releases",
-      "vendor": "Citrix",
-      "product": "Citrix DaaS",
-      "severity": "",
-      "cvss": "",
-      "cve": "",
-      "source": "Citrix DaaS Local",
-      "published": "2026-08-18T04:00:00+00:00"
-    },
-    {
       "title": "New - Linux Virtual Delivery Agent 2507 LTSR, Cumulative Update 2",
       "version": "",
       "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
@@ -1394,6 +1366,34 @@
       "version": "",
       "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
       "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2.html",
+      "category": "releases",
+      "vendor": "Citrix",
+      "product": "Citrix DaaS",
+      "severity": "",
+      "cvss": "",
+      "cve": "",
+      "source": "Citrix DaaS Local",
+      "published": "2026-08-18T04:00:00+00:00"
+    },
+    {
+      "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
+      "version": "",
+      "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
+      "category": "releases",
+      "vendor": "Citrix",
+      "product": "Citrix DaaS",
+      "severity": "",
+      "cvss": "",
+      "cve": "",
+      "source": "Citrix DaaS Local",
+      "published": "2026-08-18T04:00:00+00:00"
+    },
+    {
+      "title": "New - Citrix Virtual Apps and Desktops 7 2607 LTSR, All Editions",
+      "version": "",
+      "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-alleditions-2607.html",
       "category": "releases",
       "vendor": "Citrix",
       "product": "Citrix DaaS",
@@ -1451,10 +1451,6 @@
     },
     {
       "product": "microsoft-edge",
-      "count": 1
-    },
-    {
-      "product": "GoogleChrome",
       "count": 1
     },
     {
@@ -15514,20 +15510,6 @@
           "published": "2026-11-19T10:28:46+00:00"
         },
         {
-          "title": "GoogleChrome",
-          "version": "159.0.8154.13",
-          "summary": "",
-          "url": "https://community.chocolatey.org/packages/GoogleChrome/159.0.8154.13",
-          "category": "releases",
-          "vendor": "Chocolatey",
-          "product": "GoogleChrome",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Chocolatey Packages",
-          "published": "2026-11-19T00:14:07+00:00"
-        },
-        {
           "title": "What's new in Azure Virtual Desktop? - Azure - Azure Virtual Desktop",
           "version": "",
           "summary": "May 2026 Here's what changed in May 2026: FSLogix support for cloud-only and external identities is now generally available You can now provide FSLogix profile containers for both cloud-only and external identities. With this functionality, you can provide the same user experience on a pooled ... November 2025 Here's what changed in November 2025:.",
@@ -16634,10 +16616,10 @@
           "published": "2026-08-25T12:52:05+00:00"
         },
         {
-          "title": "New - Citrix Workspace app 2603.50 for ChromeOS SDK",
+          "title": "New - Citrix Workspace app 2603.50 for ChromeOS",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-sdk-260350.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-260350.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -16648,10 +16630,10 @@
           "published": "2026-08-24T18:30:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app 2603.50 for ChromeOS",
+          "title": "New - Citrix Workspace app 2603.50 for ChromeOS SDK",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-260350.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-chrome/workspace-app-for-chrome-sdk-260350.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -16830,20 +16812,6 @@
           "published": "2026-08-18T13:59:17+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
-          "version": "",
-          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "Citrix DaaS",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix DaaS Local",
-          "published": "2026-08-18T04:00:00+00:00"
-        },
-        {
           "title": "New - Linux Virtual Delivery Agent 2507 LTSR, Cumulative Update 2",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
@@ -16862,6 +16830,20 @@
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "Citrix DaaS",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix DaaS Local",
+          "published": "2026-08-18T04:00:00+00:00"
+        },
+        {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
+          "version": "",
+          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -16973,7 +16955,7 @@
           "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
           "version": "",
           "summary": "New downloads are available for Citrix Provisioning",
-          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2507-ltsr-cu2.html",
+          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-25072.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Provisioning Services",
@@ -16984,10 +16966,10 @@
           "published": "2026-08-11T04:00:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2203 LTSR CU7 Update 4",
+          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU4 Update 1",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2203-CU7-Update4.html",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU4-Update1.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -16998,10 +16980,10 @@
           "published": "2026-08-07T04:00:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU4 Update 1",
+          "title": "New - Citrix Virtual Apps and Desktops 7 2203 LTSR CU7 Update 4",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU4-Update1.html",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2203-CU7-Update4.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -17208,10 +17190,10 @@
           "published": "2026-07-17T18:30:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2604",
+          "title": "New - Citrix Workspace app for Linux - Credential Insertion SDK - 2604",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk-2604.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-credential-insertion-sdk-2604.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -17222,10 +17204,10 @@
           "published": "2026-07-17T18:30:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Credential Insertion SDK - 2604",
+          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2604",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-credential-insertion-sdk-2604.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk-2604.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -17712,20 +17694,6 @@
           "published": "2026-05-08T04:00:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR, Cumulative Update 4 – Premium Edition Components",
-          "version": "",
-          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/edition-software/premium-2402-ltsr-cu4.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "Citrix DaaS",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix DaaS Local",
-          "published": "2026-05-08T04:00:00+00:00"
-        },
-        {
           "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR, Cumulative Update 4 – Advanced Edition Components",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
@@ -17744,6 +17712,20 @@
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/edition-software/vdi-2402-ltsr-cu4.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "Citrix DaaS",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix DaaS Local",
+          "published": "2026-05-08T04:00:00+00:00"
+        },
+        {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR, Cumulative Update 4 – Premium Edition Components",
+          "version": "",
+          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/edition-software/premium-2402-ltsr-cu4.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -17785,7 +17767,7 @@
           "title": "New - Citrix Provisioning 2402 LTSR, Cumulative update 4",
           "version": "",
           "summary": "New downloads are available for Citrix Provisioning",
-          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-24024.html",
+          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2402-ltsr-cu4.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Provisioning Services",
@@ -17964,34 +17946,6 @@
           "published": "2026-04-24T18:30:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR CU1 Update 3",
-          "version": "",
-          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507-CU1-Update3.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "Citrix DaaS",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix DaaS Local",
-          "published": "2026-04-20T04:00:00+00:00"
-        },
-        {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2203 LTSR CU7 Update 2",
-          "version": "",
-          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2203-CU7-Update2.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "Citrix DaaS",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix DaaS Local",
-          "published": "2026-04-20T04:00:00+00:00"
-        },
-        {
           "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR Update 2",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
@@ -18020,10 +17974,38 @@
           "published": "2026-04-20T04:00:00+00:00"
         },
         {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR CU1 Update 3",
+          "version": "",
+          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507-CU1-Update3.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "Citrix DaaS",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix DaaS Local",
+          "published": "2026-04-20T04:00:00+00:00"
+        },
+        {
           "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU3 Update 2",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU3-Update2.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "Citrix DaaS",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix DaaS Local",
+          "published": "2026-04-20T04:00:00+00:00"
+        },
+        {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2203 LTSR CU7 Update 2",
+          "version": "",
+          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2203-CU7-Update2.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -18090,10 +18072,24 @@
           "published": "2026-04-10T18:30:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU3 Update 1",
+          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR Update 1",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU3-Update1.html",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507-Update1.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "Citrix DaaS",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix DaaS Local",
+          "published": "2026-04-10T04:00:00+00:00"
+        },
+        {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2511 Update 2",
+          "version": "",
+          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2511-Update2.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -18132,34 +18128,6 @@
           "published": "2026-04-10T04:00:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR Update 1",
-          "version": "",
-          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507-Update1.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "Citrix DaaS",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix DaaS Local",
-          "published": "2026-04-10T04:00:00+00:00"
-        },
-        {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2511 Update 2",
-          "version": "",
-          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2511-Update2.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "Citrix DaaS",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix DaaS Local",
-          "published": "2026-04-10T04:00:00+00:00"
-        },
-        {
           "title": "New - Citrix Virtual Apps and Desktops 7 2203 LTSR On Demand Updates",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
@@ -18174,10 +18142,24 @@
           "published": "2026-04-10T04:00:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app 2603 for HTML5",
+          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU3 Update 1",
+          "version": "",
+          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU3-Update1.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "Citrix DaaS",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix DaaS Local",
+          "published": "2026-04-10T04:00:00+00:00"
+        },
+        {
+          "title": "New - Citrix Workspace app 2603 for HTML5 SDK",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-html5/workspace-app-for-html5-2603.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-html5/workspace-app-for-html5-sdk-2603.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -18188,10 +18170,10 @@
           "published": "2026-04-06T18:30:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app 2603 for HTML5 SDK",
+          "title": "New - Citrix Workspace app 2603 for HTML5",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-html5/workspace-app-for-html5-sdk-2603.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-html5/workspace-app-for-html5-2603.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -18274,7 +18256,7 @@
         {
           "title": "Prerequisites for FSLogix - FSLogix",
           "version": "",
-          "summary": "Prerequisites Summarize this article for me In this article Important An upcoming change to Windows, included in the April 2026 Windows Server update, the default Kerberos encryption type is changing from RC4 to AES-SHA1.  ...rs upgrade to the latest version of FSLogix as quickly as their deployment processFSLogix provides hotfix releases that.",
+          "summary": "Prerequisites Summarize this article for me In this article Important An upcoming change to Windows, included in the April 2026 Windows Server update, the default Kerberos encryption type is changing from RC4 to AES-SHA1. Note We recommend customers upgrade to the latest version of FSLogix as quickly as... FSLogix provides hotfix releases that.",
           "url": "https://learn.microsoft.com/en-us/fslogix/overview-prerequisites",
           "category": "releases",
           "vendor": "Microsoft",
@@ -18566,10 +18548,10 @@
           "published": "2026-03-05T16:00:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2601",
+          "title": "New - Citrix Workspace app for Linux - Credential Insertion SDK - 2601",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-credential-insertion-sdk.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -18580,10 +18562,10 @@
           "published": "2026-03-05T16:00:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Credential Insertion SDK - 2601",
+          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2601",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-credential-insertion-sdk.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -18706,10 +18688,10 @@
           "published": "2026-02-18T18:30:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2511 Update 1",
+          "title": "New - Citrix Virtual Apps and Desktops 7 2511 On Demand Updates",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2511-Update1.html",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2511-On-Demand-Updates.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -18720,10 +18702,10 @@
           "published": "2026-02-06T05:00:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2511 On Demand Updates",
+          "title": "New - Citrix Virtual Apps and Desktops 7 2511 Update 1",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2511-On-Demand-Updates.html",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2511-Update1.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -18986,6 +18968,20 @@
           "published": "2025-12-29T05:00:00+00:00"
         },
         {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2511, Advanced Edition Components",
+          "version": "",
+          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/edition-software/advanced-2511.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "Citrix DaaS",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix DaaS Local",
+          "published": "2025-12-29T05:00:00+00:00"
+        },
+        {
           "title": "New - Citrix Virtual Apps and Desktops 7 2511, Premium Edition Components",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
@@ -19004,20 +19000,6 @@
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/edition-software/cvd-standard-2511.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "Citrix DaaS",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix DaaS Local",
-          "published": "2025-12-29T05:00:00+00:00"
-        },
-        {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2511, Advanced Edition Components",
-          "version": "",
-          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/edition-software/advanced-2511.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -19224,10 +19206,10 @@
           "published": "2025-12-14T16:00:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2508.10",
+          "title": "New - Citrix Workspace app for Linux - Certificate Identity Declaration SDK -2508.10",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk2.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-certificate-identity-declaration-sdk2.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -19238,10 +19220,10 @@
           "published": "2025-12-12T18:30:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Certificate Identity Declaration SDK -2508.10",
+          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2508.10",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-certificate-identity-declaration-sdk2.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk2.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
