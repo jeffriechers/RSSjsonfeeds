@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T11:05:25.850591+00:00",
+  "generated": "2026-11-22T15:38:59.031493+00:00",
   "article_count": 5940,
   "days_to_keep": 365,
   "latest_releases": [
@@ -116,10 +116,10 @@
       "published": "2026-11-12T18:30:00+00:00"
     },
     {
-      "title": "New - NetScaler VPX FIPS Release 14.1 Build 73.58",
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
       "version": "",
       "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-141-73-58-fips.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
       "category": "releases",
       "vendor": "Citrix",
       "product": "NetScaler",
@@ -130,10 +130,10 @@
       "published": "2026-11-12T18:30:00+00:00"
     },
     {
-      "title": "New - NetScaler FIPS Release 14.1 Build 73.58",
+      "title": "New - NetScaler CPX Release (Maintenance Phase) 14.1 Build 73.58",
       "version": "",
       "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-141-build-73-58-fips.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-58.html",
       "category": "releases",
       "vendor": "Citrix",
       "product": "NetScaler",
@@ -144,10 +144,10 @@
       "published": "2026-11-12T18:30:00+00:00"
     },
     {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
+      "title": "New - NetScaler Release (Maintenance Phase) 14.1 Build 73.58",
       "version": "",
       "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-58.html",
       "category": "releases",
       "vendor": "Citrix",
       "product": "NetScaler",
@@ -158,24 +158,10 @@
       "published": "2026-11-12T18:30:00+00:00"
     },
     {
-      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
+      "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
       "version": "",
       "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58-fips.html",
-      "category": "releases",
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "severity": "",
-      "cvss": "",
-      "cve": "",
-      "source": "Citrix NetScaler",
-      "published": "2026-11-12T18:30:00+00:00"
-    },
-    {
-      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
-      "version": "",
-      "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
       "category": "releases",
       "vendor": "Citrix",
       "product": "NetScaler",
@@ -228,20 +214,6 @@
       "published": "2026-11-12T18:30:00+00:00"
     },
     {
-      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
-      "version": "",
-      "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58-fips.html",
-      "category": "releases",
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "severity": "",
-      "cvss": "",
-      "cve": "",
-      "source": "Citrix NetScaler",
-      "published": "2026-11-12T18:30:00+00:00"
-    },
-    {
       "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 64.39",
       "version": "",
       "summary": "New downloads are available for NetScaler",
@@ -256,10 +228,10 @@
       "published": "2026-11-12T18:30:00+00:00"
     },
     {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
+      "title": "New - NetScaler VPX FIPS Release 14.1 Build 73.58",
       "version": "",
       "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-141-73-58-fips.html",
       "category": "releases",
       "vendor": "Citrix",
       "product": "NetScaler",
@@ -270,10 +242,10 @@
       "published": "2026-11-12T18:30:00+00:00"
     },
     {
-      "title": "New - NetScaler Release (Maintenance Phase) 14.1 Build 73.58",
+      "title": "New - NetScaler FIPS Release 14.1 Build 73.58",
       "version": "",
       "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-58.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-141-build-73-58-fips.html",
       "category": "releases",
       "vendor": "Citrix",
       "product": "NetScaler",
@@ -284,10 +256,10 @@
       "published": "2026-11-12T18:30:00+00:00"
     },
     {
-      "title": "New - NetScaler CPX Release (Maintenance Phase) 14.1 Build 73.58",
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
       "version": "",
       "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-58.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
       "category": "releases",
       "vendor": "Citrix",
       "product": "NetScaler",
@@ -298,10 +270,52 @@
       "published": "2026-11-12T18:30:00+00:00"
     },
     {
-      "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
       "version": "",
       "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58-fips.html",
+      "category": "releases",
+      "vendor": "Citrix",
+      "product": "NetScaler",
+      "severity": "",
+      "cvss": "",
+      "cve": "",
+      "source": "Citrix NetScaler",
+      "published": "2026-11-12T18:30:00+00:00"
+    },
+    {
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
+      "version": "",
+      "summary": "New downloads are available for NetScaler",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58-fips.html",
+      "category": "releases",
+      "vendor": "Citrix",
+      "product": "NetScaler",
+      "severity": "",
+      "cvss": "",
+      "cve": "",
+      "source": "Citrix NetScaler",
+      "published": "2026-11-12T18:30:00+00:00"
+    },
+    {
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for Azure",
+      "version": "",
+      "summary": "New downloads are available for NetScaler",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-37-293.html",
+      "category": "releases",
+      "vendor": "Citrix",
+      "product": "NetScaler",
+      "severity": "",
+      "cvss": "",
+      "cve": "",
+      "source": "Citrix NetScaler",
+      "published": "2026-11-12T18:30:00+00:00"
+    },
+    {
+      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for AWS",
+      "version": "",
+      "summary": "New downloads are available for NetScaler",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-37-293.html",
       "category": "releases",
       "vendor": "Citrix",
       "product": "NetScaler",
@@ -340,38 +354,10 @@
       "published": "2026-11-12T18:30:00+00:00"
     },
     {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for GCP",
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
       "version": "",
       "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-64-39.html",
-      "category": "releases",
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "severity": "",
-      "cvss": "",
-      "cve": "",
-      "source": "Citrix NetScaler",
-      "published": "2026-11-12T18:30:00+00:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for Azure",
-      "version": "",
-      "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-64-39.html",
-      "category": "releases",
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "severity": "",
-      "cvss": "",
-      "cve": "",
-      "source": "Citrix NetScaler",
-      "published": "2026-11-12T18:30:00+00:00"
-    },
-    {
-      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for AWS",
-      "version": "",
-      "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-64-39.html",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
       "category": "releases",
       "vendor": "Citrix",
       "product": "NetScaler",
@@ -396,38 +382,52 @@
       "published": "2026-11-12T18:30:00+00:00"
     },
     {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for GCP",
+      "version": "",
+      "summary": "New downloads are available for NetScaler",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-64-39.html",
+      "category": "releases",
+      "vendor": "Citrix",
+      "product": "NetScaler",
+      "severity": "",
+      "cvss": "",
+      "cve": "",
+      "source": "Citrix NetScaler",
+      "published": "2026-11-12T18:30:00+00:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for AWS",
+      "version": "",
+      "summary": "New downloads are available for NetScaler",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-64-39.html",
+      "category": "releases",
+      "vendor": "Citrix",
+      "product": "NetScaler",
+      "severity": "",
+      "cvss": "",
+      "cve": "",
+      "source": "Citrix NetScaler",
+      "published": "2026-11-12T18:30:00+00:00"
+    },
+    {
+      "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for Azure",
+      "version": "",
+      "summary": "New downloads are available for NetScaler",
+      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-64-39.html",
+      "category": "releases",
+      "vendor": "Citrix",
+      "product": "NetScaler",
+      "severity": "",
+      "cvss": "",
+      "cve": "",
+      "source": "Citrix NetScaler",
+      "published": "2026-11-12T18:30:00+00:00"
+    },
+    {
       "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for GCP",
       "version": "",
       "summary": "New downloads are available for NetScaler",
       "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-37-293.html",
-      "category": "releases",
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "severity": "",
-      "cvss": "",
-      "cve": "",
-      "source": "Citrix NetScaler",
-      "published": "2026-11-12T18:30:00+00:00"
-    },
-    {
-      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for Azure",
-      "version": "",
-      "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-37-293.html",
-      "category": "releases",
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "severity": "",
-      "cvss": "",
-      "cve": "",
-      "source": "Citrix NetScaler",
-      "published": "2026-11-12T18:30:00+00:00"
-    },
-    {
-      "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for AWS",
-      "version": "",
-      "summary": "New downloads are available for NetScaler",
-      "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-37-293.html",
       "category": "releases",
       "vendor": "Citrix",
       "product": "NetScaler",
@@ -1348,6 +1348,20 @@
       "published": "2026-08-18T13:59:17+00:00"
     },
     {
+      "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
+      "version": "",
+      "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
+      "category": "releases",
+      "vendor": "Citrix",
+      "product": "Citrix DaaS",
+      "severity": "",
+      "cvss": "",
+      "cve": "",
+      "source": "Citrix DaaS Local",
+      "published": "2026-08-18T04:00:00+00:00"
+    },
+    {
       "title": "New - Linux Virtual Delivery Agent 2507 LTSR, Cumulative Update 2",
       "version": "",
       "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
@@ -1366,20 +1380,6 @@
       "version": "",
       "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
       "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2.html",
-      "category": "releases",
-      "vendor": "Citrix",
-      "product": "Citrix DaaS",
-      "severity": "",
-      "cvss": "",
-      "cve": "",
-      "source": "Citrix DaaS Local",
-      "published": "2026-08-18T04:00:00+00:00"
-    },
-    {
-      "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
-      "version": "",
-      "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-      "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
       "category": "releases",
       "vendor": "Citrix",
       "product": "Citrix DaaS",
@@ -15580,10 +15580,10 @@
           "published": "2026-11-12T18:30:00+00:00"
         },
         {
-          "title": "New - NetScaler VPX FIPS Release 14.1 Build 73.58",
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
           "version": "",
           "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-141-73-58-fips.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler",
@@ -15594,10 +15594,10 @@
           "published": "2026-11-12T18:30:00+00:00"
         },
         {
-          "title": "New - NetScaler FIPS Release 14.1 Build 73.58",
+          "title": "New - NetScaler CPX Release (Maintenance Phase) 14.1 Build 73.58",
           "version": "",
           "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-141-build-73-58-fips.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-58.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler",
@@ -15608,10 +15608,10 @@
           "published": "2026-11-12T18:30:00+00:00"
         },
         {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
+          "title": "New - NetScaler Release (Maintenance Phase) 14.1 Build 73.58",
           "version": "",
           "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-58.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler",
@@ -15622,24 +15622,10 @@
           "published": "2026-11-12T18:30:00+00:00"
         },
         {
-          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
+          "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
           "version": "",
           "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58-fips.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "NetScaler",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix NetScaler",
-          "published": "2026-11-12T18:30:00+00:00"
-        },
-        {
-          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
-          "version": "",
-          "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler",
@@ -15692,20 +15678,6 @@
           "published": "2026-11-12T18:30:00+00:00"
         },
         {
-          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
-          "version": "",
-          "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58-fips.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "NetScaler",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix NetScaler",
-          "published": "2026-11-12T18:30:00+00:00"
-        },
-        {
           "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 64.39",
           "version": "",
           "summary": "New downloads are available for NetScaler",
@@ -15720,10 +15692,10 @@
           "published": "2026-11-12T18:30:00+00:00"
         },
         {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1-73.58",
+          "title": "New - NetScaler VPX FIPS Release 14.1 Build 73.58",
           "version": "",
           "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-14-1-73-58.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-141-73-58-fips.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler",
@@ -15734,10 +15706,10 @@
           "published": "2026-11-12T18:30:00+00:00"
         },
         {
-          "title": "New - NetScaler Release (Maintenance Phase) 14.1 Build 73.58",
+          "title": "New - NetScaler FIPS Release 14.1 Build 73.58",
           "version": "",
           "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-58.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/firmware/release-141-build-73-58-fips.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler",
@@ -15748,10 +15720,10 @@
           "published": "2026-11-12T18:30:00+00:00"
         },
         {
-          "title": "New - NetScaler CPX Release (Maintenance Phase) 14.1 Build 73.58",
+          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for Azure",
           "version": "",
           "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-58.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-azure-73-58-fips.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler",
@@ -15762,10 +15734,52 @@
           "published": "2026-11-12T18:30:00+00:00"
         },
         {
-          "title": "New - NetScaler BLX image (Maintenance Phase) 14.1 Build 73.58",
+          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for GCP",
           "version": "",
           "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-58.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-gcp-73-58-fips.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "NetScaler",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix NetScaler",
+          "published": "2026-11-12T18:30:00+00:00"
+        },
+        {
+          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
+          "version": "",
+          "summary": "New downloads are available for NetScaler",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58-fips.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "NetScaler",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix NetScaler",
+          "published": "2026-11-12T18:30:00+00:00"
+        },
+        {
+          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for Azure",
+          "version": "",
+          "summary": "New downloads are available for NetScaler",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-37-293.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "NetScaler",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix NetScaler",
+          "published": "2026-11-12T18:30:00+00:00"
+        },
+        {
+          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for AWS",
+          "version": "",
+          "summary": "New downloads are available for NetScaler",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-37-293.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler",
@@ -15804,38 +15818,10 @@
           "published": "2026-11-12T18:30:00+00:00"
         },
         {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for GCP",
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 14.1 Build 73.58 for AWS",
           "version": "",
           "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-64-39.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "NetScaler",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix NetScaler",
-          "published": "2026-11-12T18:30:00+00:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for Azure",
-          "version": "",
-          "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-64-39.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "NetScaler",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix NetScaler",
-          "published": "2026-11-12T18:30:00+00:00"
-        },
-        {
-          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for AWS",
-          "version": "",
-          "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-64-39.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-14-1-aws-73-58.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler",
@@ -15860,38 +15846,52 @@
           "published": "2026-11-12T18:30:00+00:00"
         },
         {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for GCP",
+          "version": "",
+          "summary": "New downloads are available for NetScaler",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-64-39.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "NetScaler",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix NetScaler",
+          "published": "2026-11-12T18:30:00+00:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for AWS",
+          "version": "",
+          "summary": "New downloads are available for NetScaler",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-64-39.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "NetScaler",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix NetScaler",
+          "published": "2026-11-12T18:30:00+00:00"
+        },
+        {
+          "title": "New - NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.39 for Azure",
+          "version": "",
+          "summary": "New downloads are available for NetScaler",
+          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-64-39.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "NetScaler",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix NetScaler",
+          "published": "2026-11-12T18:30:00+00:00"
+        },
+        {
           "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for GCP",
           "version": "",
           "summary": "New downloads are available for NetScaler",
           "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-gcp-37-293.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "NetScaler",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix NetScaler",
-          "published": "2026-11-12T18:30:00+00:00"
-        },
-        {
-          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for Azure",
-          "version": "",
-          "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-azure-37-293.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "NetScaler",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix NetScaler",
-          "published": "2026-11-12T18:30:00+00:00"
-        },
-        {
-          "title": "New - NetScaler VPX FIPS Release (Maintenance Phase) 13.1 Build 37.293 for AWS",
-          "version": "",
-          "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/public-cloud-vpx/netscaler-vpx-13-1-aws-37-293.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler",
@@ -16812,6 +16812,20 @@
           "published": "2026-08-18T13:59:17+00:00"
         },
         {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
+          "version": "",
+          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "Citrix DaaS",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix DaaS Local",
+          "published": "2026-08-18T04:00:00+00:00"
+        },
+        {
           "title": "New - Linux Virtual Delivery Agent 2507 LTSR, Cumulative Update 2",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
@@ -16840,20 +16854,6 @@
           "published": "2026-08-18T04:00:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR, Cumulative Update 2 – All Editions",
-          "version": "",
-          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507ltsr-cu2-all-editions.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "Citrix DaaS",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix DaaS Local",
-          "published": "2026-08-18T04:00:00+00:00"
-        },
-        {
           "title": "New - Citrix Virtual Apps and Desktops 7 2607 LTSR, All Editions",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
@@ -16871,7 +16871,7 @@
           "title": "New - StoreFront 2507 LTSR,Cumulative Update 2",
           "version": "",
           "summary": "New downloads are available for StoreFront",
-          "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-2507-CU2.html",
+          "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-in-2507-ltsr-cu2.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "StoreFront",
@@ -17190,10 +17190,10 @@
           "published": "2026-07-17T18:30:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Credential Insertion SDK - 2604",
+          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2604",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-credential-insertion-sdk-2604.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk-2604.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -17204,10 +17204,10 @@
           "published": "2026-07-17T18:30:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2604",
+          "title": "New - Citrix Workspace app for Linux - Credential Insertion SDK - 2604",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk-2604.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-credential-insertion-sdk-2604.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -17694,6 +17694,20 @@
           "published": "2026-05-08T04:00:00+00:00"
         },
         {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR, Cumulative Update 4 – Premium Edition Components",
+          "version": "",
+          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/edition-software/premium-2402-ltsr-cu4.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "Citrix DaaS",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix DaaS Local",
+          "published": "2026-05-08T04:00:00+00:00"
+        },
+        {
           "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR, Cumulative Update 4 – Advanced Edition Components",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
@@ -17722,20 +17736,6 @@
           "published": "2026-05-08T04:00:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR, Cumulative Update 4 – Premium Edition Components",
-          "version": "",
-          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/edition-software/premium-2402-ltsr-cu4.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "Citrix DaaS",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix DaaS Local",
-          "published": "2026-05-08T04:00:00+00:00"
-        },
-        {
           "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR, Cumulative Update 4",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
@@ -17753,7 +17753,7 @@
           "title": "New - StoreFront 2402 LTSR,Cumulative Update 4",
           "version": "",
           "summary": "New downloads are available for StoreFront",
-          "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-in-2402-ltsr-cu4.html",
+          "url": "http://www.citrix.com/downloads/storefront/product-software/storefront-2402-CU4.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "StoreFront",
@@ -17767,7 +17767,7 @@
           "title": "New - Citrix Provisioning 2402 LTSR, Cumulative update 4",
           "version": "",
           "summary": "New downloads are available for Citrix Provisioning",
-          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-24024.html",
+          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2402-ltsr-cu4.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Provisioning Services",
@@ -17778,10 +17778,10 @@
           "published": "2026-05-08T04:00:00+00:00"
         },
         {
-          "title": "New - NetScaler VPX FIPS Release 14.1 Build 66.68",
+          "title": "New - NetScaler FIPS Release 14.1 Build 66.68",
           "version": "",
           "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/netscaler-vpx-release-141-66-68-fips.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/release-141-build-66-68-fips.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler",
@@ -17792,10 +17792,10 @@
           "published": "2026-05-06T18:30:00+00:00"
         },
         {
-          "title": "New - NetScaler FIPS Release 14.1 Build 66.68",
+          "title": "New - NetScaler VPX FIPS Release 14.1 Build 66.68",
           "version": "",
           "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/release-141-build-66-68-fips.html",
+          "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/netscaler-vpx-release-141-66-68-fips.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler",
@@ -17988,10 +17988,10 @@
           "published": "2026-04-20T04:00:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU3 Update 2",
+          "title": "New - Citrix Virtual Apps and Desktops 7 2203 LTSR CU7 Update 2",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU3-Update2.html",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2203-CU7-Update2.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -18002,10 +18002,10 @@
           "published": "2026-04-20T04:00:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2203 LTSR CU7 Update 2",
+          "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR CU3 Update 2",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2203-CU7-Update2.html",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402-CU3-Update2.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -18310,10 +18310,10 @@
           "published": "2026-03-26T18:30:00+00:00"
         },
         {
-          "title": "New - NetScaler Console Release (Maintenance Phase) 13.1 Build 61.28",
+          "title": "New - NetScaler Console Release (Maintenance Phase) 13.1 Build 60.33",
           "version": "",
           "summary": "New downloads are available for NetScaler Console",
-          "url": "http://www.citrix.com/downloads/citrix-application-management/earlier-versions/citrix-adm-13-1-build-61-28.html",
+          "url": "http://www.citrix.com/downloads/citrix-application-management/earlier-versions/citrix-adm-13-1-build-60-33.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler Console",
@@ -18324,10 +18324,10 @@
           "published": "2026-03-26T18:30:00+00:00"
         },
         {
-          "title": "New - NetScaler Console Release (Maintenance Phase) 13.1 Build 60.33",
+          "title": "New - NetScaler Console Release (Maintenance Phase) 13.1 Build 61.28",
           "version": "",
           "summary": "New downloads are available for NetScaler Console",
-          "url": "http://www.citrix.com/downloads/citrix-application-management/earlier-versions/citrix-adm-13-1-build-60-33.html",
+          "url": "http://www.citrix.com/downloads/citrix-application-management/earlier-versions/citrix-adm-13-1-build-61-28.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler Console",
@@ -18436,6 +18436,20 @@
           "published": "2026-03-24T18:30:00+00:00"
         },
         {
+          "title": "New - NetScaler CPX Release (Maintenance Phase) 13.1 Build 62.23",
+          "version": "",
+          "summary": "New downloads are available for NetScaler",
+          "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/cpx-13-1-62-23.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "NetScaler",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix NetScaler",
+          "published": "2026-03-23T18:30:00+00:00"
+        },
+        {
           "title": "New - Netscaler BLX image (Maintenance Phase) 13.1 Build 62.23",
           "version": "",
           "summary": "New downloads are available for NetScaler",
@@ -18454,20 +18468,6 @@
           "version": "",
           "summary": "New downloads are available for NetScaler",
           "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/blx-14-1-66-59.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "NetScaler",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix NetScaler",
-          "published": "2026-03-23T18:30:00+00:00"
-        },
-        {
-          "title": "New - NetScaler CPX Release (Maintenance Phase) 13.1 Build 62.23",
-          "version": "",
-          "summary": "New downloads are available for NetScaler",
-          "url": "http://www.citrix.com/downloads/citrix-adc/earlier-versions/cpx-13-1-62-23.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "NetScaler",
@@ -18548,10 +18548,10 @@
           "published": "2026-03-05T16:00:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Credential Insertion SDK - 2601",
+          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2601",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-credential-insertion-sdk.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -18562,10 +18562,10 @@
           "published": "2026-03-05T16:00:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2601",
+          "title": "New - Citrix Workspace app for Linux - Credential Insertion SDK - 2601",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-credential-insertion-sdk.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -18688,10 +18688,10 @@
           "published": "2026-02-18T18:30:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2511 On Demand Updates",
+          "title": "New - Citrix Virtual Apps and Desktops 7 2511 Update 1",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2511-On-Demand-Updates.html",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2511-Update1.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -18702,10 +18702,10 @@
           "published": "2026-02-06T05:00:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2511 Update 1",
+          "title": "New - Citrix Virtual Apps and Desktops 7 2511 On Demand Updates",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2511-Update1.html",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2511-On-Demand-Updates.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -18968,20 +18968,6 @@
           "published": "2025-12-29T05:00:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2511, Advanced Edition Components",
-          "version": "",
-          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/edition-software/advanced-2511.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "Citrix DaaS",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix DaaS Local",
-          "published": "2025-12-29T05:00:00+00:00"
-        },
-        {
           "title": "New - Citrix Virtual Apps and Desktops 7 2511, Premium Edition Components",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
@@ -19000,6 +18986,20 @@
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/edition-software/cvd-standard-2511.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "Citrix DaaS",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix DaaS Local",
+          "published": "2025-12-29T05:00:00+00:00"
+        },
+        {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2511, Advanced Edition Components",
+          "version": "",
+          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/edition-software/advanced-2511.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -19206,10 +19206,10 @@
           "published": "2025-12-14T16:00:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Certificate Identity Declaration SDK -2508.10",
+          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2508.10",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-certificate-identity-declaration-sdk2.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk2.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -19220,10 +19220,10 @@
           "published": "2025-12-12T18:30:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2508.10",
+          "title": "New - Citrix Workspace app for Linux - Certificate Identity Declaration SDK -2508.10",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk2.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-certificate-identity-declaration-sdk2.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
