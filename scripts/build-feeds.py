@@ -173,6 +173,9 @@ def fetch_nerdio_feed(feed):
             "html.parser"
         )
 
+        print(
+            f"Found {len(soup.find_all('h2'))} releases"
+        )
 
         release_headers = soup.find_all(
             "h2"
@@ -185,6 +188,9 @@ def fetch_nerdio_feed(feed):
                 strip=True
             )
 
+            print(
+                f"Release Header: {header_text}"
+            )
 
             #
             # Extract version
@@ -357,6 +363,9 @@ def fetch_nerdio_feed(feed):
                     }
                 )
 
+                print(
+                    f"Feature: {title}"
+                )
 
 
     except Exception as ex:
@@ -364,11 +373,17 @@ def fetch_nerdio_feed(feed):
         print(
             f"ERROR loading {feed['name']}: {ex}"
         )
+    print(
+        f"Nerdio records generated: {len(records)}"
+    )
 
     for record in records[:10]:
 
-
-      return records
+        print(
+            f"{record['version']} | "
+            f"{record['title']}"
+        )
+    return records
 def parse_date(entry):
 
     # Preferred parsed fields
@@ -420,6 +435,9 @@ def fetch_whatsnew_feed(feed):
 
     records = []
 
+    print(
+        f"Loading What's New page: {feed['name']}"
+    )
 
     try:
 
@@ -446,8 +464,19 @@ def fetch_whatsnew_feed(feed):
             allow_redirects=True
         )
 
+        print(
+            f"Status Code: {response.status_code}"
+        )
 
+        print(
+            f"Final URL: {response.url}"
+        )
 
+        print("Response Headers:")
+        print(response.headers)
+
+        print("Response Body:")
+        print(response.text[:2000])
 
         response.raise_for_status()
 
@@ -460,6 +489,9 @@ def fetch_whatsnew_feed(feed):
             "h2"
         )
 
+        print(
+            f"Found {len(month_headers)} h2 headers"
+        )
 
         for h2 in month_headers:
 
@@ -485,6 +517,9 @@ def fetch_whatsnew_feed(feed):
             if not month_date:
                 continue
 
+            print(
+                f"Month: {month_text}"
+            )
 
             for current in h2.next_elements:
 
@@ -540,7 +575,9 @@ def fetch_whatsnew_feed(feed):
                         }
                     )
 
-
+                    print(
+                        f"H3 Entry: {title}"
+                    )
 
                 #
                 # LI items
@@ -615,8 +652,13 @@ def fetch_whatsnew_feed(feed):
                         }
                     )
 
+                    print(
+                        f"LI Entry: {title}"
+                    )
 
-
+        print(
+            f"Parsed {len(records)} entries"
+        )
 
     except Exception as ex:
 
@@ -629,6 +671,9 @@ def fetch_rss_feed(feed):
 
     records = []
 
+    print(
+        f"Loading RSS feed: {feed['name']}"
+    )
 
     try:
 
@@ -790,7 +835,17 @@ def deduplicate(items):
 
 def fetch_nutanix_feed(feed):
 
+    import html
+    import json
+    import requests
+
+    from bs4 import BeautifulSoup
+
     records = []
+
+    print(
+        f"Loading Nutanix feed: {feed['name']}"
+    )
 
     try:
 
