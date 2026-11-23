@@ -2,7 +2,7 @@ name: Update RSS Data
 
 on:
   schedule:
-    - cron: '38 * * * *'
+    - cron: '38 */2 * * *'
 
   workflow_dispatch:
 concurrency:
@@ -46,3 +46,4 @@ jobs:
             git commit -m "Update RSS data"
             git push
           fi
+      
