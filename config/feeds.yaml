@@ -145,6 +145,35 @@ feeds:
   url: https://esxi-patches.v-front.de/atom/ESXi-All.xml
 
 #
+# XCP-NG Releases
+#
+
+- name: XCP-NG Updates
+  product: XCP-NG
+  category: releases
+  vendor: XCP-NG
+  type: rss
+  url: https://xcp-ng.org/blog/rss/
+
+#
+# Proxmox Releases
+#
+
+- name: Proxmox Updates
+  product: Proxmox
+  category: releases
+  vendor: Proxmox
+  type: rss
+  url: https://forum.proxmox.com/forums/announcements.7/index.rss
+
+- name: Proxmox Press Releases
+  product: Proxmox
+  category: blogs
+  vendor: Proxmox
+  type: rss
+  url: https://www.proxmox.com/en/about/company-details/press-releases?format=feed&type=rss
+
+#
 # Citrix What's New Pages
 #
 
