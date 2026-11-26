@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26T14:17:52.203565+00:00",
+  "generated": "2026-11-26T23:14:28.157648+00:00",
   "article_count": 5981,
   "days_to_keep": 365,
   "latest_releases": [
@@ -1487,20 +1487,6 @@
       "title": "Security Advisories",
       "items": [
         {
-          "title": "[MEDIUM 5.5] CVE-2026-123918",
-          "version": "",
-          "summary": "<p><strong>CVSS:</strong> 5.5 MEDIUM<br />\n<strong>Vector:</strong> CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H<br />\n<strong>Vendors:</strong> vmware<br />\n<strong>Weaknesses:</strong> CWE-400</p>\n<hr />\n<p>VMware Tools contains a denial-of-service vulnerability in VGAuth service. Broadcom has evaluated the severity of this issue to be in the Moderate severity range with a maximum CVSSv3 base score of 5.5.\nAffected versions:\nVMware Tools 13.x.x.x: fixed in 13.1.10.0\nVMware Tools 12.x.x: fixed in 12.5.6.0\nVMware Tools 11.x.x: fixed in 12.5.6.0</p>",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123918",
-          "category": "security",
-          "vendor": "Broadcom",
-          "product": "VMware CVE",
-          "severity": "MEDIUM",
-          "cvss": "5.5",
-          "cve": "CVE-2026-123918",
-          "source": "VMware CVE",
-          "published": "2026-11-26T10:10:20+00:00"
-        },
-        {
           "title": "[MEDIUM 6.5] CVE-2026-123926",
           "version": "",
           "summary": "<p><strong>CVSS:</strong> 6.5 MEDIUM<br />\n<strong>Vector:</strong> CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N<br />\n<strong>Vendors:</strong> vmware<br />\n<strong>Weaknesses:</strong> CWE-200</p>\n<hr />\n<p>VMware Avi Load Balancer contains a sensitive information disclosure vulnerability. Broadcom has evaluated the severity of the issue to be in the Moderate severity range with a maximum CVSSv3 base score of 6.5.\nAffected versions:\nVMware Avi Load Balancer 32.1.3: fixed in 32.1.3-2p1\nVMware Avi Load Balancer 32.1.1 through 32.1.2: fixed in 32.1.2-2p3\nVMware Avi Load Balancer 30.x: not impacted\nVMware Avi Load Balancer 22.x: not impacted</p>",
@@ -1512,7 +1498,7 @@
           "cvss": "6.5",
           "cve": "CVE-2026-123926",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:51+00:00"
+          "published": "2026-11-26T11:17:03+00:00"
         },
         {
           "title": "[LOW 3.8] CVE-2026-123925",
@@ -1526,7 +1512,7 @@
           "cvss": "3.8",
           "cve": "CVE-2026-123925",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:49+00:00"
+          "published": "2026-11-26T11:17:03+00:00"
         },
         {
           "title": "[LOW 3.6] CVE-2026-123924",
@@ -1540,7 +1526,7 @@
           "cvss": "3.6",
           "cve": "CVE-2026-123924",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:47+00:00"
+          "published": "2026-11-26T11:17:02+00:00"
         },
         {
           "title": "[LOW 3.4] CVE-2026-123923",
@@ -1554,7 +1540,7 @@
           "cvss": "3.4",
           "cve": "CVE-2026-123923",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:44+00:00"
+          "published": "2026-11-26T11:17:02+00:00"
         },
         {
           "title": "[MEDIUM 4.9] CVE-2026-123922",
@@ -1568,7 +1554,7 @@
           "cvss": "4.9",
           "cve": "CVE-2026-123922",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:42+00:00"
+          "published": "2026-11-26T11:17:02+00:00"
         },
         {
           "title": "[MEDIUM 6.6] CVE-2026-123921",
@@ -1582,7 +1568,7 @@
           "cvss": "6.6",
           "cve": "CVE-2026-123921",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:40+00:00"
+          "published": "2026-11-26T11:17:02+00:00"
         },
         {
           "title": "[MEDIUM 6.7] CVE-2026-123920",
@@ -1596,7 +1582,7 @@
           "cvss": "6.7",
           "cve": "CVE-2026-123920",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:38+00:00"
+          "published": "2026-11-26T11:17:02+00:00"
         },
         {
           "title": "[MEDIUM 6.7] CVE-2026-123919",
@@ -1610,7 +1596,21 @@
           "cvss": "6.7",
           "cve": "CVE-2026-123919",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:35+00:00"
+          "published": "2026-11-26T11:17:02+00:00"
+        },
+        {
+          "title": "[MEDIUM 5.5] CVE-2026-123918",
+          "version": "",
+          "summary": "<p><strong>CVSS:</strong> 5.5 MEDIUM<br />\n<strong>Vector:</strong> CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H<br />\n<strong>Vendors:</strong> vmware<br />\n<strong>Weaknesses:</strong> CWE-400</p>\n<hr />\n<p>VMware Tools contains a denial-of-service vulnerability in VGAuth service. Broadcom has evaluated the severity of this issue to be in the Moderate severity range with a maximum CVSSv3 base score of 5.5.\nAffected versions:\nVMware Tools 13.x.x.x: fixed in 13.1.10.0\nVMware Tools 12.x.x: fixed in 12.5.6.0\nVMware Tools 11.x.x: fixed in 12.5.6.0</p>",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123918",
+          "category": "security",
+          "vendor": "Broadcom",
+          "product": "VMware CVE",
+          "severity": "MEDIUM",
+          "cvss": "5.5",
+          "cve": "CVE-2026-123918",
+          "source": "VMware CVE",
+          "published": "2026-11-26T11:17:02+00:00"
         },
         {
           "title": "[MEDIUM 5.5] CVE-2026-123916",
@@ -1624,7 +1624,7 @@
           "cvss": "5.5",
           "cve": "CVE-2026-123916",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:31+00:00"
+          "published": "2026-11-26T11:17:02+00:00"
         },
         {
           "title": "[MEDIUM 6.3] CVE-2026-123915",
@@ -1638,7 +1638,7 @@
           "cvss": "6.3",
           "cve": "CVE-2026-123915",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:29+00:00"
+          "published": "2026-11-26T11:17:01+00:00"
         },
         {
           "title": "[MEDIUM 6.7] CVE-2026-123914",
@@ -1652,7 +1652,7 @@
           "cvss": "6.7",
           "cve": "CVE-2026-123914",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:27+00:00"
+          "published": "2026-11-26T11:17:01+00:00"
         },
         {
           "title": "[HIGH 8.2] CVE-2026-123913",
@@ -1666,7 +1666,7 @@
           "cvss": "8.2",
           "cve": "CVE-2026-123913",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:25+00:00"
+          "published": "2026-11-26T11:17:01+00:00"
         },
         {
           "title": "[CRITICAL 9.3] CVE-2026-123912",
@@ -1680,7 +1680,7 @@
           "cvss": "9.3",
           "cve": "CVE-2026-123912",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:23+00:00"
+          "published": "2026-11-26T11:17:01+00:00"
         },
         {
           "title": "[CRITICAL 9.8] CVE-2026-123911",
@@ -1694,7 +1694,7 @@
           "cvss": "9.8",
           "cve": "CVE-2026-123911",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:21+00:00"
+          "published": "2026-11-26T11:17:01+00:00"
         },
         {
           "title": "[CRITICAL 9.8] CVE-2026-123910",
@@ -1708,7 +1708,7 @@
           "cvss": "9.8",
           "cve": "CVE-2026-123910",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:19+00:00"
+          "published": "2026-11-26T11:17:01+00:00"
         },
         {
           "title": "[MEDIUM 5.2] CVE-2026-123909",
@@ -1722,7 +1722,7 @@
           "cvss": "5.2",
           "cve": "CVE-2026-123909",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:17+00:00"
+          "published": "2026-11-26T11:17:01+00:00"
         },
         {
           "title": "[MEDIUM 6.7] CVE-2026-123908",
@@ -1736,7 +1736,7 @@
           "cvss": "6.7",
           "cve": "CVE-2026-123908",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:15+00:00"
+          "published": "2026-11-26T11:17:01+00:00"
         },
         {
           "title": "[HIGH 7.5] CVE-2026-123907",
@@ -1750,7 +1750,7 @@
           "cvss": "7.5",
           "cve": "CVE-2026-123907",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:13+00:00"
+          "published": "2026-11-26T11:17:01+00:00"
         },
         {
           "title": "[HIGH 7.5] CVE-2026-123906",
@@ -1764,7 +1764,7 @@
           "cvss": "7.5",
           "cve": "CVE-2026-123906",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:11+00:00"
+          "published": "2026-11-26T11:17:00+00:00"
         },
         {
           "title": "[HIGH 7.5] CVE-2026-123905",
@@ -1778,7 +1778,7 @@
           "cvss": "7.5",
           "cve": "CVE-2026-123905",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:09+00:00"
+          "published": "2026-11-26T11:17:00+00:00"
         },
         {
           "title": "[HIGH 7.5] CVE-2026-123904",
@@ -1792,7 +1792,7 @@
           "cvss": "7.5",
           "cve": "CVE-2026-123904",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:07+00:00"
+          "published": "2026-11-26T11:17:00+00:00"
         },
         {
           "title": "[CRITICAL 9.8] CVE-2026-123903",
@@ -1806,7 +1806,7 @@
           "cvss": "9.8",
           "cve": "CVE-2026-123903",
           "source": "VMware CVE",
-          "published": "2026-11-26T10:08:04+00:00"
+          "published": "2026-11-26T11:17:00+00:00"
         },
         {
           "title": "[CRITICAL 9.6] CVE-2026-134401",
@@ -17343,7 +17343,7 @@
           "title": "New - Citrix Provisioning 2507 LTSR, Cumulative update 2",
           "version": "",
           "summary": "New downloads are available for Citrix Provisioning",
-          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-2507-ltsr-cu2.html",
+          "url": "http://www.citrix.com/downloads/provisioning-services/product-software/provisioning-services-25072.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Provisioning Services",
@@ -18124,20 +18124,6 @@
           "published": "2026-05-08T18:30:00+00:00"
         },
         {
-          "title": "New - Linux Virtual Delivery Agent 2402 LTSR, Cumulative Update 4",
-          "version": "",
-          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/linux-vda-2402-ltsr-cu4.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "Citrix DaaS",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix DaaS Local",
-          "published": "2026-05-08T04:00:00+00:00"
-        },
-        {
           "title": "New - Citrix Virtual Apps and Desktops 7 2402 LTSR, Cumulative Update 4 – All Editions",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
@@ -18198,6 +18184,20 @@
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2402ltsr-cu4.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "Citrix DaaS",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix DaaS Local",
+          "published": "2026-05-08T04:00:00+00:00"
+        },
+        {
+          "title": "New - Linux Virtual Delivery Agent 2402 LTSR, Cumulative Update 4",
+          "version": "",
+          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/linux-vda-2402-ltsr-cu4.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -18418,34 +18418,6 @@
           "published": "2026-04-24T18:30:00+00:00"
         },
         {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR Update 2",
-          "version": "",
-          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507-Update2.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "Citrix DaaS",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix DaaS Local",
-          "published": "2026-04-20T04:00:00+00:00"
-        },
-        {
-          "title": "New - Citrix Virtual Apps and Desktops 7 2511 Update 3",
-          "version": "",
-          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
-          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2511-Update3.html",
-          "category": "releases",
-          "vendor": "Citrix",
-          "product": "Citrix DaaS",
-          "severity": "",
-          "cvss": "",
-          "cve": "",
-          "source": "Citrix DaaS Local",
-          "published": "2026-04-20T04:00:00+00:00"
-        },
-        {
           "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR CU1 Update 3",
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
@@ -18506,6 +18478,34 @@
           "version": "",
           "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
           "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2203-CU7-Update3.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "Citrix DaaS",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix DaaS Local",
+          "published": "2026-04-20T04:00:00+00:00"
+        },
+        {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2507 LTSR Update 2",
+          "version": "",
+          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2507-Update2.html",
+          "category": "releases",
+          "vendor": "Citrix",
+          "product": "Citrix DaaS",
+          "severity": "",
+          "cvss": "",
+          "cve": "",
+          "source": "Citrix DaaS Local",
+          "published": "2026-04-20T04:00:00+00:00"
+        },
+        {
+          "title": "New - Citrix Virtual Apps and Desktops 7 2511 Update 3",
+          "version": "",
+          "summary": "New downloads are available for Citrix Virtual Apps and Desktops",
+          "url": "http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/citrix-virtual-apps-and-desktops-2511-Update3.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Citrix DaaS",
@@ -18992,10 +18992,10 @@
           "published": "2026-03-05T16:00:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2601",
+          "title": "New - Citrix Workspace app for Linux - Credential Insertion SDK - 2601",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-credential-insertion-sdk.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -19006,10 +19006,10 @@
           "published": "2026-03-05T16:00:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Credential Insertion SDK - 2601",
+          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2601",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-credential-insertion-sdk.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -19650,10 +19650,10 @@
           "published": "2025-12-14T16:00:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2508.10",
+          "title": "New - Citrix Workspace app for Linux - Certificate Identity Declaration SDK -2508.10",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk2.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-certificate-identity-declaration-sdk2.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
@@ -19664,10 +19664,10 @@
           "published": "2025-12-12T18:30:00+00:00"
         },
         {
-          "title": "New - Citrix Workspace app for Linux - Certificate Identity Declaration SDK -2508.10",
+          "title": "New - Citrix Workspace app for Linux - Platform Optimization SDK -2508.10",
           "version": "",
           "summary": "New downloads are available for Citrix Workspace app",
-          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-certificate-identity-declaration-sdk2.html",
+          "url": "http://www.citrix.com/downloads/workspace-app/linux-sdks/linux-platform-optimization-sdk2.html",
           "category": "releases",
           "vendor": "Citrix",
           "product": "Workspace App",
